@@ -7,7 +7,9 @@ spawnerBullet = extend(BasicBulletType, {
   }
 });
 spawnerBullet.instantDisappear = false;
-
+spawnerBullet.lifetime = 20;
+spawnerBullet.speed = 2;
+spawnerBullet.damage = 25;
 const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
     load(){
         this.region = Core.atlas.find("unit-spawner-weapon");
