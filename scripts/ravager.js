@@ -33,7 +33,7 @@ const ravager = new JavaAdapter(UnitType, {
     this.legRegion = Core.atlas.find(this.name + "-leg");
     this.baseRegion = Core.atlas.find(this.name + "-base");
   }
-}, "ravager" prov(() => new JavaAdapter(GroundUnit, {})));
+}, "ravager", prov(() => new JavaAdapter(GroundUnit, {})));
 
 
 ravager.name = "Ravager";
