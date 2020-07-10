@@ -11,7 +11,7 @@ spawnerBullet.speed = 2;
 spawnerBullet.damage = 25;
 const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
     load(){
-        this.region = Core.atlas.find("unit-spawner-weapon");
+        this.region = Core.atlas.find("strawberry-unit-spawner-weapon");
     }
 });
 
@@ -26,14 +26,14 @@ unitSpawner.shootSound = Sounds.shotgun;
 unitSpawner.minPlayerDist = 20;
 
 //const ravage = extendContent(UnitType, "ravager", {
-const ravager = new JavaAdapter(UnitType, {
+const ravager = new JavaAdapter(UnitType, "ravager" {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
     this.legRegion = Core.atlas.find(this.name + "-leg");
     this.baseRegion = Core.atlas.find(this.name + "-base");
   }
-}, "ravager", prov(() => new JavaAdapter(GroundUnit, {})));
+}, prov(() => new JavaAdapter(GroundUnit, {})));
 
 
 ravager.name = "Ravager";
