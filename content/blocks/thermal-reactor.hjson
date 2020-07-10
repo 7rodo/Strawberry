@@ -5,15 +5,16 @@ size: 3
 hasPower: true
 powerProduction: 3
 requirements: [
-  copper/350
-  lead/275
-  plastanium/125
-  silicon/250
-  metaglass/125
-  thorium/235
-  titanium/275
-  surge-alloy/125
-  radiode/80
+  copper/200
+  lead/175
+  graphite/85
+  silicon/150
+  metaglass/100
+  titanium/125
+  thorium/120
+  plastanium/100
+  surge-alloy/55
+  radiode/60
 ]
 category: power
 research: thermal-generator
