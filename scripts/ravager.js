@@ -28,14 +28,15 @@ spawnerBullet.instantDisappear = true;
 
 
 //const ravage = extendContent(UnitType, "ravager", {
-const ravage = new JavaAdapter(UnitType, {}, "ravager",  prov(() => new JavaAdapter(GroundUnit, {
-    load(){
-        this.weapon.load();
-        this.region = Core.atlas.find("ravager");
-        this.legRegion = Core.atlas.find("ravager-leg");
-        this.baseRegion = Core.atlas.find("ravager-base");
-    }
-});
+const ravage = new JavaAdapter(UnitType, {
+  load(){
+    this.weapon.load();
+    this.region = Core.atlas.find(this.name);
+    this.legRegion = Core.atlas.find(this.name + "-leg");
+    this.baseRegion = Core.atlas.find(this.name + "-base");
+  }
+}, "ravager", prov(() => new JavaAdapter(GroundUnit, {})));
+
 
 ravager.name = "Ravager";
 ravager.description = "j.";
