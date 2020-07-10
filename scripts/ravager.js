@@ -1,8 +1,4 @@
-const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
-    load(){
-        this.region = Core.atlas.find("unit-spawner-weapon");
-    }
-});
+const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {});
 
 unitSpawner.reload = 60;
 unitSpawner.alternate = true;
