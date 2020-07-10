@@ -1,15 +1,3 @@
-const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {});
-
-unitSpawner.reload = 60;
-unitSpawner.alternate = true;
-unitSpawner.length = 15;
-unitSpawner.width = 15;
-unitSpawner.shots = 3;
-unitSpawner.bullet = spawnerBullet;
-unitSpawner.recoil = 9;
-unitSpawner.shootSound = Sounds.artillery;
-unitSpawner.minPlayerDist = 20;
-
 spawnerBullet = extend(BasicBulletType, {
   hit(b, x, y){
     if(typeof(b) === "undefined") return;
@@ -20,7 +8,21 @@ spawnerBullet = extend(BasicBulletType, {
 });
 spawnerBullet.instantDisappear = false;
 
+const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
+    load(){
+        this.region = Core.atlas.find("unit-spawner-weapon");
+    }
+});
 
+unitSpawner.reload = 60;
+unitSpawner.alternate = true;
+unitSpawner.length = 15;
+unitSpawner.width = 15;
+unitSpawner.shots = 3;
+unitSpawner.bullet = spawnerBullet;
+unitSpawner.recoil = 9;
+unitSpawner.shootSound = Sounds.artillery;
+unitSpawner.minPlayerDist = 20;
 
 //const ravage = extendContent(UnitType, "ravager", {
 const ravage = new JavaAdapter(UnitType, {
