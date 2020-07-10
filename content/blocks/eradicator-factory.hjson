@@ -1,7 +1,7 @@
 name: Eradicator Factory
 description: Makes Eradicator units.
 type: UnitFactory
-unitType: ravager
+unitType: eradicator
 size: 5
 produceTime: 14400
 maxSpawn: 1
@@ -16,7 +16,7 @@ consumes: {
   }
 }
 category: units
-research: revenant-factory
+research: fortress-factory
 requirements: [
   surge-alloy/800
   silicon/80
