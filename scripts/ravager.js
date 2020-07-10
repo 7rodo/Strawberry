@@ -1,6 +1,5 @@
 spawnerBullet = extend(BasicBulletType, {
   hit(b, x, y){
-    if(typeof(b) === "undefined") return;
     unit = UnitTypes.wraith.create(b.getTeam());
     unit.set(x, y);
     unit.add();
@@ -12,7 +11,7 @@ spawnerBullet.speed = 2;
 spawnerBullet.damage = 25;
 const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
     load(){
-        this.region = Core.atlas.find("unit-spawner-weapon");
+        this.region = Core.atlas.find("strawberry-unit-spawner-weapon");
     }
 });
 
