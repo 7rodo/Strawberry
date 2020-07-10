@@ -1,6 +1,6 @@
-name: "7rodo-strawberry"
-displayName: "[yellow]7rodo[red] Strawberry" //what displays in the mod selection menu
+name: "strawberry"
+displayName: "[green]7rodo[red] Strawberry" //what displays in the mod selection menu
 author: "7rodo"
 description: "A simple mod."
-version: "0.5"
+version: "1.0"
 minGameVersion: "103"
