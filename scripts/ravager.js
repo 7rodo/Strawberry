@@ -15,14 +15,14 @@ unitSpawner.shootSound = Sounds.artillery;
 unitSpawner.minPlayerDist = 20;
 
 spawnerBullet = extend(BasicBulletType, {
-  init(b){
+  hit(b, x, y){
     if(typeof(b) === "undefined") return;
     unit = UnitTypes.wraith.create(b.getTeam());
-    unit.set(b.x, b.y);
+    unit.set(x, y);
     unit.add();
   }
 });
-spawnerBullet.instantDisappear = true;
+spawnerBullet.instantDisappear = false;
 
 
 
