@@ -26,14 +26,14 @@ unitSpawner.shootSound = Sounds.artillery;
 unitSpawner.minPlayerDist = 20;
 
 //const ravage = extendContent(UnitType, "ravager", {
-const ravager = new JavaAdapter(UnitType, "ravager" {
+const ravager = new JavaAdapter(UnitType, {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
     this.legRegion = Core.atlas.find(this.name + "-leg");
     this.baseRegion = Core.atlas.find(this.name + "-base");
   }
-}, prov(() => new JavaAdapter(GroundUnit, {})));
+}, "ravager" prov(() => new JavaAdapter(GroundUnit, {})));
 
 
 ravager.name = "Ravager";
