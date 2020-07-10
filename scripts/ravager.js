@@ -11,7 +11,7 @@ spawnerBullet.speed = 2;
 spawnerBullet.damage = 25;
 const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
     load(){
-        this.region = Core.atlas.find(this.name);
+        this.region = Core.atlas.find("strawberry-unit-spawner-weapon");
     }
 });
 
@@ -22,7 +22,7 @@ unitSpawner.width = 15;
 unitSpawner.shots = 3;
 unitSpawner.bullet = spawnerBullet;
 unitSpawner.recoil = 9;
-unitSpawner.shootSound = Sounds.shotgun;
+unitSpawner.shootSound = Sounds.artillery;
 unitSpawner.minPlayerDist = 20;
 
 //const ravage = extendContent(UnitType, "ravager", {
