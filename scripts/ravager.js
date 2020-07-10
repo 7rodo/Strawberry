@@ -16,11 +16,10 @@ unitSpawner.minPlayerDist = 20;
 
 spawnerBullet = extend(BasicBulletType, {
   init(b){
-    if(typeof(b) === "undefined"){return;}
+    if(typeof(b) === "undefined") return;
     unit = UnitTypes.wraith.create(b.getTeam());
     unit.set(b.x, b.y);
     unit.add();
-    Events.fire(new EventType.UnitCreateEvent(unit));
   }
 });
 spawnerBullet.instantDisappear = true;
