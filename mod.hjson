@@ -1,5 +1,5 @@
 name: "strawberry"
-displayName: "[green]7rodo[red] Strawberry" //what displays in the mod selection menu
+displayName: "[white]7rodo[red] Strawberry" //what displays in the mod selection menu
 author: "7rodo"
 description: "A simple mod."
 version: "1.0"
