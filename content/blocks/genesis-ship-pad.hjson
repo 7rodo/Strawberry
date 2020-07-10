@@ -1,0 +1,17 @@
+name: Genesis Ship Pad
+description: Transform into the Genesis ship.
+type: MechPad
+mech: genesis-ship
+size: 3
+consumes: {
+  power: 1
+}
+category: upgrade
+research: glaive-ship-pad
+requirements: [
+  surge-alloy/125
+  plastanium/70
+  silicon/200
+  graphite/300
+  phase-fabric/50
+]

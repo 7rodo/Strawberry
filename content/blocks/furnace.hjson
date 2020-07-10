@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Furnace
+description: Combines tin and copper to produce copper.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 45
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      tin/2
+      copper/1
+    ]
+  }
+}
+requirements: [
+  tin/80
+  copper/60
+  lead/15
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: bronze/1

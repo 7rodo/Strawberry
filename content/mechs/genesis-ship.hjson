@@ -1,0 +1,19 @@
+type: flyingUnit
+name: Genesis
+description: A lance type unit, penetrates enemies.
+speed: 0.8
+flying: true
+health: 225
+engineColor: 00ffff
+range: 150
+engineOffset: 5.3
+weapon: {
+  name: lancer
+  reload: 75
+  bullet: lancerLaser
+  size: 0.2
+  alternate: true
+}
+drillPower: 2
+mineSpeed: 4
+itemCapacity: 25

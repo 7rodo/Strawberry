@@ -1,0 +1,11 @@
+name: Tin Drill
+description: A very underpowered drill, can be rapidly placed.
+type: Drill
+size: 1
+tier: 1
+drillTime: 650
+requirements: [
+  tin/8
+]
+category: production
+research: mechanical-drill

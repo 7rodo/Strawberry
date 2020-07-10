@@ -1,0 +1,10 @@
+name: Large Tin Wall
+description: A weak shiny wall, useful for starting defense. Spans many tiles.
+type: Wall
+health: 800
+size: 2
+requirements: [
+  tin/24
+]
+category: defense
+research: tin-wall

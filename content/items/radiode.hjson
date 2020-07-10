@@ -1,0 +1,5 @@
+type: material
+name: Radiode
+description: Purified form of Radium. More stable, but has much more uses
+cost: 4
+color: 440000

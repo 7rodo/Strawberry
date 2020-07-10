@@ -1,0 +1,84 @@
+type: DoubleTurret
+//use a custom ogg sound for shooting
+shootSound: swings
+name: Reservation
+description: A far ranged turret with a fast fire rate and lots of ammo. Useful on times of deficit.
+health: 800
+itemCapacity: 2000
+range: 350
+xRand: 6
+reload: 10
+size: 2
+ammo: {
+  tin: {
+    //move 6 world units per frame (very fast)
+    speed: 10
+    damage: 8
+    //visual size - does not affect hitbox
+    bulletWidth: 2
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    //visual bullet front and back
+    backColor: ac7349
+    frontColor: dcd16b
+  }
+  sand: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    damage: 6
+    //visual size - does not affect hitbox
+    bulletWidth: 5
+    bulletHeight: 3
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 20
+    //visual bullet front and back
+    backColor: ac7349
+    frontColor: dcd16b
+    reloadMultiplier: 5
+  }
+  silicon: {
+    //move 6 world units per frame (very fast)
+    speed: 12
+    damage: 10
+    //visual size - does not affect hitbox
+    bulletWidth: 4
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 30
+    //visual bullet front and back
+    backColor: ac7349
+    frontColor: dcd16b
+    bulletType: MissileBulletType
+    inaccuracy: 20
+  }
+  
+  metaglass: {
+    //move 6 world units per frame (very fast)
+    speed: 7
+    damage: 12
+    //visual size - does not affect hitbox
+    bulletWidth: 2
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 30
+    //visual bullet front and back
+    backColor: ac7349
+    frontColor: dcd16b
+    bulletType: FlakBulletType
+  }
+  
+}
+
+requirements: [
+  tin/100
+  copper/80
+  bronze/35
+  ]
+  
+research: cyclone
+category: turret

@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: oxi-radium
+hardness: 3
+playerUnmineable: true
