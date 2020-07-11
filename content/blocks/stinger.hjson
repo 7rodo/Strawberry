@@ -3,7 +3,7 @@ name: Stinger
 description: A 3 way turret.
 health: 800
 size: 2
-reload: 60
+reload: 75
 range: 200
 shots: 3
 ammoUseEffect: shellEjectSmall
@@ -13,7 +13,7 @@ spread: 12
 ammo: {
   titanium: {
     speed: 6
-    damage: 32
+    damage: 16
     bulletWidth: 10
     bulletHeight: 20
     shootEffect: shootSmall
@@ -25,7 +25,7 @@ ammo: {
   }
 plastanium: {
     speed: 6
-    damage: 15
+    damage: 8
     bulletWidth: 5
     bulletHeight: 16
     shootEffect: shootSmall
@@ -38,7 +38,7 @@ plastanium: {
   }
 silicon: {
     speed: 7
-    damage: 21
+    damage: 11
     bulletWidth: 10
     bulletHeight: 10
     shootEffect: shootSmall
@@ -51,13 +51,13 @@ silicon: {
 }
 pyratite: {
     speed: 4
-    damage: 33
+    damage: 20
     bulletWidth: 20
     bulletHeight: 14
     shootEffect: shootSmall
     shootSmallSmoke: shootSmallSmoke
     ammoMultiplier: 2
-    reloadMultiplier: 0.8
+    reloadMultiplier: 0.4
     frontColor: ffffab
     backColor: de5c00
     incendAmount: 8
@@ -65,8 +65,11 @@ pyratite: {
 }
 requirements: [
   copper/150
-  bronze/100
+  bronze/55
+  silicon/35
   titanium/95
+  thorium/35
+  radiode/45
 ]
 category: turret
 research: salvo
