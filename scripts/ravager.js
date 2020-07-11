@@ -11,7 +11,7 @@ spawnerBullet.speed = 2;
 spawnerBullet.damage = 25;
 const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
     load(){
-        this.region = Core.atlas.find("strawberry-unit-spawner-weapon");
+        this.region = Core.atlas.find(this.name + "unit-spawner-weapon");
     }
 });
 
