@@ -1,18 +1,22 @@
-spawnerBullet = extend(BasicBulletType, {
-  hit(b, x, y){
-    unit = UnitTypes.wraith.create(b.getTeam());
-    unit.set(x, y);
-    unit.add();
+const spawnerBullet = extend(BasicBulletType, {
+  draw(b){
+  },
+
+  init(b){
+    if(!b) return;
+
+    ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
   }
 });
 spawnerBullet.instantDisappear = false;
 spawnerBullet.lifetime = 20;
 spawnerBullet.speed = 2;
 spawnerBullet.damage = 25;
-const unitSpawner = extendContent(Weapon, "unit-spawner-weapon", {
-    load(){
-        this.region = Core.atlas.find(this.name + "unit-spawner-weapon");
-    }
+
+const unitSpawner = extendContent(Weapon, "strawberry-unit-spawner" {
+  load(){
+    this.region = Core.atlas.find("strawberry-unit-spawner-weapon")
+  }
 });
 
 unitSpawner.reload = 60;
@@ -25,13 +29,12 @@ unitSpawner.recoil = 9;
 unitSpawner.shootSound = Sounds.artillery;
 unitSpawner.minPlayerDist = 20;
 
-//const ravage = extendContent(UnitType, "ravager", {
 const ravager = extendContent(UnitType, "ravager", {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
-    this.legRegion = Core.atlas.find(this.name + "-leg");
     this.baseRegion = Core.atlas.find(this.name + "-base");
+    this.legRegion = Core.atlas.find(this.name + "-leg");
   }
 });
 
