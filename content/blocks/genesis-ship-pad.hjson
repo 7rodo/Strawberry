@@ -9,9 +9,12 @@ consumes: {
 category: upgrade
 research: glaive-ship-pad
 requirements: [
-  surge-alloy/125
-  plastanium/70
+  lead/90
+  graphite/125
   silicon/200
-  graphite/300
+  titanium/85
+  plastanium/70
   phase-fabric/50
+  surge-alloy/150
+  radiode/50
 ]
