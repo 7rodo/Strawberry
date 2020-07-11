@@ -7,49 +7,40 @@ health: 800
 itemCapacity: 2000
 range: 350
 xRand: 6
-reload: 10
+reload: 15
 size: 2
 ammo: {
   tin: {
-    //move 6 world units per frame (very fast)
-    speed: 10
-    damage: 8
-    //visual size - does not affect hitbox
+    speed: 7
+    damage: 4
     bulletWidth: 2
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 10
-    //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
   }
   sand: {
-    //move 6 world units per frame (very fast)
-    speed: 6
-    damage: 6
-    //visual size - does not affect hitbox
+    speed: 4
+    damage: 3
     bulletWidth: 5
     bulletHeight: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 20
-    //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
     reloadMultiplier: 5
   }
   silicon: {
-    //move 6 world units per frame (very fast)
-    speed: 12
-    damage: 10
-    //visual size - does not affect hitbox
+    speed: 7
+    damage: 5
     bulletWidth: 4
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 30
-    //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
     bulletType: MissileBulletType
@@ -57,16 +48,13 @@ ammo: {
   }
   
   metaglass: {
-    //move 6 world units per frame (very fast)
-    speed: 7
-    damage: 12
-    //visual size - does not affect hitbox
+    speed: 5
+    damage: 6
     bulletWidth: 2
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 30
-    //visual bullet front and back
     backColor: ac7349
     frontColor: dcd16b
     bulletType: FlakBulletType
@@ -77,6 +65,9 @@ ammo: {
 requirements: [
   tin/100
   copper/80
+  graphite/45
+  silicon/60
+  radiode/25
   bronze/35
   ]
   
