@@ -7,40 +7,44 @@ reload: 180
 range: 300
 inaccuracy: 0
 rotatespeed: 40
-shots: 35
+shots: 1
 spread: 0
 ammo: {
   lead: {
     speed: 15
-    damage: 6
+    damage: 8
     bulletWidth: 3
     bulletHeight: 14
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1
+    pierce: true
   }
   silicon: {
     speed: 20
-    damage: 8
+    damage: 14
     bulletWidth: 5
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1
     type: MissileBulletType
+    pierce: true
     }
  graphite: {
     speed: 15
-    damage: 13
+    damage: 19
     bulletWidth: 3
     bulletHeight: 14
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1
     reloadMultiplier: 0.6
+    pierce: true
   }
 }
 requirements: [
+  tin/45
   lead/25
   copper/40
   bronze/20
