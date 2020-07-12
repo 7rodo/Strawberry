@@ -1,23 +1,33 @@
 type: DoubleTurret
-//use a custom ogg sound for shooting
-shootSound: swings
+shootSound: pew
 name: Reservation
-description: A far ranged turret with a fast fire rate and lots of ammo. Useful on times of deficit.
-health: 800
+description: A far ranged turret with a fast fire rate and lots of ammo, can use various types of bullets. Useful on times of deficit.
+health: 450
 itemCapacity: 2000
 range: 350
 xRand: 6
-reload: 15
+reload: 20
 size: 2
 ammo: {
   tin: {
     speed: 7
-    damage: 4
-    bulletWidth: 2
+    damage: 11
+    bulletWidth: 5
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 10
+    ammoMultiplier: 5
+    backColor: ac7349
+    frontColor: dcd16b
+  }
+  copper: {
+    speed: 6
+    damage: 14
+    bulletWidth: 9
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 7
     backColor: ac7349
     frontColor: dcd16b
   }
@@ -28,38 +38,94 @@ ammo: {
     bulletHeight: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 20
+    ammoMultiplier: 2
     backColor: ac7349
     frontColor: dcd16b
     reloadMultiplier: 5
+    innacuracy: 70
   }
   silicon: {
     speed: 7
-    damage: 5
+    damage: 18
     bulletWidth: 4
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 30
-    backColor: ac7349
-    frontColor: dcd16b
+    backColor: 6e6d6d
+    frontColor: ffffff
     bulletType: MissileBulletType
-    inaccuracy: 20
+    reloadMultiplier: 0.8
   }
-  
   metaglass: {
     speed: 5
-    damage: 6
-    bulletWidth: 2
+    damage: 22
+    bulletWidth: 8
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
-    backColor: ac7349
-    frontColor: dcd16b
+    ammoMultiplier: 20
+    backColor: bfbfbf
+    frontColor: ffffff
     bulletType: FlakBulletType
+    reloadMultiplier: 0.6
   }
-  
+  plastanium: {
+    speed: 8
+    damage: 29
+    bulletWidth: 8
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 60
+    backColor: 26ff55
+    frontColor: ffffff
+    reloadMultiplier: 0.4
+    splashDamage:	8
+    splashDamageRadius:	90
+    hitEffect: flakExplosionBig
+  }
+  pyratite: {
+    speed: 4
+    damage: 25
+    bulletWidth: 12
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 40
+    backColor: c78500
+    frontColor: f3ff52
+    reloadMultiplier: 0.5
+    incendAmount: 2
+  }
+  blast-compound: {
+    speed: 4
+    damage: 45
+    bulletWidth: 12
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 50
+    backColor: ff3333
+    frontColor: ffaaaa
+    splashDamageRadius: 8
+    fragBullet: BasicBulletType
+    reloadMultiplier: 0.2
+   }
+   surge-alloy: {
+    speed: 9
+    damage: 33
+    bulletWidth: 12
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 500
+    backColor: ffff00
+    frontColor: ffffff
+    lightning: 3
+    type: flakSurge
+    reloadMultiplier: 0.4
+      }
 }
 
 requirements: [
@@ -67,6 +133,7 @@ requirements: [
   copper/80
   graphite/45
   silicon/60
+  titanium/50
   radiode/25
   bronze/35
   ]
