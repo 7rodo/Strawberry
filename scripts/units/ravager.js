@@ -30,7 +30,7 @@ ravagerWeapon.shots = 3;
 ravagerWeapon.bullet = bull;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
-ravagerWeapon.minPlayerDist = 20;
+//ravagerWeapon.minPlayerDist = 20;
 
 const ravager = extendContent(UnitType, "ravager", {
   load(){
