@@ -1,15 +1,5 @@
 const ulib = require("ulib");
 
-const summonEffect = newEffect(20, e => {
-  Draw.color(Pal.lancerLaser);
-  Lines.square(e.x, e.y, 30 * e.fin(), 45);
-})
-
-const deadEffect = newEffect(15, e => {
-  Draw.color(Pal.lancerLaser);
-  Lines.circle(e.x, e.y, 30 * e.fin());
-});
-
 const bull = extend(BasicBulletType, {
   draw(b){
   },
@@ -51,35 +41,4 @@ const ravager = extendContent(UnitType, "ravager", {
   }
 });
 
-ravager.create(prov(() => extend(GroundUnit, {
-    update(){
-      this.super$update();
-
-      if(Mathf.chance(Time.delta() * 0.004)){
-        Effects.effect(summonEffect, this);
-        ulib.spawnUnit(UnitTypes.revenant, this.getTeam(), this.x, this.y)
-      }
-    },
-
-    onDeath(){
-      Effects.effect(deadEffect, this);
-      Effects.shake(2, 2, this);
-
-      Sounds.bang.at(this);
-      this.item.amount = 0;
-      this.drownTime = 0;
-      Events.fire(EventType.UnitDestroyEvent(this));
-    }
-})));
-
-ravager.name = "Ravager";
-ravager.description = "j.";
-ravager.health = 25000;
-ravager.flying = false;
-ravager.mass = 100;
-ravager.targetAir = true;
-ravager.rotateWeapon = false;
-ravager.weaponOffsetY = 0//;
-//ravager.engineOffset = //1;
-//ravager.engineSize = 5;
 ravager.weapon = ravagerWeapon;
