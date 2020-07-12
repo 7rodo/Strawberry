@@ -1,8 +1,1 @@
 type: GroundUnit
-name: Ravager
-health: 25000
-mass: 1
-flying: false
-speed: 0.1
-attackLength: 450
-weaponOffsetY: 5
