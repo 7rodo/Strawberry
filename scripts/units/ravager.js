@@ -1,6 +1,16 @@
 const ulib = require("ulib");
 
-const spawnerBullet = extend(BasicBulletType, {
+const summonEffect = newEffect(20, e => {
+  Draw.color(Pal.lancerLaser);
+  Lines.square(e.x, e.y, 30 * e.fin(), 45);
+})
+
+const deadEffect = newEffect(15, e => {
+  Draw.color(Pal.lancerLaser);
+  Lines.circle(e.x, e.y, 30 * e.fin());
+});
+
+const bull = extend(BasicBulletType, {
   draw(b){
   },
 
@@ -10,28 +20,32 @@ const spawnerBullet = extend(BasicBulletType, {
     ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
   }
 });
-spawnerBullet.instantDisappear = false;
-spawnerBullet.lifetime = 20;
-spawnerBullet.speed = 2;
-spawnerBullet.damage = 25;
 
-const unitSpawner = extendContent(Weapon, "strawberry-unit-spawner" {
+bull.damage = 0;
+bull.hitEffect = Fx.none;
+bull.shootEffect = Fx.none;
+bull.despawnEffect = Fx.none;
+bull.shootEffect = summonEffect;
+bull.smokeEffect = Fx.none;
+
+
+const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
   load(){
-    this.region = Core.atlas.find("strawberry-unit-spawner-weapon")
+    this.region = Core.atlas.find("strawberry" + this.name)
   }
 });
 
-unitSpawner.reload = 60;
-unitSpawner.alternate = true;
-unitSpawner.length = 15;
-unitSpawner.width = 15;
-unitSpawner.shots = 3;
-unitSpawner.bullet = spawnerBullet;
-unitSpawner.recoil = 9;
-unitSpawner.shootSound = Sounds.artillery;
-unitSpawner.minPlayerDist = 20;
+ravagerWeapon.reload = 60;
+ravagerWeapon.alternate = true;
+ravagerWeapon.length = 15;
+ravagerWeapon.width = 15;
+ravagerWeapon.shots = 3;
+ravagerWeapon.recoil = 9;
+ravagerWeapon.shootSound = Sounds.shotgun;
+ravagerWeapon.minPlayerDist = 20;
+ravagerWeapon.bullet = bull;
 
-const ravager = extendContent(UnitType, "ravager", {
+const ravager = extendContent(UnitType, "summoner", {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
@@ -41,18 +55,24 @@ const ravager = extendContent(UnitType, "ravager", {
 });
 
 ravager.create(prov(() => extend(GroundUnit, {
-  //code
-}));
+    update(){
+      this.super$update();
 
+      if(Mathf.chance(Time.delta() * 0.004)){
+        Effects.effect(summonEffect, this);
+        ulib.spawnUnit(UnitTypes.wraith, this.getTeam(), this.x, this.y)
+      }
+    },
 
-ravager.name = "Ravager";
-ravager.description = "j.";
-ravager.health = 25000;
-ravager.flying = false;
-ravager.mass = 100;
-ravager.targetAir = true;
-ravager.rotateWeapon = false;
-ravager.weaponOffsetY = 10;
-ravager.engineOffset = 1;
-ravager.engineSize = 5;
-ravager.weapon = unitSpawner;
+    onDeath(){
+      Effects.effect(deadEffect, this);
+      Effects.shake(2, 2, this);
+
+      Sounds.bang.at(this);
+      this.item.amount = 0;
+      this.drownTime = 0;
+      Events.fire(EventType.UnitDestroyEvent(this));
+    }
+})));
+
+ravager.weapon = ravagerWeapon;
