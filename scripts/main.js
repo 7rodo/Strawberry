@@ -1,6 +1,6 @@
-require('purifier');
-require('thermal-reactor');
-require('ravager');
+require('blocks/crafting/purifier');
+require('blocks/power/thermal-reactor');
+require('units/ravager');
 require('ulib');
-require('ghost');
+require('units/ghost');
         
