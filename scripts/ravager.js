@@ -1,3 +1,13 @@
+const summonEffect = newEffect(20, e => {
+  Draw.color(Pal.lancerLaser);
+  Lines.square(e.x, e.y, 30 * e.fin(), 45);
+})
+
+const deadEffect = newEffect(15, e => {
+  Draw.color(Pal.lancerLaser);
+  Lines.circle(e.x, e.y, 30 * e.fin());
+});
+
 const bull = extend(BasicBulletType, {
   draw(b){
   },
@@ -39,7 +49,7 @@ const ravager = extendContent(UnitType, "ravager", {
   }
 });
 
-/*ravager.create(prov(() => extend(GroundUnit, {
+ravager.create(prov(() => extend(GroundUnit, {
     update(){
       this.super$update();
 
@@ -58,7 +68,7 @@ const ravager = extendContent(UnitType, "ravager", {
       this.drownTime = 0;
       Events.fire(EventType.UnitDestroyEvent(this));
     }
-})));*/
+})));
 
 ravager.name = "Ravager";
 ravager.description = "j.";
