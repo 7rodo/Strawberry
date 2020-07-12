@@ -11,7 +11,7 @@ size: 2
 ammo: {
   tin: {
     speed: 7
-    damage: 11
+    damage: 7
     bulletWidth: 5
     bulletHeight: 6
     shootEffect: shootSmall
@@ -22,7 +22,7 @@ ammo: {
   }
   copper: {
     speed: 6
-    damage: 14
+    damage: 9
     bulletWidth: 9
     bulletHeight: 6
     shootEffect: shootSmall
@@ -33,7 +33,7 @@ ammo: {
   }
   sand: {
     speed: 4
-    damage: 3
+    damage: 4
     bulletWidth: 5
     bulletHeight: 3
     shootEffect: shootSmall
@@ -41,7 +41,7 @@ ammo: {
     ammoMultiplier: 2
     backColor: ac7349
     frontColor: dcd16b
-    reloadMultiplier: 5
+    reloadMultiplier: 3
     innacuracy: 70
   }
   silicon: {
