@@ -60,4 +60,14 @@ const ravager = extendContent(UnitType, "ravager", {
     }
 })));*/
 
+ravager.name = "Ravager";
+ravager.description = "j.";
+ravager.health = 25000;
+ravager.flying = false;
+ravager.mass = 100;
+ravager.targetAir = true;
+ravager.rotateWeapon = false;
+ravager.weaponOffsetY = 0//;
+//ravager.engineOffset = //1;
+//ravager.engineSize = 5;
 ravager.weapon = ravagerWeapon;
