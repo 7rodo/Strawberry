@@ -81,8 +81,8 @@ ammo: {
     backColor: 26ff55
     frontColor: ffffff
     reloadMultiplier: 0.4
-    splashDamage:	8
-    splashDamageRadius:	90
+    splashDamage:	5
+    splashDamageRadius:	20
     hitEffect: flakExplosionBig
   }
   pyratite: {
@@ -108,9 +108,12 @@ ammo: {
     ammoMultiplier: 50
     backColor: ff3333
     frontColor: ffaaaa
-    splashDamageRadius: 8
-    fragBullet: BasicBulletType
-    reloadMultiplier: 0.2
+    fragBullets: 7
+    fragBullet: {
+       speed: 3
+       damage: 12
+      }
+     reloadMultiplier: 0.3
    }
    surge-alloy: {
     speed: 9
@@ -122,7 +125,6 @@ ammo: {
     ammoMultiplier: 500
     backColor: ffff00
     frontColor: ffffff
-    lightning: 3
     reloadMultiplier: 0.4
       }
 }
