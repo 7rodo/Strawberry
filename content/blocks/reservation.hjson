@@ -123,7 +123,6 @@ ammo: {
     backColor: ffff00
     frontColor: ffffff
     lightning: 3
-    type: flakSurge
     reloadMultiplier: 0.4
       }
 }
