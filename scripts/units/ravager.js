@@ -1,6 +1,6 @@
 const ulib = require("ulib");
 
-const bull = extend(BasicBulletType, {
+const spawnerBullet = extend(BasicBulletType, {
   draw(b){
   },
 
@@ -10,27 +10,26 @@ const bull = extend(BasicBulletType, {
     ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
   }
 });
+spawnerBullet.instantDisappear = false;
+spawnerBullet.lifetime = 20;
+spawnerBullet.speed = 2;
+spawnerBullet.damage = 25;
 
-bull.damage = 10;
-bull.hitEffect = Fx.none;
-bull.shootEffect = Fx.none;
-bull.despawnEffect = Fx.none;
-bull.shootEffect = summonEffect;
-bull.smokeEffect = Fx.none;
-
-const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
+const unitSpawner = extendContent(Weapon, "strawberry-unit-spawner" {
   load(){
-    this.region = Core.atlas.find(this.name)
+    this.region = Core.atlas.find("strawberry-unit-spawner-weapon")
   }
 });
 
-ravagerWeapon.reload = 60;
-ravagerWeapon.alternate = true;
-ravagerWeapon.shots = 3;
-ravagerWeapon.bullet = bull;
-ravagerWeapon.recoil = 9;
-ravagerWeapon.shootSound = Sounds.shotgun;
-//ravagerWeapon.minPlayerDist = 20;
+unitSpawner.reload = 60;
+unitSpawner.alternate = true;
+unitSpawner.length = 15;
+unitSpawner.width = 15;
+unitSpawner.shots = 3;
+unitSpawner.bullet = spawnerBullet;
+unitSpawner.recoil = 9;
+unitSpawner.shootSound = Sounds.artillery;
+unitSpawner.minPlayerDist = 20;
 
 const ravager = extendContent(UnitType, "ravager", {
   load(){
@@ -41,4 +40,19 @@ const ravager = extendContent(UnitType, "ravager", {
   }
 });
 
-ravager.weapon = ravagerWeapon;
+ravager.create(prov(() => extend(GroundUnit, {
+  //code
+}));
+
+
+ravager.name = "Ravager";
+ravager.description = "j.";
+ravager.health = 25000;
+ravager.flying = false;
+ravager.mass = 100;
+ravager.targetAir = true;
+ravager.rotateWeapon = false;
+ravager.weaponOffsetY = 0;
+ravager.engineOffset = 1;
+ravager.engineSize = 5;
+ravager.weapon = unitSpawner;
