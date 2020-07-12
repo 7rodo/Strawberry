@@ -45,7 +45,7 @@ ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 20;
 ravagerWeapon.bullet = bull;
 
-const ravager = extendContent(UnitType, "summoner", {
+const ravager = extendContent(UnitType, "ravager", {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
