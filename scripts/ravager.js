@@ -1,3 +1,5 @@
+const ulib = require("ulib");
+
 const summonEffect = newEffect(20, e => {
   Draw.color(Pal.lancerLaser);
   Lines.square(e.x, e.y, 30 * e.fin(), 45);
