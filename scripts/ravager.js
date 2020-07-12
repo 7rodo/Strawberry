@@ -45,7 +45,7 @@ const ravager = extendContent(UnitType, "ravager", {
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
     this.baseRegion = Core.atlas.find(this.name + "-base");
-    this.legRegion = Core.atlas.find(this.name + "leg");
+    this.legRegion = Core.atlas.find(this.name + "-leg");
   }
 });
 
