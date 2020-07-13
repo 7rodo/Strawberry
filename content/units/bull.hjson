@@ -1,0 +1,16 @@
+type: flyingUnit
+name: Bull
+description: A very weak flying unit, high in mobility.
+speed: 2.5
+flying: true
+health: 75
+engineColor: feed69
+range: 150
+engineOffset: 5.3
+weapon: {
+  name: lancer
+  reload: 60
+  bullet: missileJavelin
+  size: 0.2
+  alternate: true
+}
