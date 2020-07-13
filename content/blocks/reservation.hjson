@@ -6,7 +6,7 @@ health: 450
 itemCapacity: 2000
 range: 350
 xRand: 6
-reload: 20
+reload: 25
 size: 2
 ammo: {
   tin: {
@@ -77,7 +77,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 60
+    ammoMultiplier: 30
     backColor: 26ff55
     frontColor: ffffff
     reloadMultiplier: 0.4
@@ -92,7 +92,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 40
+    ammoMultiplier: 30
     backColor: c78500
     frontColor: f3ff52
     reloadMultiplier: 0.5
@@ -105,7 +105,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 50
+    ammoMultiplier: 30
     backColor: ff3333
     frontColor: ffaaaa
     fragBullets: 7
@@ -122,7 +122,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 500
+    ammoMultiplier: 30
     lightning: 1
     backColor: ffff00
     frontColor: ffffff
