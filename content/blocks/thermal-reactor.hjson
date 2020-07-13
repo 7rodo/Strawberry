@@ -5,12 +5,6 @@ size: 3
 hasPower: true
 powerProduction: 4
 updateEffect: steam
-consumes: {
-  liquid: {
-    liquid: water
-    amount: 0.1
-  }
-}
 requirements: [
   copper/200
   lead/175
