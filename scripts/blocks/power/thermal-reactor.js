@@ -1,23 +1,34 @@
 const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
-    load(){
-        this.super$load();
-        this.plasmaframes = [];
-        this.bottomRegion = Core.atlas.find(this.name + "-bottom");
-        for(i = 0; i < 4; i++){
-            this.plasmaframes.push(Core.atlas.find(this.name+"-plasma-"+i));
-        }
+ load(){
+   this.region = Core.atlas.find(this.name);
+   this.topRegion = Core.atlas.find(this.name + "-top");
+  },
+    
+  generateIcons(){
+    return [
+     Core.atlas.find(this.name),
+     Core.atlas.find(this.name + "-top"),
+      ]
     },
+    
     draw(tile){
-  Draw.rect(this.bottomRegion, tile.drawx(), tile.drawy());
-  for(var i = 0; i < 4; i++){
-    r = this.size * Vars.tilesize - 3 + Mathf.absin(Time.time(), 2 + i * 1, 5 - i * 0.5);
-    Draw.color(Color.valueOf("ffd06b"), Color.valueOf("ff361b"), i / 4);
-    Draw.alpha((0.3 + Mathf.absin(Time.time(), 2 + i * 2, 0.3 + i * 0.05)));
-    Draw.blend(Blending.additive);
-    Draw.rect(this.plasmaRegions[i], tile.drawx(), tile.drawy(), r, r, Time.time() * (12 + i * 6));
-    Draw.blend();
+      entity = tile.ent();
+    
+    Draw.rect(this.region, tile.drawx(), tile.drawy());
+    
+    if(entity.warmup > 0 && this.flameColor.a > 0.001){
+            const g = 0.4;
+            const r = 0.07;
+            const cr = Mathf.random(0.1);
+            
+            Draw.alpha(((1.0 - g) + Mathf.absin(Time.time(), 9.0, g) + Mathf.random(r) - r) * entity.warmup);
+            
+            Draw.tint(this.flameColor);
+            Draw.blend(Blending.additive);
+            Draw.color(Color.valueOf("f2613e"), entity.warmup);
+            Draw.rect(this.topRegion, tile.drawx(), tile.drawy(), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0));
+            Draw.blend();
+        }
+        Draw.color();
   }
-  Draw.color();
-  Draw.rect(this.region, tile.drawx(), tile.drawy());
-}
 });
