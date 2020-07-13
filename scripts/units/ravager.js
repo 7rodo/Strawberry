@@ -76,6 +76,7 @@ ravager.create(prov(() => extend(GroundUnit, {
     }
 })));
 ravager.speed = 0.1;
+ravager.maxVelocity = 0.15;
 ravager.mass = 50;
 ravager.description = "j";
 ravager.health = 25000;
