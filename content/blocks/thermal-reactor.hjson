@@ -3,7 +3,14 @@ description: An upgraded Thermal Generator, produces mighty amounts of power.
 health: 1680
 size: 3
 hasPower: true
-powerProduction: 3
+powerProduction: 4
+updateEffect: steam
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
 requirements: [
   copper/200
   lead/175
