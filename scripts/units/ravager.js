@@ -38,13 +38,12 @@ const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
 
 ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
-ravagerWeapon.length = 15;
-ravagerWeapon.width = -7;
+ravagerWeapon.length = 23;
 ravagerWeapon.shots = 3;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 20;
-ravagerWeapon.bullet = bull;
+ravagerWeapon.bullet = MissileBulletType;
 ravagerWeapon.width = 4;
 
 const ravager = extendContent(UnitType, "ravager", {
