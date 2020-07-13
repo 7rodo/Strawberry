@@ -31,6 +31,7 @@ bull.smokeEffect = Fx.none;
 
 const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
   load(){
+    this.super$load();
     this.region = Core.atlas.find(this.name)
   }
 });
@@ -74,7 +75,8 @@ ravager.create(prov(() => extend(GroundUnit, {
       Events.fire(EventType.UnitDestroyEvent(this));
     }
 })));
-ravager.speed = 0.05;
+ravager.speed = 0.1;
+ravager.mass = 50;
 ravager.description = "j";
 ravager.health = 25000;
 ravager.weapon = ravagerWeapon;
