@@ -21,7 +21,7 @@ const bull = extend(BasicBulletType, {
   }
 });
 
-bull.damage = 2000;
+bull.damage = 300;
 bull.hitEffect = Fx.none;
 bull.shootEffect = Fx.none;
 bull.despawnEffect = Fx.none;
@@ -38,13 +38,13 @@ const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
 
 ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
-ravagerWeapon.length = 23;
+ravagerWeapon.length = 15;
 ravagerWeapon.shots = 3;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 20;
 ravagerWeapon.bullet = bull;
-ravagerWeapon.width = 4;
+ravagerWeapon.width = 15;
 
 const ravager = extendContent(UnitType, "ravager", {
   load(){
