@@ -31,11 +31,11 @@ bull.smokeEffect = Fx.none;
 
 const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
   load(){
-    this.region = Core.atlas.find("strawberry" + this.name)
+    this.region = Core.atlas.find(this.name)
   }
 });
 
-ravagerWeapon.reload = 60;
+ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
 ravagerWeapon.length = 15;
 ravagerWeapon.width = 15;
@@ -74,5 +74,7 @@ ravager.create(prov(() => extend(GroundUnit, {
       Events.fire(EventType.UnitDestroyEvent(this));
     }
 })));
-
+ravager.speed = 0.05;
+ravager.description = "j";
+ravager.health = 25000;
 ravager.weapon = ravagerWeapon;
