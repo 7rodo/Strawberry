@@ -32,7 +32,7 @@ bull.smokeEffect = Fx.none;
 const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
   load(){
     this.super$load();
-    this.region = Core.atlas.find("ravager-equip")
+    this.region = Core.atlas.find("strawberry-ravager-equip")
   }
 });
 
