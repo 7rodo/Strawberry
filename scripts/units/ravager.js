@@ -17,7 +17,7 @@ const bull = extend(BasicBulletType, {
   init(b){
     if(!b) return;
 
-    ulib.spawnUnit(UnitTypes.bull, b.getTeam(), b.x, b.y)
+    ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
   }
   
 });
