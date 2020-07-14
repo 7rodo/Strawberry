@@ -1,0 +1,12 @@
+type: groundUnit
+name: Worker
+description: A defenseless unit, used for building, mining, and containing.
+speed: 0.5
+flying: false
+health: 450
+engineColor: 00ffff
+range: 150
+engineOffset: 5.3
+drillPower: 4
+mineSpeed: 7
+itemCapacity: 350
