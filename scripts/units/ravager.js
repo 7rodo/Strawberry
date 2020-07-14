@@ -2,7 +2,7 @@ const ulib = require("ulib");
 
 const summonEffect = newEffect(20, e => {
   Draw.color(Pal.lancerLaser);
-  Lines.hexagon(e.x, e.y, 30 * e.fin(), 45);
+  Lines.triangle(e.x, e.y, 30 * e.fin(), 45);
 })
 
 const deadEffect = newEffect(15, e => {
@@ -62,7 +62,7 @@ ravager.create(prov(() => extend(GroundUnit, {
 
       if(Mathf.chance(Time.delta() * 0.004)){
         Effects.effect(summonEffect, this);
-        ulib.spawnUnit(UnitTypes.bull, this.getTeam(), this.x, this.y)
+        ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), this.getTeam(), this.x, this.y)
       }
     },
 
