@@ -1,0 +1,8 @@
+type: resource
+name: Rage
+description: A combination of Blast Compound, Pyratite, Radium and forged together with Slag. Dangerously explosive, highly flammable and radioactive.
+radioactivity: 1.35
+cost: 4
+flammability: 1.15
+explosiveness: 2.5
+color: 009dff
