@@ -1,0 +1,20 @@
+name: Worker Mech Pad
+description: Transform into the Worker mech.
+type: MechPad
+mech: worker-mech
+size: 3
+consumes: {
+  power: 1.5
+}
+category: upgrade
+research: omega-mech-pad
+requirements: [
+  lead/120
+  graphite/80
+  silicon/250
+  titanium/140
+  plastanium/30
+  thorium/40
+  surge-alloy/175
+  radiode/25
+]
