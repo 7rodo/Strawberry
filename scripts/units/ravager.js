@@ -19,10 +19,9 @@ const bull = extend(BasicBulletType, {
 
     ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
   }
-  
 });
 
-bull.damage = 150;
+bull.damage = 2000;
 bull.hitEffect = Fx.none;
 bull.shootEffect = Fx.none;
 bull.despawnEffect = Fx.none;
@@ -40,12 +39,13 @@ const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
 ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
 ravagerWeapon.length = 15;
+ravagerWeapon.width = 15;
 ravagerWeapon.shots = 3;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 20;
 ravagerWeapon.bullet = bull;
-ravagerWeapon.width = -16;
+ravagerWeapon.width = -17;
 
 const ravager = extendContent(UnitType, "ravager", {
   load(){
@@ -62,7 +62,7 @@ ravager.create(prov(() => extend(GroundUnit, {
 
       if(Mathf.chance(Time.delta() * 0.004)){
         Effects.effect(summonEffect, this);
-        ulib.spawnUnit(UnitTypes.wraith, this.getTeam(), this.x, this.y);
+        ulib.spawnUnit(UnitTypes.wraith, this.getTeam(), this.x, this.y)
       }
     },
 
