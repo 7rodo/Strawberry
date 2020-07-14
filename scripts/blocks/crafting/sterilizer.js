@@ -1,4 +1,4 @@
-const ster = extendContent(GenericCrafter, "steriliser", {
+const ster = extendContent(GenericCrafter, "sterilizer", {
   load(){
     this.region = Core.atlas.find(this.name);
     this.rotateRegion = Core.atlas.find(this.name + "-rotator");
