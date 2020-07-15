@@ -16,18 +16,18 @@ const lavashooteffect = newEffect(12, e => {
     Lines.circle(e.x, e.y, e.fin());
     Draw.reset();
 });
-const volcanobullet = extend(LiquidBulletType, {
-    draw(b){}
+const volcanoBullet = extend(ArtilleryBulletType, {
+   // draw(b){}
 });
-volcanobullet.speed = 3;
-volcanobullet.damage = 0;
-volcanobullet.lifetime = 20;
-volcanobullet.hitEffect = Fx.none;
-volcanobullet.despawnEffect = Fx.none;
-volcanobullet.smokeEffect = Fx.none;
-volcanobullet.shootEffect = Fx.none;
-volcanobullet.liquid = Liquids.slag;
-const volcano = extendContent(LaserTurret, "volcano", {
+volcanoBullet.speed = 3;
+volcanoBullet.damage = 0;
+volcanoBullet.lifetime = 180;
+volcanoBullet.hitEffect = Fx.none;
+volcanoBullet.despawnEffect = Fx.none;
+volcanoBullet.smokeEffect = Fx.none;
+volcanoBullet.shootEffect = Fx.none;
+volcanoBullet.bullet = Bullets.artilleryExplosive;
+const volcano = extendContent(ArtilleryTurret, "volcano", {
 	update(tile){
 		this.super$update(tile);
 		if(tile.entity.timer.get(this.maintimer, 50)){
@@ -42,7 +42,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
 		if(tile.entity.timer.get(this.shoottimer, 5)){
 			Effects.effect(lavashooteffect, Mathf.random(tile.drawx()-5, tile.drawx()+5), Mathf.random(tile.drawy()-5, tile.drawy()+5));
 		};
-		this.shoot(tile, volcanobullet);
+		this.shoot(tile, volcanoBullet);
 	},
 	draw(tile){
 		Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy());
@@ -52,7 +52,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
 	drawPlace(tile){},
 	effects(tile){}
 });
-volcano.shootSound = Sounds.spray;
+volcano.shootSound = Sounds.explosion;
 volcano.maintimer = volcano.timers++;
 volcano.lavatimer = volcano.timers++;
 volcano.shoottimer = volcano.timers++;
