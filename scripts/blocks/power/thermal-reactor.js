@@ -22,7 +22,7 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
             
      //       Draw.alpha(((1.0 - g) + Mathf.absin(Time.time(), 9.0, g) + Mathf.random(r) - r));
             
-            Draw.tint(this.flameColor);
+            Draw.tint(Color.valueOf("0000ff"));
             Draw.blend(Blending.additive);
             Draw.color(Color.valueOf("f2613e"));
             Draw.rect(this.topRegion, tile.drawx(), tile.drawy(), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0));
