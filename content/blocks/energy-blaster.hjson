@@ -11,7 +11,7 @@ consumes: {
   power: 5.5
   items: {
     items: [
-      radium/5
+      oxi-radium/5
       pyratite/1
       blast-compound/1
     ]
@@ -28,6 +28,7 @@ requirements: [
   titanium/120
   thorium/75
   plastanium/60
+  radiode/75
   phase-fabric/50
   surge-alloy/35
 ]
