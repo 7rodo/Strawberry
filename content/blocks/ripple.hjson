@@ -1,0 +1,24 @@
+ammo: {
+  graphite: artilleryDense
+  silicon: artilleryHoming
+  pyratite: artilleryIncendiary
+  blastCompound: artilleryExplosive
+  plastanium: artilleryPlastic
+  
+  rage: {
+    hitEffect: nuclearSmoke
+    speed: 6.0
+    damage: 55
+    splashDamage: 120
+    reloadMultiplier: 0.3
+    bulletWidth: 14
+    bulletHeight: 14
+    knockback: 1.2
+    splashDamageRadius: 100
+    lifetime: 100
+    collidesTiles: false
+    ammoMultiplier: 10
+    backColor: 00aeff
+    frontColor: 55ffff
+  }
+}
