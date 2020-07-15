@@ -1,0 +1,19 @@
+ammo: {
+  metaglass: flakGlass
+  blast-compound: flakExplosive
+  plastanium: flakPlastic
+  surge-alloy: flakSurge
+  
+  rage: {
+    hitEffect: nuclearSmoke
+    damage: 45
+    splashDamage: 60
+    reloadMultiplier: 0.5
+    bulletWidth: 8
+    bulletHeight: 8
+    splashDamageRadius: 55
+    ammoMultiplier: 15
+    backColor: 00aeff
+    frontColor: 55ffff
+  }
+}
