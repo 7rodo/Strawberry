@@ -7,6 +7,7 @@ itemCapacity: 2000
 range: 350
 xRand: 6
 reload: 25
+innacuracy: 22
 size: 2
 ammo: {
   tin: {
