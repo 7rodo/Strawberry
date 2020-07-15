@@ -3,7 +3,7 @@ name: Bull
 description: A mediumly armoured flying unit, high in mobility.
 speed: 2.5
 flying: true
-health: 225
+health: 175
 engineColor: feed69
 range: 150
 engineOffset: 5.3
