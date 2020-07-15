@@ -1,0 +1,4 @@
+type: StaticWall
+name: Volcano
+size: 2
+variants: 0
