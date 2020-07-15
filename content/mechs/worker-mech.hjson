@@ -5,6 +5,13 @@ speed: 0.5
 flying: false
 health: 450
 engineColor: 00ffff
+weapon: {
+  name: lancer
+  reload: 9999
+  bullet: meltdownLaser
+  size: 0.2
+  alternate: true
+}
 range: 150
 engineOffset: 5.3
 drillPower: 4
