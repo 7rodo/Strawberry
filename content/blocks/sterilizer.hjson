@@ -1,6 +1,7 @@
 name: Steriliser
 description: Purifies Oxidised Radium to make Radiode in a faster rate.
 size: 3
+health: 720
 hasPower: true
 hasItems: true
 craftTime: 120 
