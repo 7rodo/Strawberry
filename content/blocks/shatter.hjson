@@ -1,4 +1,4 @@
-type: burstTurret
+type: BurstTurret
 name: Shatter
 size: 3
 health: 1480
