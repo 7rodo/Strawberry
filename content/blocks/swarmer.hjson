@@ -1,0 +1,16 @@
+ammo: {
+  blast-compound: missileExplosive
+  pyratite: missileIncendiary
+  surge-alloy: missileSurge
+  
+  rage: {
+    hitEffect: nuclearSmoke
+    damage: 60
+    splashDamage: 75
+    reloadMultiplier: 0.5
+    splashDamageRadius: 55
+    ammoMultiplier: 10
+    backColor: 00aeff
+    frontColor: 55ffff
+  }
+}
