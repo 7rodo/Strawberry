@@ -19,7 +19,6 @@ ammo: {
   blast-compound: flakExplosive
   
   rage: {
-    hitEffect: nuclearSmoke
     damage: 3
     splashDamage: 60
     reloadMultiplier: 0.5
