@@ -52,7 +52,9 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 15
+    homingPower: 0.01
+    homingRange: 75
     backColor: 6e6d6d
     frontColor: ffffff
     bulletType: MissileBulletType
