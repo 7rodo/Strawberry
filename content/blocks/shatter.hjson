@@ -1,0 +1,42 @@
+type: burstTurret
+name: Shatter
+size: 3
+health: 1480
+shots: 5
+range: 275
+burstSpacing: 2
+targetGround: false
+recoil: 4
+rotateSpeed: 27
+innacuracy: 33
+shootcone: 17
+shootSound: shootSnap
+ammo: {
+  scrap: flakScrap
+  lead: flakLead
+  metaglass: flakGlass
+  plastanium: flakPlastic
+  blast-compound: flakExplosive
+  
+  rage: {
+    hitEffect: nuclearSmoke
+    damage: 3
+    splashDamage: 60
+    reloadMultiplier: 0.5
+    bulletWidth: 10
+    bulletHeight: 10
+    splashDamageRadius: 240
+    ammoMultiplier: 20
+    backColor: 00aeff
+    frontColor: 55ffff
+  }
+}
+requirements: [
+  copper/120
+  lead/180
+  metaglass/80
+  titanium/60
+  radiode/45
+  ]
+research: scatter
+category: turret
