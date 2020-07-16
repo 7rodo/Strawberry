@@ -11,6 +11,9 @@ ammo: {
     frontColor: 55ffff
     splashDamage: 45
     splashDamageRadius: 70
+    incendAmount: 4
+    incendSpread: 4
+    incendChance: 4
     homingPower: 0.05
     homingRange: 250
     fragBullets: 8
