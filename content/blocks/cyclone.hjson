@@ -13,6 +13,9 @@ ammo: {
     backColor: 00aeff
     frontColor: 55ffff
     hitEffect: explosion
+    incendAmount: 1
+    incendSpread: 12
+    incendChance: 2
     homingPower: 0.02
     homingRange: 150
     splashDamage: 20
