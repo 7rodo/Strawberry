@@ -13,6 +13,8 @@ ammo: {
     backColor: 00aeff
     frontColor: 55ffff
     hitEffect: explosion
+    homingPower: 0.02
+    homingRange: 150
     splashDamage: 20
     splashDamageRadius: 40
     fragBullets: 5
