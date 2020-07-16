@@ -6,7 +6,7 @@ ammo: {
   plastanium: artilleryPlastic
   
   rage: {
-    hitEffect: nuclearSmoke
+    hitEffect: explosion
     speed: 6.0
     damage: 55
     reloadMultiplier: 0.3
@@ -18,6 +18,9 @@ ammo: {
     ammoMultiplier: 10
     backColor: 00aeff
     frontColor: 55ffff
+    incendAmount: 0.2
+    incendSpread: 24
+    incendChance: 5
     homingPower: 0.02
     homingRange: 150
     splashDamage: 70
