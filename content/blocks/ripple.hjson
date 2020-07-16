@@ -9,16 +9,24 @@ ammo: {
     hitEffect: nuclearSmoke
     speed: 6.0
     damage: 55
-    splashDamage: 120
     reloadMultiplier: 0.3
     bulletWidth: 14
     bulletHeight: 14
     knockback: 1.2
-    splashDamageRadius: 100
     lifetime: 100
     collidesTiles: false
     ammoMultiplier: 10
     backColor: 00aeff
     frontColor: 55ffff
+    homingPower: 0.02
+    homingRange: 150
+    splashDamage: 70
+    splashDamageRadius: 90
+    fragBullets: 15
+    fragBullet: {
+       speed: 5
+       damage: 12
+       type: MissileBulletType
+      }
   }
 }
