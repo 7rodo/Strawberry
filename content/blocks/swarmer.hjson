@@ -4,13 +4,18 @@ ammo: {
   surge-alloy: missileSurge
   
   rage: {
-    hitEffect: nuclearSmoke
     damage: 60
-    splashDamage: 75
     reloadMultiplier: 0.5
-    splashDamageRadius: 55
     ammoMultiplier: 10
     backColor: 00aeff
     frontColor: 55ffff
+    splashDamage: 45
+    splashDamageRadius: 70
+    fragBullets: 8
+    fragBullet: {
+       speed: 3
+       damage: 12
+       type: MissileBulletType
+      }
   }
 }
