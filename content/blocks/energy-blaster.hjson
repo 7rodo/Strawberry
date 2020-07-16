@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Energy Blaster
-description: Smelts Pyratite, Blast Compound and Radium, forged together with slag to produce a dangerous resource, Rage.
+description: Smelts Pyratite, Blast Compound, Silicon and Radium, forged together with slag to produce a dangerous resource, Rage.
 size: 3
 health: 1680
 hasPower: true
@@ -14,6 +14,7 @@ consumes: {
       oxi-radium/5
       pyratite/1
       blast-compound/1
+      silicon/2
     ]
   }
   liquid: {
