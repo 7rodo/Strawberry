@@ -1,0 +1,23 @@
+name: jfrjrjj Factory
+description: Make jfrjrjj healing units.
+type: UnitFactory
+unitType: jfrjrjj
+size: 3
+produceTime: 1800
+maxSpawn: 2
+consumes: {
+  power: 4
+  items: {
+    items: [
+      silicon/35
+      graphite/25
+    ]
+  }
+}
+category: units
+research: titan-factory
+requirements: [
+  silicon/35
+  graphite/75
+  titanium/45
+]
