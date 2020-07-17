@@ -1,6 +1,6 @@
 type: resource
 name: Rage
-description: A combination of Blast Compound, Pyratite, Silicon and Radium forged together with Slag. Chases after enemies. [red]Dangerously explosive, highly flammable and radioactive. Handle with care.
+description: A combination of Blast Compound, Pyratite, Silicon and Radium forged together with Slag. Chases after enemies. Dangerously explosive, highly flammable and radioactive. Handle with care.
 radioactivity: 1.75
 flammability: 1.75
 explosiveness: 3
