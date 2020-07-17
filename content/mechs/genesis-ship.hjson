@@ -1,6 +1,5 @@
-type: flyingUnit
 name: Genesis
-description: A lance type unit, penetrates enemies.
+description: A ice type unit, penetrates enemies.
 speed: 0.8
 flying: true
 health: 225
