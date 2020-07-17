@@ -4,7 +4,11 @@ description: A fancy named healing unit.
 health: 450
 speed: 0.6
 canHeal: true
-weapon: {}
+weapon: {
+  name: meltdown
+  reload: 9999
+  size: 0.1
+  }
 healRange: 60
 healAmount: 25
 healReload: 60
