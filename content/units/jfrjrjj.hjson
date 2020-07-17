@@ -1,0 +1,10 @@
+type: GroundUnit
+name: jfrjrjj
+description: A fancy named healing unit.
+health: 450
+speed: 0.6
+canHeal: true
+weapon: {}
+healRange: 60
+healAmount: 25
+healReload: 60
