@@ -1,7 +1,7 @@
-name: Eradicator Factory
-description: Makes Eradicator units.
+name: Chaos Array Factory
+description: Makes Chaos Array units.
 type: UnitFactory
-unitType: eradicator
+unitType: chaos-array
 size: 5
 produceTime: 14400
 maxSpawn: 1
@@ -10,8 +10,8 @@ consumes: {
   items: {
     items: [
       surge-alloy/30
-      silicon/50
-      titanium/25
+      silicon/75
+      graphite/55
     ]
   }
 }
