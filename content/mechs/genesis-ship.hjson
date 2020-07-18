@@ -10,13 +10,13 @@ weapon: {
   name: duo
   reload: 50
   bullet: {
-	  bulletWidth: 9
-	  bulletHeight: 5
-	  lifetime: 60
-	  speed: 5
-	  damage: 10
-	  frontColor: ffffff
-	  backColor: 00dede
+    bulletWidth: 9
+    bulletHeight: 5
+    lifetime: 60
+    speed: 5
+    damage: 10
+    frontColor: ffffff
+    backColor: 00dede
     speedMultiplier: 0.25
     armourMultiplier: 1.5
   }
