@@ -15,7 +15,6 @@ shootSound: spark
 recoil: 2
 shootType: arc
 lightningLength: 120
-heatColor: blue
 requirements: [
   copper/45
   lead/30
