@@ -1,4 +1,4 @@
-# ExampleMod
+# strobrey
 A simple mod for Mindustry.
 
 ## Importing
