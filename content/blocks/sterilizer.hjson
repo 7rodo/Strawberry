@@ -4,7 +4,7 @@ size: 3
 health: 720
 hasPower: true
 hasItems: true
-craftTime: 120 
+craftTime: 90 
 effect: fuelburn
 itemCapacity: 60
 updateEffect: fuelburn
