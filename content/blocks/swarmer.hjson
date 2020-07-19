@@ -16,11 +16,13 @@ ammo: {
     incendChance: 4
     homingPower: 0.05
     homingRange: 250
-    fragBullets: 8
+    fragBullets: 4
     fragBullet: {
        speed: 3
        damage: 12
        type: MissileBulletType
       }
+    lifetime: 200
+    speed: 9
   }
 }
