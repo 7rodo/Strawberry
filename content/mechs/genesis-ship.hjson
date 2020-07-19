@@ -6,10 +6,10 @@ health: 225
 engineColor: 00ffff
 range: 150
 engineOffset: 5.3
-shots: 2
 weapon: {
   name: duo
   reload: 50
+  shots: 2
   bullet: {
     bulletWidth: 9
     bulletHeight: 5
