@@ -24,10 +24,10 @@ ammo: {
     reloadMultiplier: 0.5
     bulletWidth: 10
     bulletHeight: 10
-    splashDamageRadius: 240
+    splashDamageRadius: 90
     ammoMultiplier: 20
     backColor: 00aeff
-    frontColor: 55ffff
+    frontColor: ffffff
   }
 }
 requirements: [
