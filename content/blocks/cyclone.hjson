@@ -11,7 +11,7 @@ ammo: {
     bulletHeight: 8
     ammoMultiplier: 15
     backColor: 00aeff
-    frontColor: 55ffff
+    frontColor: ffffff
     hitEffect: explosion
     incendAmount: 1
     incendSpread: 10
