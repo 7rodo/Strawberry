@@ -1,2 +1,3 @@
 type: GroundUnit
 hitSize: 24
+range: 300
