@@ -12,7 +12,7 @@ genesisBullet.speed = 5
 genesisBullet.damage = 10
 genesisBullet.frontColor = Color.white
 genesisBullet.backColor = Color.valueOf("00dede")
-//genesisBullet.speedMultiplier = 0.25
+genesisBullet.pierce = true;
 //genesisBullet.armorMultiplier = 1.5
 
 const genesisWeapon = extendContent(Weapon, "genesis-equiph", {
@@ -23,12 +23,8 @@ const genesisWeapon = extendContent(Weapon, "genesis-equiph", {
 
 genesisWeapon.reload = 50;
 genesisWeapon.alternate = true;
-//genesisWeapon.length = 12;
-//genesisWeapon.width = 15;
-genesisWeapon.shots = 2;
-//genesisWeapon.recoil = 9;
-//genesisWeapon.shootSound = Sounds.shotgun;
-//genesisWeapon.minPlayerDist = 20;
+genesisWeapon.shots = 3;
+genesisWeapon.shootSound = Sounds.pew;
 genesisWeapon.bullet = genesisBullet;
 
 const genesis = extendContent(Mech, "genesis-ship", {
