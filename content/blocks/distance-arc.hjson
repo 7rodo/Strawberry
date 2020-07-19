@@ -13,7 +13,7 @@ range: 240
 shootEffect: lightningShoot
 shootSound: spark
 recoil: 2
-shootType: arc
+shootType: lightning
 lightningLength: 10
 requirements: [
   copper/45
