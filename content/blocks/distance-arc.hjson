@@ -14,7 +14,7 @@ shootEffect: lightningShoot
 shootSound: spark
 recoil: 2
 shootType: lightning
-lightningLength: 10
+lightningLength: 25
 requirements: [
   copper/45
   lead/30
