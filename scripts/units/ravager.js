@@ -38,8 +38,8 @@ const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
 
 ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
-ravagerWeapon.length = 15;
-ravagerWeapon.width = -16;
+ravagerWeapon.length = 12;
+ravagerWeapon.width = 15;
 ravagerWeapon.shots = 3;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
