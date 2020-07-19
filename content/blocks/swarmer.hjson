@@ -8,7 +8,7 @@ ammo: {
     reloadMultiplier: 0.5
     ammoMultiplier: 10
     backColor: 00aeff
-    frontColor: 55ffff
+    frontColor: ffffff
     splashDamage: 45
     splashDamageRadius: 70
     incendAmount: 4
