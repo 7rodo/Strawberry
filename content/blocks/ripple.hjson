@@ -12,7 +12,7 @@ ammo: {
     bulletWidth: 14
     bulletHeight: 14
     backColor: 00aeff
-    frontColor: 55ffff
+    frontColor: ffffff
     splashDamage: 70
     splashDamageRadius: 90
     incendAmount: 1
