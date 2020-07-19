@@ -14,7 +14,7 @@ ammo: {
     frontColor: 55ffff
     hitEffect: explosion
     incendAmount: 1
-    incendSpread: 12
+    incendSpread: 10
     incendChance: 2
     homingPower: 0.02
     homingRange: 150
@@ -26,5 +26,7 @@ ammo: {
        damage: 8
        type: MissileBulletType
       }
+    lifetime: 200
+    speed: 8
   }
 }
