@@ -9,7 +9,7 @@ health: 175
 engineColor: feed69
 range: 150
 engineOffset: 5.3
-cellTrnsY: 0
+cellTrnsY: 1
 weapon: {
   name: lancer
   reload: 80
