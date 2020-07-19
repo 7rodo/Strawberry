@@ -6,6 +6,7 @@ health: 225
 engineColor: 00ffff
 range: 150
 engineOffset: 5.3
+shots: 2
 weapon: {
   name: duo
   reload: 50
@@ -18,7 +19,7 @@ weapon: {
     frontColor: ffffff
     backColor: 00dede
     speedMultiplier: 0.25
-    armourMultiplier: 1.5
+    armorMultiplier: 1.5
   }
   size: 0.2
   alternate: true
