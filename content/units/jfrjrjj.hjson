@@ -3,6 +3,8 @@ name: jfrjrjj
 description: A fancy named healing unit.
 health: 450
 speed: 0.6
+maxVelocity: 0.7
+mass: 15
 canHeal: true
 weapon: {
   name: meltdown
