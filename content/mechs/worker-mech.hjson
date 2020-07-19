@@ -15,5 +15,6 @@ weapon: {
 range: 150
 engineOffset: 5.3
 drillPower: 4
-mineSpeed: 7
+mineSpeed: 4
+buildPower: 4
 itemCapacity: 350
