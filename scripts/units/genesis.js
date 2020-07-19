@@ -1,5 +1,6 @@
 const ghostTrail = newEffect(25, e => {
     Draw.alpha(Mathf.random(0.7, 1));
+    Draw.color(Pal.lancerLaser);
     Fill.circle(e.x, e.y, e.fout() * 3.4)
 });
 
