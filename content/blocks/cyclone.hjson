@@ -17,7 +17,7 @@ ammo: {
     incendSpread: 10
     incendChance: 2
     homingPower: 0.02
-    homingRange: 150
+    homingRange: 75
     splashDamage: 20
     splashDamageRadius: 40
     fragBullets: 5
@@ -27,6 +27,6 @@ ammo: {
        type: MissileBulletType
       }
     lifetime: 200
-    speed: 8
+    speed: 5
   }
 }
