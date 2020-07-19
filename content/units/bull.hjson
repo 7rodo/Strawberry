@@ -1,15 +1,18 @@
 type: flyingUnit
 name: Bull
 description: A mediumly armoured flying unit, high in mobility.
-speed: 2.5
+speed: 1.5
+maxVelocity: 1.75
+mass: 5
 flying: true
 health: 175
 engineColor: feed69
 range: 150
 engineOffset: 5.3
+cellTrnsY: 0
 weapon: {
   name: lancer
-  reload: 60
+  reload: 80
   bullet: missileJavelin
   size: 0.2
   alternate: true
