@@ -10,8 +10,8 @@ genesis.create(prov(() => extend(FlyingUnit, {
   draw(){
   this.super$draw();
   ghostTrail.at(this.x, this.y, this.rotation);
-}
   if (!Vars.state.isPaused()){
     Effects.effect(ghostTrail, this.x, this.y, this.rotation);
+  }
 }
 })));
