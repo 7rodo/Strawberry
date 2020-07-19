@@ -6,8 +6,7 @@ ammo: {
   plastanium: artilleryPlastic
   
   rage: {
-    hitEffect: explosion
-    speed: 6.0
+    speed: 7
     damage: 55
     reloadMultiplier: 0.3
     bulletWidth: 14
