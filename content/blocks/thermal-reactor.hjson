@@ -4,7 +4,7 @@ health: 1680
 size: 3
 hasPower: true
 powerProduction: 4
-generateEffect: steam
+generateEffect: flakExplosion
 requirements: [
   copper/200
   lead/175
