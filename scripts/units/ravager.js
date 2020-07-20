@@ -59,7 +59,7 @@ ravager.create(prov(() => extend(GroundUnit, {
     update(){
       this.super$update();
 
-      if(Mathf.chance(Time.delta() * 0.004)){
+      if(Mathf.chance(Time.delta() * 0.01)){
         Effects.effect(summonEffect, this);
         ulib.spawnUnit(UnitTypes.wraith, this.getTeam(), this.x, this.y)
       }
