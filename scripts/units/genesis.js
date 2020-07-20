@@ -8,7 +8,7 @@ const ghostTrail = newEffect(50, e => {
 
 const genesisBullet = extend(BasicBulletType, {});
 
-genesisBullet.bulletWidth = 9
+genesisBullet.bulletWidth = 10
 genesisBullet.bulletHeight = 5
 genesisBullet.lifetime = 60
 genesisBullet.speed = 5
@@ -37,7 +37,7 @@ const genesis = extendContent(Mech, "genesis-ship", {
   },
 
   updateAlt(player){
-    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y - 5, player.rotation);
+    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*/, player.rotation);
   }
 });
 
