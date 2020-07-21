@@ -1,0 +1,22 @@
+type: LiquidTurret
+name: Basalt
+description: Throws hot slag on the enemies
+health: 840
+size: 3
+shots: 15
+spread: 75
+innacuracy: 10
+ammo: {
+  slag: {
+    type: LiquidBulletType
+    damage: 12
+  }
+}
+requirements: [
+  lead/60
+  silicon/45
+  metaglass/50
+  thorium/35
+]
+category: turret
+research: scorch
