@@ -11,6 +11,7 @@ ammo: {
     type: LiquidBulletType
     liquid: slag
     damage: 4
+    knockback: 1.2
   }
 }
 requirements: [
