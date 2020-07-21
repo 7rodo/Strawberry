@@ -1,10 +1,10 @@
 const ghostTrail = newEffect(50, e => {
-    var offset = 0.3 + e.fin() * 0.4;
-    var angle = Mathf.randomSeed(e.id, 360);
+   // var offset = 0.3 + e.fin() * 0.4;
+ //   var angle = Mathf.randomSeed(e.id, 360);
     Draw.alpha(Mathf.random(0.3, 0.5));
     Draw.color(Pal.lancerLaser);
-   // Lines.circle(e.x, e.y, e.fout() * 3.4);
-    Lines.circle(e.x + Angles.trnsx(angle, offset), e.y + Angles.trnsy(angle, offset), e.rotation - 90);
+    Lines.circle(e.x, e.y, e.fout() * 3.4);
+  //  Lines.circle(e.x + Angles.trnsx(angle, offset), e.y + Angles.trnsy(angle, offset), e.rotation - 90);
 });
 
 const genesisBullet = extend(BasicBulletType, {});
