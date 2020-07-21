@@ -9,10 +9,12 @@ innacuracy: 10
 ammo: {
   slag: {
     type: LiquidBulletType
-    damage: 12
+    liquid: slag
+    damage: 4
   }
 }
 requirements: [
+  tin/60
   lead/60
   silicon/45
   metaglass/50
