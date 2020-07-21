@@ -12,6 +12,7 @@ consumes: {
   items: {
     items: [
       oxi-radium/15
+      metaglass/1
     ]
   }
   liquid: {
