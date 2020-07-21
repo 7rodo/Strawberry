@@ -17,7 +17,7 @@ genesisBullet.damage = 5
 genesisBullet.frontColor = Color.white
 genesisBullet.backColor = Color.valueOf("00dede")
 genesisBullet.pierce = true;
-genesisBullet.status = Status.freezing;
+genesisBullet.status = StatusEffects.freezing;
 //genesisBullet.armorMultiplier = 1.5
 
 const genesisWeapon = extendContent(Weapon, "genesis-equiph", {
