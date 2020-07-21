@@ -54,8 +54,3 @@ genesis.engineOffset = 5.3
 genesis.drillPower = 2
 genesis.mineSpeed = 4
 genesis.itemCapacity = 25
-  drawEngine(){
-  if(!Vars.state.isPaused()){
-    Effects.effect(ghostTrail, this.x + 30, this.y + 40, this.rotation);
-  }
-};
