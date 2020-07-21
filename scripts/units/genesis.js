@@ -37,9 +37,9 @@ const genesis = extendContent(Mech, "genesis-ship", {
     this.region = Core.atlas.find(this.name);
   },
 
- /* updateAlt(player){
-    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*///, player.rotation);
-  //}
+  updateAlt(player){
+    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*/, player.rotation);
+  }
 });
 
 genesis.weapon = genesisWeapon;
@@ -58,4 +58,4 @@ genesis.itemCapacity = 25
   if(!Vars.state.isPaused()){
     Effects.effect(ghostTrail, this.x + 30, this.y + 40, this.rotation);
   }
-})));
+};
