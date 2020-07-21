@@ -12,6 +12,8 @@ ammo: {
     liquid: slag
     damage: 4
     knockback: 1.2
+    status: burning
+		statusDuration: 300
   }
 }
 requirements: [
