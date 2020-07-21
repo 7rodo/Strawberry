@@ -38,8 +38,8 @@ const genesis = extendContent(Mech, "genesis-ship", {
   },
 
  /* updateAlt(player){
-    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*/, player.rotation);
-  }*/
+    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*///, player.rotation);
+  //}
 });
 
 genesis.weapon = genesisWeapon;
