@@ -3,7 +3,8 @@ shootSound: pew
 name: Reservation
 description: A far ranged turret with a fast fire rate and lots of ammo, can use various types of bullets. Useful on times of deficit.
 health: 450
-itemCapacity: 2000
+itemCapacity: 500
+maxAmmo: 500
 range: 350
 xRand: 6
 reload: 25
@@ -17,7 +18,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 5
+    ammoMultiplier: 8
     backColor: ac7349
     frontColor: dcd16b
   }
@@ -28,7 +29,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 7
+    ammoMultiplier: 9
     backColor: ac7349
     frontColor: dcd16b
   }
@@ -52,7 +53,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 15
+    ammoMultiplier: 25
     homingPower: 0.01
     homingRange: 75
     backColor: 6e6d6d
@@ -67,7 +68,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 20
+    ammoMultiplier: 30
     backColor: bfbfbf
     frontColor: ffffff
     bulletType: FlakBulletType
@@ -80,7 +81,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 50
     backColor: 26ff55
     frontColor: ffffff
     reloadMultiplier: 0.5
@@ -95,7 +96,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 45
     backColor: c78500
     frontColor: f3ff52
     reloadMultiplier: 0.6
@@ -108,7 +109,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 55
     backColor: ff3333
     frontColor: ffaaaa
     fragBullets: 7
@@ -119,13 +120,14 @@ ammo: {
      reloadMultiplier: 0.5
    }
    surge-alloy: {
+    bullet: flakSurge
     speed: 9
     damage: 33
     bulletWidth: 12
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 75
     lightning: 1
     backColor: ffff00
     frontColor: ffffff
