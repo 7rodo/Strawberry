@@ -6,6 +6,8 @@ size: 3
 shots: 15
 spread: 75
 innacuracy: 10
+liquidCapacity: 100
+reload: 90
 ammo: {
   slag: {
     type: LiquidBulletType
