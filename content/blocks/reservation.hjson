@@ -3,8 +3,8 @@ shootSound: pew
 name: Reservation
 description: A far ranged turret with a fast fire rate and lots of ammo, can use various types of bullets. Useful on times of deficit.
 health: 450
-itemCapacity: 500
-maxAmmo: 500
+itemCapacity: 750
+maxAmmo: 750
 range: 350
 xRand: 6
 reload: 25
@@ -18,7 +18,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 8
+    ammoMultiplier: 10
     backColor: ac7349
     frontColor: dcd16b
   }
@@ -29,7 +29,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 9
+    ammoMultiplier: 10
     backColor: ac7349
     frontColor: dcd16b
   }
@@ -40,7 +40,7 @@ ammo: {
     bulletHeight: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 2
+    ammoMultiplier: 5
     backColor: ac7349
     frontColor: dcd16b
     reloadMultiplier: 3
@@ -68,7 +68,7 @@ ammo: {
     bulletHeight: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 25
     backColor: bfbfbf
     frontColor: ffffff
     bulletType: FlakBulletType
@@ -96,7 +96,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 45
+    ammoMultiplier: 30
     backColor: c78500
     frontColor: f3ff52
     reloadMultiplier: 0.6
@@ -109,7 +109,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 55
+    ammoMultiplier: 50
     backColor: ff3333
     frontColor: ffaaaa
     fragBullets: 7
