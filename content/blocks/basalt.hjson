@@ -13,12 +13,12 @@ ammo: {
     damage: 4
     knockback: 1.2
     status: burning
-		statusDuration: 300
+    statusDuration: 300
   }
 }
 requirements: [
-  tin/60
   lead/60
+  bronze/35
   silicon/45
   metaglass/50
   thorium/35
