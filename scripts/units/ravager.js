@@ -1,10 +1,5 @@
 const ulib = require("ulib");
 
-const ravagerShootEffect = newEffect(20, e => {
-  Draw.color(Pal.lancerLaser);
-  Fill.circle(e.x, e.y, 30 * e.fin(), 45);
-})
-
 const summonEffect = newEffect(20, e => {
   Draw.color(Pal.lancerLaser);
   Lines.square(e.x, e.y, 30 * e.fin(), 45);
@@ -30,7 +25,7 @@ bull.damage = 10;
 bull.hitEffect = Fx.none;
 bull.shootEffect = Fx.none;
 bull.despawnEffect = Fx.none;
-bull.shootEffect = ravagerShootEffect;
+bull.shootEffect = summonEffect;
 bull.smokeEffect = Fx.none;
 
 
