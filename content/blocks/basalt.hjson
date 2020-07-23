@@ -1,6 +1,7 @@
 type: LiquidTurret
 name: Basalt
 description: A larged-sized liquid turret.Throws hot slag on the enemies.
+
 health: 840
 size: 3
 shots: 15
@@ -12,8 +13,8 @@ maxAmmo: 90
 reload: 60
 range: 150
 shootSound: splash
-hasLiquids: true
 shootEffect: shootLiquid
+
 ammo: {
   slag: {
     type: LiquidBulletType
@@ -24,12 +25,14 @@ ammo: {
     statusDuration: 300
   }
 }
+
 requirements: [
   lead/60
   graphite/30
   bronze/35
   metaglass/50
-  thorium/35
+  titanium/35
 ]
+
 category: turret
 research: scorch
