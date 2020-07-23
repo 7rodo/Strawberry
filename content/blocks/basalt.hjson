@@ -17,8 +17,8 @@ shootEffect: shootLiquid
 ammo: {
   slag: {
     type: LiquidBulletType
-		liquid: slag
-		damage: 5
+    liquid: slag
+    damage: 5
     knockback: 1
     status: melting
     statusDuration: 300
