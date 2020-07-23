@@ -9,7 +9,8 @@ inaccuracy: 10
 liquidCapacity: 90
 shootCone: 135
 maxAmmo: 90
-reload: 90
+reload: 60
+range: 190
 shootSound: splash
 shootEffect: shootLiquid
 ammo: {
