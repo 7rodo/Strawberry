@@ -20,7 +20,7 @@ ammo: {
     liquid: slag
     damage: 4
     knockback: 1.2
-    status: burning
+    status: melting
     statusDuration: 300
   }
 }
