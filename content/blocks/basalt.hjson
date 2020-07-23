@@ -27,12 +27,10 @@ ammo: {
 }
 
 requirements: [
-  lead/60
-  graphite/30
   bronze/35
   metaglass/50
   titanium/35
 ]
 
-category: turret
+category: turret 
 research: scorch
