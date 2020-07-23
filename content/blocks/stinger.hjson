@@ -1,12 +1,11 @@
 type: ArtilleryTurret
 name: Stinger
-description: A 3 way turret.
+description: A medium-sized 3 way turret.
 health: 800
 size: 2
 reload: 75
-range: 200
+range: 125
 shots: 3
-ammoUseEffect: shellEjectSmall
 inaccuracy: 10
 rotatespeed: 12
 spread: 12
