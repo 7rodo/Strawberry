@@ -12,6 +12,7 @@ maxAmmo: 90
 reload: 60
 range: 150
 shootSound: splash
+hasLiquids: true
 shootEffect: shootLiquid
 ammo: {
   slag: {
