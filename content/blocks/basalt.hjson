@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Basalt
-description: A larged sized liquid turret.Throws hot slag on the enemies.
+description: A larged-sized liquid turret.Throws hot slag on the enemies.
 health: 840
 size: 3
 shots: 15
