@@ -25,8 +25,8 @@ ammo: {
 }
 requirements: [
   lead/60
+  graphite/30
   bronze/35
-  silicon/45
   metaglass/50
   thorium/35
 ]
