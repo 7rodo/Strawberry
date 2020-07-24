@@ -29,6 +29,14 @@ ammo: {
     ammoMultiplier: 20
     backColor: 00aeff
     frontColor: ffffff
+    homingRange: 50
+    homingPower: 0.002
+    fragBullets: 15
+    fragBullet: {
+       speed: 9
+       damage: 2
+       type: MissileBulletType
+      }
   }
 }
 requirements: [
