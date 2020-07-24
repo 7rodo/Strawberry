@@ -3,7 +3,7 @@ name: Shatter
 size: 3
 health: 1480
 shots: 5
-range: 275
+range: 235
 burstSpacing: 2
 targetGround: false
 recoil: 4
