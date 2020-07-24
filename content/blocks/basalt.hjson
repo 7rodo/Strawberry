@@ -1,7 +1,6 @@
 type: LiquidTurret
 name: Basalt
-description: An upgraded version of Wave.
-
+description: A larged-sized liquid turret.Throws hot slag and oil on the enemies.
 size: 3
 health: 3000
 range: 220
@@ -16,14 +15,14 @@ shootEffect: shootLiquid
 liquidCapacity: 120
 
 ammo: {
-water: {
+oil: {
 		type: LiquidBulletType
-		liquid: water
+		liquid: oil
 		damage: 4
 		speed: 4
 		knockback: 0.7
 		ammoMultiplier: 1
-		status: wet
+		status: tarred
 		statusDuration: 600
 	}
 	slag: {
