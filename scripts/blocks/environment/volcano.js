@@ -16,8 +16,9 @@ const lavaShootEffect = newEffect(12, e => {
     Lines.circle(e.x, e.y, e.fin());
     Draw.reset();
 });
-const volcanoBullet = extend(ArtilleryBulletType, {});
-
+const volcanoBullet = extend(ArtilleryBulletType, {
+   draw(b){}
+});
 volcanoBullet.speed = 3;
 volcanoBullet.damage = 0;
 volcanoBullet.lifetime = 180;
