@@ -7,7 +7,7 @@ range: 220
 maxAmmo: 120
 recoil: 4
 shots: 20
-reload: 40
+reload: 15
 inaccuracy: 5
 shootCone: 135
 shootSound: splash
