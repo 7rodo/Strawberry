@@ -4,6 +4,7 @@ ammo: {
   surge-alloy: missileSurge
   
   rage: {
+    type: MissileBulletType
     damage: 20
     reloadMultiplier: 0.5
     ammoMultiplier: 10
