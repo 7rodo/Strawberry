@@ -7,7 +7,7 @@ range: 275
 burstSpacing: 2
 targetGround: false
 recoil: 4
-rotateSpeed: 27
+rotateSpeed: 10
 inaccuracy: 12
 shootcone: 17
 shootSound: shootSnap
