@@ -9,23 +9,13 @@ maxAmmo: 120
 recoil: 4
 shots: 15
 reload: 50
-inaccuracy: -105
+inaccuracy: 5
 shootCone: 135
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 120
 
 ammo: {
-	water: {
-		type: LiquidBulletType
-		liquid: water
-		damage: 4
-		speed: 4
-		knockback: 0.7
-		ammoMultiplier: 1
-		status: wet
-		statusDuration: 600
-	}
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
@@ -34,28 +24,9 @@ ammo: {
 		knockback: 0.6
 		ammoMultiplier: 1
 		status: burning
-		statusDuration: 600
+		statusDuration: 300
 	}
-	oil: {
-		type: LiquidBulletType
-		liquid: oil
-		damage: 4
-		speed: 4
-		knockback: 0.6
-		ammoMultiplier: 1
-		status: tarred
-		statusDuration: 600
-	}
-	cryofluid: {
-		type: LiquidBulletType
-		liquid: cryofluid
-		damage: 4
-		speed: 4
-		knockback: 0.6
-		ammoMultiplier: 1
-		status: freezing
-		statusDuration: 600
-	}
+	
 }
 
 requirements: [
