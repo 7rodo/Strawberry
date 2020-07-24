@@ -8,7 +8,7 @@ burstSpacing: 2
 targetGround: false
 recoil: 4
 rotateSpeed: 27
-innacuracy: 33
+inaccuracy: 12
 shootcone: 17
 shootSound: shootSnap
 ammo: {
