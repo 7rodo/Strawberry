@@ -20,7 +20,7 @@ ammo: {
 		liquid: oil
 		damage: 4
 		speed: 10
-		knockback: 0.7
+		knockback: 1
 		ammoMultiplier: 1
 		status: tarred
 		statusDuration: 120
@@ -30,9 +30,9 @@ ammo: {
 		liquid: slag
 		damage: 15
 		speed: 5
-		knockback: 0.6
+		knockback: 1.25
 		ammoMultiplier: 1
-		status: burning
+		status: melting
 		statusDuration: 300
 	}
 	
