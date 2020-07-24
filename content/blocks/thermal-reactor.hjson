@@ -1,3 +1,4 @@
+type: ThermalGenerator
 name: Thermal Reactor
 description: An upgraded Thermal Generator, produces mighty amounts of power.
 health: 1680
@@ -6,16 +7,14 @@ hasPower: true
 powerProduction: 4
 generateEffect: flakExplosion
 requirements: [
-  copper/200
-  lead/175
-  graphite/85
-  silicon/150
+  lead/120
+  bronze/50
   metaglass/100
-  titanium/125
-  thorium/120
-  plastanium/100
-  surge-alloy/55
-  radiode/60
+  graphite/85
+  silicon/80
+  thorium/100
+  plastanium/60
+  surge-alloy/50
 ]
 category: power
 research: thermal-generator
