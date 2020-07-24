@@ -15,7 +15,7 @@ ammo: {
     incendSpread: 2
     incendChance: 4
     homingPower: 0.05
-    homingRange: 250
+    homingRange: 75
     fragBullets: 4
     fragBullet: {
        speed: 3
