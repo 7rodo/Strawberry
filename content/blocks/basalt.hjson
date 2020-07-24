@@ -25,16 +25,6 @@ ammo: {
 		status: wet
 		statusDuration: 600
 	}
-	polluted-water: {
-		type: LiquidBulletType
-		liquid: polluted-water
-		damage: 4
-		speed: 4
-		knockback: 0.7
-		ammoMultiplier: 1
-		status: wet
-		statusDuration: 600
-	}
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
