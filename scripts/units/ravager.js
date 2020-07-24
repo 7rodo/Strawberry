@@ -17,7 +17,7 @@ const bull = extend(BasicBulletType, {
   init(b){
     if(!b) return;
 
-    ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
+    ulib.spawnUnit(UnitTypes.ghoul, b.getTeam(), b.x, b.y)
   }
 });
 
@@ -40,7 +40,7 @@ ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
 ravagerWeapon.length = 12;
 ravagerWeapon.width = 15;
-ravagerWeapon.shots = 3;
+ravagerWeapon.shots = 8;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 20;
@@ -59,7 +59,7 @@ ravager.create(prov(() => extend(GroundUnit, {
     update(){
       this.super$update();
 
-      if(Mathf.chance(Time.delta() * 0.01)){
+      if(Mathf.chance(Time.delta() * 0.03)){
         Effects.effect(summonEffect, this);
         ulib.spawnUnit(UnitTypes.wraith, this.getTeam(), this.x, this.y)
       }
@@ -78,6 +78,7 @@ ravager.create(prov(() => extend(GroundUnit, {
 ravager.speed = 0.1;
 ravager.maxVelocity = 0.15;
 ravager.mass = 50;
+ravager.range = 460;
 ravager.weaponOffsetY = 2;
 ravager.description = "j";
 ravager.health = 25000;
