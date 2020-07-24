@@ -7,7 +7,7 @@ range: 220
 maxAmmo: 120
 recoil: 4
 shots: 20
-reload: 50
+reload: 40
 inaccuracy: 5
 shootCone: 135
 shootSound: splash
@@ -19,7 +19,7 @@ ammo: {
 		type: LiquidBulletType
 		liquid: oil
 		damage: 4
-		speed: 4
+		speed: 10
 		knockback: 0.7
 		ammoMultiplier: 1
 		status: tarred
@@ -28,7 +28,7 @@ ammo: {
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
-		damage: 9
+		damage: 15
 		speed: 5
 		knockback: 0.6
 		ammoMultiplier: 1
