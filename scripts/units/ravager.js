@@ -82,6 +82,7 @@ ravager.range = 50;
 ravager.attackLength = 460;
 ravager.shootCone = 250;
 ravager.weaponOffsetY = 2;
+ravager.hitSize = 10;
 ravager.description = "j";
 ravager.health = 25000;
 ravager.weapon = ravagerWeapon;
