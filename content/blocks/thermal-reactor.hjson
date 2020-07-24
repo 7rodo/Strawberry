@@ -4,7 +4,7 @@ description: An upgraded Thermal Generator, produces mighty amounts of power.
 health: 1680
 size: 3
 hasPower: true
-powerProduction: 4
+powerProduction: 3.5
 generateEffect: flakExplosion
 requirements: [
   lead/120
