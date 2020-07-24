@@ -19,8 +19,9 @@ ammo: {
   blast-compound: flakExplosive
   
   rage: {
-    damage: 3
-    splashDamage: 60
+    damage: 8
+    splashDamage: 45
+    speed: 8
     reloadMultiplier: 0.5
     bulletWidth: 10
     bulletHeight: 10
