@@ -21,7 +21,7 @@ ammo: {
   rage: {
     damage: 16
     splashDamage: 45
-    speed: 5
+    speed: 4
     reloadMultiplier: 0.3
     bulletWidth: 10
     bulletHeight: 10
