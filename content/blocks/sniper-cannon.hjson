@@ -4,16 +4,16 @@ description: A far range cannon. Useful against single enemies.
 health: 250
 size: 1
 reload: 180
-range: 300
+range: 250
 inaccuracy: 0
 rotatespeed: 40
 shots: 1
 spread: 0
 ammo: {
   lead: {
-    speed: 15
+    speed: 10
     damage: 8
-    bulletWidth: 3
+    bulletWidth: 9
     bulletHeight: 14
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
@@ -21,9 +21,9 @@ ammo: {
     pierce: true
   }
   silicon: {
-    speed: 20
+    speed: 14
     damage: 14
-    bulletWidth: 5
+    bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
@@ -32,9 +32,9 @@ ammo: {
     pierce: true
     }
  graphite: {
-    speed: 15
+    speed: 11
     damage: 19
-    bulletWidth: 3
+    bulletWidth: 9
     bulletHeight: 14
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
