@@ -32,8 +32,8 @@ ammo: {
     damage: 8
     ammoMultiplier: 1.25
     incendAmount: 8
-    incendSpread: 12
-    incendChance: 33.33
+    incendSpread: 2
+    incendChance: 3
   }
 }
 requirements: [
