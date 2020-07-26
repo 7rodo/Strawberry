@@ -22,7 +22,7 @@ ammo: {
     damage: 16
     splashDamage: 45
     speed: 4
-    reloadMultiplier: 0.3
+    reloadMultiplier: 0.4
     bulletWidth: 10
     bulletHeight: 10
     splashDamageRadius: 90
