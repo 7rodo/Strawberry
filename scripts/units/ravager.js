@@ -21,7 +21,7 @@ const bull = extend(BasicBulletType, {
   }
 });
 
-bull.damage = 10;
+bull.damage = 15;
 bull.hitEffect = Fx.none;
 bull.shootEffect = Fx.none;
 bull.despawnEffect = Fx.none;
@@ -59,10 +59,11 @@ ravager.create(prov(() => extend(GroundUnit, {
     update(){
       this.super$update();
 
-      if(Mathf.chance(Time.delta() * 0.03)){
+      if(Mathf.chance(Time.delta() * 0.05)){
         Effects.effect(summonEffect, this);
-        ulib.spawnUnit(UnitTypes.wraith, this.getTeam(), this.x, this.y)
+        ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), this.getTeam(), this.x, this.y)
       }
+
     },
 
     onDeath(){
