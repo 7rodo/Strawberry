@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Tin Gun
 description: A weak turret that shoots bursts of 3 projectiles. Useful in the earlygame.
-health: 250
+health: 170
 size: 1
 reload: 60
 range: 100
@@ -12,12 +12,12 @@ spread: 0
 ammo: {
   copper: {
     speed: 7
-    damage: 9
+    damage: 7
     ammoMultiplier: 1.5
   }
   graphite: {
     speed: 7
-    damage: 18
+    damage: 15
     ammoMultiplier: 1.5
     reloadMultiplier: 0.6
   }
@@ -29,7 +29,7 @@ ammo: {
   }
   pyratite: {
     speed: 7
-    damage: 5
+    damage: 8
     ammoMultiplier: 1.25
     incendAmount: 8
     incendSpread: 12
@@ -37,8 +37,7 @@ ammo: {
   }
 }
 requirements: [
-  tin/30
-  copper/5
-]
+  tin/25
+  ]
 category: turret
 research: duo
