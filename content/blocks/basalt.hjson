@@ -6,10 +6,10 @@ health: 840
 range: 190
 maxAmmo: 30
 recoil: 3
-shots: 20
+shots: 15
 reload: 20
 inaccuracy: 5
-shootCone: 135
+shootCone: 100
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 120
