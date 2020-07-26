@@ -71,7 +71,7 @@ ravager.create(prov(() => extend(GroundUnit, {
             } else {
               ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
             }
-          }, this.getTeam(), this.x, this.y)
+          },
                 }
           
               },
