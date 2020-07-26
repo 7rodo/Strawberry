@@ -61,20 +61,10 @@ ravager.create(prov(() => extend(GroundUnit, {
 
       if(Mathf.chance(Time.delta() * 0.05)){
         Effects.effect(summonEffect, this);
-        let random = Mathf.random()
-          random *= 100
-          if (random > 12.5) {
-            ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), b.getTeam(), b.x, b.y)
-          } else {
-            if (random <= 2.5) {
-              ulib.spawnUnit(UnitTypes.ghoul, b.getTeam(), b.x, b.y)
-            } else {
-              ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
-            }
-          },
-                }
-          
-              },
+        ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), this.getTeam(), this.x, this.y)
+      }
+
+    },
 
     onDeath(){
       Effects.effect(deadEffect, this);
@@ -85,7 +75,7 @@ ravager.create(prov(() => extend(GroundUnit, {
       this.drownTime = 0;
       Events.fire(EventType.UnitDestroyEvent(this));
     }
-}));
+})));
 ravager.speed = 0.1;
 ravager.maxVelocity = 0.15;
 ravager.mass = 50;
