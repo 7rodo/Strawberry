@@ -7,7 +7,7 @@ reload: 60
 range: 100
 inaccuracy: 10
 rotatespeed: 40
-shots: 3
+shots: 2
 spread: 0
 ammo: {
   copper: {
