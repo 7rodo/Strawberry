@@ -61,7 +61,7 @@ ravager.create(prov(() => extend(GroundUnit, {
 
       if(Mathf.chance(Time.delta() * 0.05)){
         Effects.effect(summonEffect, this);
-        ulib.spawnUnit(let random = Mathf.random()
+        let random = Mathf.random()
           random *= 100
           if (random > 12.5) {
             ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), b.getTeam(), b.x, b.y)
@@ -85,7 +85,7 @@ ravager.create(prov(() => extend(GroundUnit, {
       this.drownTime = 0;
       Events.fire(EventType.UnitDestroyEvent(this));
     }
-})));
+}));
 ravager.speed = 0.1;
 ravager.maxVelocity = 0.15;
 ravager.mass = 50;
