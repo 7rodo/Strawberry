@@ -1,7 +1,7 @@
 type: DoubleTurret
 shootSound: pew
 name: Reservation
-description: A far ranged turret with a fast fire rate and lots of ammo, can use various types of bullets. Useful on times of deficit.
+description: A far ranged turret that stores 750 ammo, can use various types of bullets. Useful on times of deficit.
 health: 450
 itemCapacity: 750
 maxAmmo: 750
@@ -19,6 +19,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 10
+    lifetime: 240
     backColor: ac7349
     frontColor: dcd16b
   }
@@ -32,6 +33,7 @@ ammo: {
     ammoMultiplier: 10
     backColor: ac7349
     frontColor: dcd16b
+    lifetime: 240
   }
   sand: {
     speed: 4
@@ -44,7 +46,8 @@ ammo: {
     backColor: ac7349
     frontColor: dcd16b
     reloadMultiplier: 3
-    innacuracy: 70
+    innacuracy: 15
+    lifetime: 240
   }
   silicon: {
     speed: 7
@@ -60,6 +63,7 @@ ammo: {
     frontColor: ffffff
     bulletType: MissileBulletType
     reloadMultiplier: 0.8
+    lifetime: 240
   }
   metaglass: {
     speed: 5
@@ -73,6 +77,7 @@ ammo: {
     frontColor: ffffff
     bulletType: FlakBulletType
     reloadMultiplier: 0.6
+    lifetime: 240
   }
   plastanium: {
     speed: 8
@@ -88,6 +93,7 @@ ammo: {
     splashDamage:	5
     splashDamageRadius:	20
     hitEffect: flakExplosionBig
+    lifetime: 240
   }
   pyratite: {
     speed: 4
@@ -100,6 +106,7 @@ ammo: {
     backColor: c78500
     frontColor: f3ff52
     reloadMultiplier: 0.6
+    lifetime: 240
     incendAmount: 2
   }
   blast-compound: {
@@ -112,6 +119,7 @@ ammo: {
     ammoMultiplier: 50
     backColor: ff3333
     frontColor: ffaaaa
+    lifetime: 240
     fragBullets: 7
     fragBullet: {
        speed: 3
@@ -132,6 +140,7 @@ ammo: {
     backColor: ffff00
     frontColor: ffffff
     reloadMultiplier: 0.5
+    lifetime: 240
       }
 }
 
