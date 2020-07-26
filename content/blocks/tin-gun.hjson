@@ -12,7 +12,7 @@ spread: 0
 ammo: {
   copper: {
     speed: 7
-    damage: 7
+    damage: 9
     ammoMultiplier: 1.5
   }
   graphite: {
