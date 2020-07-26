@@ -5,22 +5,28 @@ const summonEffect = newEffect(20, e => {
   Lines.square(e.x, e.y, 30 * e.fin(), 45);
 })
 
-const blastEffect = newEffect(20, e => {
-  Draw.color(Pal.lightishOrange);
-  Lines.circle(e.x, e.y, 30 * e.fin(), 45);
-})
-
 const deadEffect = newEffect(15, e => {
   Draw.color(Pal.lancerLaser);
   Lines.circle(e.x, e.y, 30 * e.fin());
 });
 
-const bull = extend(ArtilleryBulletType, {
+const bull = extend(BasicBulletType, {
+  draw(b){
+  },
+
+  init(b){
+    if(!b) return;
+
+    ulib.spawnUnit(UnitTypes.ghoul, b.getTeam(), b.x, b.y)
+  }
 });
 
-bull.damage = 45;
+bull.damage = 15;
 bull.hitEffect = Fx.none;
-bull.shootEffect = blastEffect;
+bull.shootEffect = Fx.none;
+bull.despawnEffect = Fx.none;
+bull.shootEffect = summonEffect;
+bull.smokeEffect = Fx.none;
 
 
 const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
@@ -30,11 +36,11 @@ const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
   }
 });
 
-ravagerWeapon.reload = 90;
+ravagerWeapon.reload = 150;
 ravagerWeapon.alternate = true;
 ravagerWeapon.length = 12;
 ravagerWeapon.width = 15;
-ravagerWeapon.shots = 3;
+ravagerWeapon.shots = 8;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 20;
