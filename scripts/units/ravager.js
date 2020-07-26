@@ -61,7 +61,17 @@ ravager.create(prov(() => extend(GroundUnit, {
 
       if(Mathf.chance(Time.delta() * 0.05)){
         Effects.effect(summonEffect, this);
-        ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), this.getTeam(), this.x, this.y)
+        ulib.spawnUnit(let random = Math.random()
+random *= 100
+if (random > 12.5) {
+  ulib.spawnUnit(Vars.content.getByName(ContentType.unit, "strawberry-bull"), b.getTeam(), b.x, b.y)
+} else {
+  if (random <= 2.5) {
+    ulib.spawnUnit(UnitTypes.ghoul, b.getTeam(), b.x, b.y)
+  } else {
+    ulib.spawnUnit(UnitTypes.wraith, b.getTeam(), b.x, b.y)
+  }
+}, this.getTeam(), this.x, this.y)
       }
 
     },
