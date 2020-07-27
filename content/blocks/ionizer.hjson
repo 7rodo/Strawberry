@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Ionizer
+description: Ionizes coal and lead to make oxidised radium.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 90 
+effect: fuelburn
+itemCapacity: 30
+updateEffect: fuelburn
+consumes: {
+  power: 1
+  items: {
+    items: [
+      coal/15
+      lead/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/35
+  graphite/60
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 2
+outputItem: oxi-radium/15
