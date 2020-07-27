@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: Filter
+description: Filters tin from sand.
+size: 1
+health: 200
+craftTime: 60
+itemCapacity: 10
+consumes: {
+  items: {
+    items: [
+      sand/2
+    ]
+  }
+}
+requirements: [
+  copper/45
+]
