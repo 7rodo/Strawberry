@@ -15,3 +15,6 @@ consumes: {
 requirements: [
   copper/45
 ]
+outputItem: sand/1
+category: crafting
+research: graphite-press
