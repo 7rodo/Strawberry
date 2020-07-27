@@ -21,7 +21,7 @@ const bull = extend(BasicBulletType, {
   }
 });
 
-bull.damage = 75;
+bull.damage = 70;
 bull.hitEffect = Fx.none;
 bull.shootEffect = Fx.none;
 bull.despawnEffect = Fx.none;
@@ -40,7 +40,7 @@ ravagerWeapon.reload = 75;
 ravagerWeapon.alternate = true;
 ravagerWeapon.length = 12;
 ravagerWeapon.width = 15;
-ravagerWeapon.shots = 8;
+ravagerWeapon.shots = 5;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
 ravagerWeapon.minPlayerDist = 120;
