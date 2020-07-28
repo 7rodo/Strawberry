@@ -1,6 +1,6 @@
 type: SolidPump
 name: Large Water Extractor
-description: .
+description: An upgraded Water Extractor.
 size: 3
 health: 360
 pumpAmount: 0.4
