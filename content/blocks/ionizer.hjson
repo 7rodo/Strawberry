@@ -4,7 +4,7 @@ description: Ionizes coal and lead to make oxidised radium.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 200 
+craftTime: 180 
 effect: fuelburn
 itemCapacity: 30
 updateEffect: fuelburn
@@ -12,8 +12,8 @@ consumes: {
   power: 1
   items: {
     items: [
-      coal/15
-      lead/1
+      coal/5
+      lead/3
     ]
   }
 }
