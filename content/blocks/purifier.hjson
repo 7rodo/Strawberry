@@ -3,7 +3,7 @@ description: Purifies Oxidised Radium to make Radiode.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 240 
+craftTime: 150 
 effect: fuelburn
 itemCapacity: 30
 updateEffect: fuelburn
