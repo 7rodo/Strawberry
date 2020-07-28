@@ -1,4 +1,4 @@
-type: WaterExtractor
+type: SolidPump
 name: Large Water Extractor
 description: .
 size: 3
@@ -19,6 +19,5 @@ requirements: [
   titanium/45
   thorium/20
 ]
-
 category: production
 research: water-extractor
