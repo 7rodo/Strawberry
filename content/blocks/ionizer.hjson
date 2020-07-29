@@ -4,7 +4,7 @@ description: Ionizes coal and lead to make oxidised radium.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 180 
+craftTime: 30 
 effect: fuelburn
 itemCapacity: 30
 updateEffect: fuelburn
@@ -26,4 +26,4 @@ category: crafting
 research: silicon-smelter
 idleSound: respawning
 idleSoundVolume: 2
-outputItem: oxi-radium/15
+outputItem: oxi-radium/3
