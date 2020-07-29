@@ -4,15 +4,17 @@ description: Slows down enemies with a cold beam.
 health: 680
 size: 2
 reload: 120
-xRand: 8
+xRand: 6
 range: 140
 maxAmmo: 25
-powerUse: 3.4
 shootSound: beam
 shootEffect: lancerLaserCharge
 ammo: {
   water: lancerLaser
 }
+consumes: {
+ power: 2.75
+ }
 requirements: [
   lead/25
   silicon/40
