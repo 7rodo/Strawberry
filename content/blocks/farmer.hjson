@@ -3,7 +3,7 @@ name: Farmer
 description: An upgraded cultivator.
 health: 600
 recurrence: 2
-craftTime: 85
+craftTime: 80
 size: 3
 itemCapacity: 30
 liquidCapacity: 150
@@ -11,10 +11,10 @@ consumes: {
   power: 1.55
   liquid: {
   liquid: cryofluid
-  amount: 0.5
+  amount: 0.3
   }
 }
-outputItem: spore-pod/1
+outputItem: spore-pod/2
 requirements: [
   copper/30
   lead/50
