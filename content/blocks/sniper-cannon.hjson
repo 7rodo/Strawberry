@@ -12,21 +12,21 @@ spread: 0
 ammo: {
   copper: {
     speed: 7
-    damage: 15
+    damage: 50
     bulletWidth: 8
     bulletHeight: 11
     ammoMultiplier: 1
   }
   coal: {
     speed: 7
-    damage: 10
+    damage: 40
     bulletWidth: 8
     bulletHeight: 11
     incentAmount: 0.25
   }
   graphite: {
     speed: 8
-    damage: 32
+    damage: 98
     bulletWidth: 8
     bulletHeight: 11
     ammoMultiplier: 3
@@ -36,7 +36,7 @@ ammo: {
   }
   pyratite: {
     speed: 7
-    damage: 18
+    damage: 60
     bulletWidth: 8
     bulletHeight: 11
     incentAmount: 3
