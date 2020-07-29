@@ -1,4 +1,4 @@
-type: ArtilleryTurret
+type: ItemTurret
 name: Sniper Cannon
 description: A far range cannon. Useful against single enemies.
 health: 250
@@ -10,44 +10,44 @@ rotatespeed: 40
 shots: 1
 spread: 0
 ammo: {
-  lead: {
-    speed: 10
-    damage: 8
-    bulletWidth: 9
-    bulletHeight: 14
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
+  copper: {
+    speed: 7
+    damage: 15
+    bulletWidth: 8
+    bulletHeight: 11
     ammoMultiplier: 1
-    pierce: true
   }
-  silicon: {
-    speed: 14
-    damage: 14
-    bulletWidth: 7
-    bulletHeight: 9
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 1
-    type: MissileBulletType
-    pierce: true
-    }
- graphite: {
-    speed: 11
-    damage: 19
-    bulletWidth: 9
-    bulletHeight: 14
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 1
+  coal: {
+    speed: 7
+    damage: 10
+    bulletWidth: 8
+    bulletHeight: 11
+    incentAmount: 0.25
+  }
+  graphite: {
+    speed: 8
+    damage: 32
+    bulletWidth: 8
+    bulletHeight: 11
+    ammoMultiplier: 3
     reloadMultiplier: 0.6
-    pierce: true
+    frontColor: ffffff
+    backColor: 56a7c4
+  }
+  pyratite: {
+    speed: 7
+    damage: 18
+    bulletWidth: 8
+    bulletHeight: 11
+    incentAmount: 3
+    ammoMultiplier: 5
+    frontColor: ffffff
+    backColor: e8b52a
   }
 }
 requirements: [
-  tin/45
+  tin/20
   lead/25
-  copper/40
-  bronze/20
 ]
 category: turret
 research: hail
