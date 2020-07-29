@@ -22,7 +22,7 @@ ammo: {
     damage: 40
     bulletWidth: 8
     bulletHeight: 11
-    incentAmount: 0.25
+    incendAmount: 0.25
   }
   graphite: {
     speed: 8
@@ -39,7 +39,7 @@ ammo: {
     damage: 60
     bulletWidth: 8
     bulletHeight: 11
-    incentAmount: 3
+    incendAmount: 3
     ammoMultiplier: 5
     frontColor: ffffff
     backColor: e8b52a
