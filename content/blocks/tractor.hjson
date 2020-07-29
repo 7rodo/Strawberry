@@ -1,0 +1,22 @@
+type: LiquidTurret
+name: Tractor
+description: Slows down enemies with a cold beam.
+health: 680
+size: 2
+reload: 120
+xRand: 8
+range: 140
+maxAmmo: 25
+shootSound: beam
+shootEffect: lancerLaserCharge
+ammo: {
+  water: lancerLaser
+}
+requirements: [
+  lead/25
+  silicon/40
+  titanium/20
+  plastanium/15
+  ]
+category: turret
+research: lancer
