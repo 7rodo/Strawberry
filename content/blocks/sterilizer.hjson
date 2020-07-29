@@ -4,7 +4,7 @@ size: 3
 health: 720
 hasPower: true
 hasItems: true
-craftTime: 60 
+craftTime: 40 
 effect: fuelburn
 itemCapacity: 60
 updateEffect: fuelburn
@@ -18,7 +18,7 @@ consumes: {
   }
   liquid: {
     liquid: cryofluid
-    amount: 0.18
+    amount: 0.15
   }
 }
 requirements: [
