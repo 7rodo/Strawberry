@@ -3,7 +3,7 @@ description: Purifies Oxidised Radium to make Radiode.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 100 
+craftTime: 50 
 effect: fuelburn
 itemCapacity: 30
 updateEffect: fuelburn
@@ -27,7 +27,7 @@ requirements: [
   titanium/50
 ]
 category: crafting
-research: plastanium-compressor
+research: kiln
 idleSound: respawning
 idleSoundVolume: 2
 outputItem: radiode/1
