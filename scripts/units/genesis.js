@@ -18,7 +18,7 @@ genesisBullet.frontColor = Color.white
 genesisBullet.backColor = Color.valueOf("00dede")
 genesisBullet.pierce = true;
 genesisBullet.status = StatusEffects.freezing;
-//genesisBullet.armorMultiplier = 1.5
+genesisBullet.speedMultiplier = 0.667
 
 const genesisWeapon = extendContent(Weapon, "genesis-equiph", {
   load(){
