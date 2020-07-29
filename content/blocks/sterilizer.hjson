@@ -4,7 +4,7 @@ size: 3
 health: 720
 hasPower: true
 hasItems: true
-craftTime: 90 
+craftTime: 60 
 effect: fuelburn
 itemCapacity: 60
 updateEffect: fuelburn
@@ -12,8 +12,8 @@ consumes: {
   power: 2.5
   items: {
     items: [
-      oxi-radium/20
-      metaglass/1
+      oxi-radium/8
+      metaglass/3
     ]
   }
   liquid: {
