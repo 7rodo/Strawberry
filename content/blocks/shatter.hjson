@@ -43,7 +43,7 @@ requirements: [
   copper/120
   lead/180
   metaglass/80
-  titanium/60
+  plastanium/60
   radiode/45
   ]
 research: scatter
