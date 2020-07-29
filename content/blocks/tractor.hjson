@@ -11,7 +11,7 @@ powerUse: 3.4
 shootSound: beam
 shootEffect: lancerLaserCharge
 ammo: {
-  water: {lancerLaser}
+  water: lancerLaser
 }
 requirements: [
   lead/25
