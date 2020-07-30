@@ -1,6 +1,6 @@
 name: "strawberry"
 displayName: "[pink]Strawberry" //what displays in the mod selection menu
 author: "7rodo"
-description: "A simple mod."
-version: "1.0"
+description: "A simple mod by 7rodo with help from IvyX. Brings useful buildings to make the game more fun, and defends your core..."
+version: "1.1"
 minGameVersion: "103"
