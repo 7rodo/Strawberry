@@ -6,28 +6,32 @@ ammo: {
   plastanium: artilleryPlastic
   
   rage: {
-    damage: 60
-    reloadMultiplier: 0.3
-    ammoMultiplier: 10
-    bulletWidth: 14
-    bulletHeight: 14
+    type: ArtilleryBulletType
+    damage: 70
+    reloadMultiplier: 0.4
+    bulletWidth: 8
+    bulletHeight: 8
+    ammoMultiplier: 15
     backColor: 00aeff
     frontColor: ffffff
-    splashDamage: 70
-    splashDamageRadius: 90
+    hitEffect: explosion
     incendAmount: 1
-    incendSpread: 20
+    incendSpread: 10
     incendChance: 2
-    collidesTiles: false
-    homingPower: 0.02
-    homingRange: 90
-    fragBullets: 4
+    homingPower: 0.03
+    homingRange: 85
+    splashDamage: 20
+    splashDamageRadius: 120
+    fragBullets: 2
     fragBullet: {
-       speed: 5
-       damage: 10
+       speed: 3
+       damage: 35
+       bulletWidth: 25
+       bulletHeight: 13
+       hitSize: 12
        type: MissileBulletType
       }
     lifetime: 200
-    speed: 6
+    speed: 7
   }
 }
