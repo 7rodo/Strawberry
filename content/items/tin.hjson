@@ -2,5 +2,5 @@ type: material
 name: Tin
 description: The most common resource.
 hardness: 1
-cost: 2
+cost: 0
 color: bfab7d
