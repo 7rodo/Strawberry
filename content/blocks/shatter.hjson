@@ -20,7 +20,7 @@ ammo: {
   
   rage: {
     damage: 16
-    splashDamage: 45
+    splashDamage: 30
     speed: 4
     reloadMultiplier: 0.4
     bulletWidth: 10
@@ -31,10 +31,10 @@ ammo: {
     frontColor: ffffff
     homingRange: 50
     homingPower: 0.002
-    fragBullets: 3
+    fragBullets: 6
     fragBullet: {
        speed: 11
-       damage: 5
+       damage: 9
        type: MissileBulletType
       }
   }
