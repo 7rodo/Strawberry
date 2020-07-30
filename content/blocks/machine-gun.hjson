@@ -33,6 +33,6 @@ ammo: {
     incendChance: 3
   }
 }
-requirements: tin/45
+requirements: [ tin/45 ]
 category: turret
 research: tin-gun
