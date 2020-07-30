@@ -1,0 +1,38 @@
+type: ItemTurret
+name: Machine Gun
+description: Shoots spread bullets in a medium rate.
+health: 240
+reload: 12
+inaccuracy: 14
+shots: 2
+shotDelay: 4
+ammo: {
+  copper: {
+    speed: 7
+    damage: 5
+    ammoMultiplier: 1.5
+  }
+  graphite: {
+    speed: 7
+    damage: 13
+    ammoMultiplier: 1.5
+    reloadMultiplier: 0.6
+  }
+  tin: {
+    speed: 7
+    damage: 3
+    ammoMultiplier: 1.5
+    reloadMultiplier: 2.08
+  }
+  pyratite: {
+    speed: 7
+    damage: 6
+    ammoMultiplier: 2
+    incendAmount: 1
+    incendSpread: 2
+    incendChance: 3
+  }
+}
+requirements: tin/45
+category: turret
+research: tin-gun
