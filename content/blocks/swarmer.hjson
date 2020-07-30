@@ -5,7 +5,7 @@ ammo: {
   
   rage: {
     type: MissileBulletType
-    damage: 20
+    damage: 35
     reloadMultiplier: 0.5
     ammoMultiplier: 10
     backColor: 00aeff
@@ -20,7 +20,7 @@ ammo: {
     fragBullets: 4
     fragBullet: {
        speed: 3
-       damage: 10
+       damage: 12
        type: MissileBulletType
       }
     lifetime: 200
