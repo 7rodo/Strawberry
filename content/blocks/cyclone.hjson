@@ -6,7 +6,7 @@ ammo: {
   
   rage: {
     damage: 40
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.6
     bulletWidth: 8
     bulletHeight: 8
     ammoMultiplier: 15
@@ -20,13 +20,13 @@ ammo: {
     homingRange: 75
     splashDamage: 20
     splashDamageRadius: 40
-    fragBullets: 5
+    fragBullets: 3
     fragBullet: {
-       speed: 5
-       damage: 8
+       speed: 12
+       damage: 10
        type: MissileBulletType
       }
     lifetime: 200
-    speed: 5
+    speed: 7
   }
 }
