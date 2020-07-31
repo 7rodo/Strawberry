@@ -3,5 +3,5 @@ name: Rage
 description: A combination of Blast Compound, Pyratite, Silicon and Radium forged together with Slag. Chases after enemies. Dangerously explosive, highly flammable and radioactive. Handle with care.
 radioactivity: 2.5
 flammability: 2.5
-explosiveness: 6.6
+explosiveness: 5
 color: 009dff
