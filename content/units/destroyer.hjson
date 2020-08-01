@@ -5,7 +5,7 @@ health: 1250
 speed: 0.2
 maxVelocity: 0.3
 mass: 50
-range: 180
+range: 130
 targetAir: false
 weapon: {
   name: destroyer-weapon
