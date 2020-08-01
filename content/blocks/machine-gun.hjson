@@ -3,6 +3,7 @@ name: Machine Gun
 description: Shoots spread bullets in a medium rate.
 health: 240
 reload: 12
+range: 92
 inaccuracy: 14
 shots: 2
 shotDelay: 4
