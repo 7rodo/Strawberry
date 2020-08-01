@@ -1,10 +1,10 @@
 type: DoubleTurret
 shootSound: pew
 name: Reservation
-description: A far ranged turret that stores 750 ammo, can use various types of bullets. Useful on times of deficit.
+description: A far ranged turret that stores 350 ammo, can use various types of bullets. Useful on times of deficit.
 health: 450
-itemCapacity: 750
-maxAmmo: 750
+itemCapacity: 350
+maxAmmo: 350
 range: 350
 xRand: 6
 reload: 25
@@ -67,7 +67,7 @@ ammo: {
   }
   metaglass: {
     speed: 5
-    damage: 22
+    damage: 16
     bulletWidth: 8
     bulletHeight: 6
     shootEffect: shootSmall
@@ -76,12 +76,12 @@ ammo: {
     backColor: bfbfbf
     frontColor: ffffff
     bulletType: FlakBulletType
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.7
     lifetime: 240
   }
   plastanium: {
     speed: 8
-    damage: 29
+    damage: 25
     bulletWidth: 8
     bulletHeight: 6
     shootEffect: shootSmall
@@ -89,7 +89,7 @@ ammo: {
     ammoMultiplier: 50
     backColor: 26ff55
     frontColor: ffffff
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.6
     splashDamage:	5
     splashDamageRadius:	20
     hitEffect: flakExplosionBig
@@ -97,7 +97,7 @@ ammo: {
   }
   pyratite: {
     speed: 4
-    damage: 25
+    damage: 20
     bulletWidth: 12
     bulletHeight: 9
     shootEffect: shootSmall
@@ -111,7 +111,7 @@ ammo: {
   }
   blast-compound: {
     speed: 4
-    damage: 45
+    damage: 31
     bulletWidth: 12
     bulletHeight: 9
     shootEffect: shootSmall
@@ -125,12 +125,12 @@ ammo: {
        speed: 3
        damage: 12
       }
-     reloadMultiplier: 0.5
+     reloadMultiplier: 0.6
    }
    surge-alloy: {
     bullet: flakSurge
     speed: 9
-    damage: 33
+    damage: 28
     bulletWidth: 12
     bulletHeight: 9
     shootEffect: shootSmall
@@ -146,12 +146,9 @@ ammo: {
 
 requirements: [
   tin/100
-  copper/80
   graphite/45
-  silicon/60
-  titanium/50
-  radiode/25
-  bronze/35
+  titanium/75
+  bronze/80
   ]
   
 research: cyclone
