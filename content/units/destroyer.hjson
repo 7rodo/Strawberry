@@ -22,13 +22,13 @@ weapon: {
     speed: 4
     damage: 1
     lifetime: 90
-    bulletWidth: 20
+    bulletWidth: 14
     bulletHeight: 14
     explodeRange: 75
     splashDamage: 10
     splashDamageRadius: 75
-    hitEffect: impactShockwave
-    backColor: d95014
+    hitEffect: shockwave
+    backColor: 18abdb
     frontColor: ffffff
   }
 }
