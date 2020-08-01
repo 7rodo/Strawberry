@@ -1,6 +1,6 @@
 type: GroundUnit
 name: Destroyer
-description: A tanky unit that shoots deadly fast bullets.
+description: A tanky unit that shoots deadly fast bullets. Shoots over many things, to attack production
 health: 1250
 speed: 0.2
 maxVelocity: 0.3
@@ -9,9 +9,9 @@ range: 130
 targetAir: false
 weapon: {
   name: destroyer-weapon
-  length: 0
+  length: 2
   shots: 1
-  width: -12
+  width: -14
   inaccuracy: 3
   spread: 0
   reload: 90
