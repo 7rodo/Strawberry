@@ -18,15 +18,16 @@ weapon: {
   shootSound: artillery
   bullet: {
     type: ArtilleryBulletType
-    speed: 8
+    speed: 5
     damage: 3
+    lifetime: 90
     bulletWidth: 20
     bulletHeight: 14
     explodeRange: 50
     splashDamage: 40
     splashDamageRadius: 33
-    hitEffect: bigShockwave
-    backColor: ffff00
+    hitEffect: impactShockwave
+    backColor: d95014
     frontColor: ffffff
   }
 }
