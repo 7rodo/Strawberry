@@ -1,6 +1,6 @@
 type: GroundUnit
 name: Destroyer
-description: A tanky unit that shoots deadly fast bullets. Shoots over many things, to attack production
+description: A heavy unit that shoots deadly fast bullets. Shoots over many things, to attack production
 health: 1250
 speed: 0.2
 maxVelocity: 0.3
