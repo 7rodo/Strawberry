@@ -6,6 +6,7 @@ speed: 0.2
 maxVelocity: 0.3
 mass: 50
 range: 180
+targetAir: false
 weapon: {
   name: destroyer-weapon
   length: 0
