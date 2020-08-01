@@ -22,9 +22,9 @@ weapon: {
     damage: 3
     bulletWidth: 20
     bulletHeight: 14
-    explodeRange: 50
-    splashDamage: 40
-    splashDamageRadius: 33
+    //explodeRange: 50
+    //splashDamage: 40
+    //splashDamageRadius: 33
     hitEffect: bigShockwave
     backColor: ffff00
     frontColor: ffffff
