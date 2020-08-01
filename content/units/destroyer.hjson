@@ -10,13 +10,14 @@ weapon: {
   name: destroyer-weapon
   length: 0
   shots: 0
-  width: 11
+  width: -12
   inaccuracy: 3
   spread: 0
   reload: 90
   alternate: true
   shootSound: artillery
   bullet: {
+    type: ArtilleryBulletType
     speed: 8
     damage: 3
     bulletWidth: 20
