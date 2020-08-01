@@ -2,14 +2,14 @@ type: GroundUnit
 name: Destroyer
 description: A tanky unit that shoots deadly fast bullets.
 health: 1250
-speed: 0.5
-maxVelocity: 0.6
-mass: 25
+speed: 0.2
+maxVelocity: 0.3
+mass: 50
 range: 180
 weapon: {
   name: destroyer-weapon
   length: 0
-  shots: 0
+  shots: 1
   width: -12
   inaccuracy: 3
   spread: 0
@@ -22,9 +22,9 @@ weapon: {
     damage: 3
     bulletWidth: 20
     bulletHeight: 14
-    //explodeRange: 50
-    //splashDamage: 40
-    //splashDamageRadius: 33
+    explodeRange: 50
+    splashDamage: 40
+    splashDamageRadius: 33
     hitEffect: bigShockwave
     backColor: ffff00
     frontColor: ffffff
