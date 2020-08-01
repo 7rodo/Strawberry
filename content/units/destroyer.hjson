@@ -24,9 +24,9 @@ weapon: {
     lifetime: 90
     bulletWidth: 20
     bulletHeight: 14
-    explodeRange: 100
-    splashDamage: 25
-    splashDamageRadius: 150
+    explodeRange: 75
+    splashDamage: 10
+    splashDamageRadius: 75
     hitEffect: impactShockwave
     backColor: d95014
     frontColor: ffffff
