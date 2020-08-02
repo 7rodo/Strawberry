@@ -2,7 +2,7 @@ ammo: {
   graphite: artilleryDense
   silicon: artilleryHoming
   pyratite: artilleryIncendiary
-  blastCompound: artilleryExplosive
+  blast-compound: artilleryExplosive
   plastanium: artilleryPlastic
   rage: artilleryExplosive
   }
