@@ -5,7 +5,7 @@ ammo: {
   surge-alloy: flakSurge
   
   rage: {
-    damage: 40
+    damage: 12
     reloadMultiplier: 0.6
     bulletWidth: 8
     bulletHeight: 8
@@ -18,8 +18,8 @@ ammo: {
     incendChance: 2
     homingPower: 0.02
     homingRange: 75
-    splashDamage: 20
-    splashDamageRadius: 40
+    splashDamage: 75
+    splashDamageRadius: 64
     fragBullets: 3
     fragBullet: {
        speed: 12
