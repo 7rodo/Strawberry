@@ -23,9 +23,11 @@ rage: {
     splashDamageRadius: 80
     fragBullets: 2
     fragBullet: {
-       speed: 4
+       speed: 3
        damage: 33
        type: MissileBulletType
+       bulletWidth: 16
+       bulletHeight: 18
       }
     lifetime: 55
     speed: 5
