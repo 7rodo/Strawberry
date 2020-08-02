@@ -4,34 +4,5 @@ ammo: {
   pyratite: artilleryIncendiary
   blastCompound: artilleryExplosive
   plastanium: artilleryPlastic
-  
-  rage: {
-    type: ArtilleryBulletType
-    damage: 70
-    reloadMultiplier: 0.4
-    bulletWidth: 8
-    bulletHeight: 8
-    ammoMultiplier: 15
-    backColor: 00aeff
-    frontColor: ffffff
-    hitEffect: explosion
-    incendAmount: 1
-    incendSpread: 10
-    incendChance: 2
-    homingPower: 0.03
-    homingRange: 85
-    splashDamage: 20
-    splashDamageRadius: 120
-    fragBullets: 2
-    fragBullet: {
-       speed: 3
-       damage: 35
-       bulletWidth: 25
-       bulletHeight: 13
-       hitSize: 12
-       type: MissileBulletType
-      }
-    lifetime: 200
-    speed: 7
+  rage: artilleryExplosive
   }
-}
