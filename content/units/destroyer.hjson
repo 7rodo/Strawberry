@@ -14,14 +14,14 @@ weapon: {
   width: -14
   inaccuracy: 3
   spread: 0
-  reload: 90
+  reload: 120
   alternate: true
   shootSound: artillery
   bullet: {
     type: ArtilleryBulletType
     speed: 4
     damage: 1
-    lifetime: 90
+    lifetime: 60
     bulletWidth: 14
     bulletHeight: 14
     explodeRange: 75
