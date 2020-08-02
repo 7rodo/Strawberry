@@ -13,7 +13,7 @@ rage: {
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: d1f0ff
-    hitEffect: impactcloud
+    hitEffect: fireballsmoke
     incendAmount: 4
     incendSpread: 0.5
     incendChance: 2
