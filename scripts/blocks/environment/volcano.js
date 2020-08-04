@@ -17,6 +17,7 @@ const lavashooteffect = newEffect(12, e => {
     Draw.reset();
 });
 const volcanobullet = extend(ArtilleryBulletType, {
+    draw(b){}
 });
 volcanobullet.speed = 2;
 volcanobullet.damage = 0;
@@ -25,10 +26,10 @@ volcanobullet.splashDamageRadius = 60;
 volcanobullet.lifetime = 60;
 volcanobullet.bulletWidth = 15;
 volcanobullet.bulletHeight = 15;
-//volcanobullet.hitEffect = Fx.none;
+volcanobullet.hitEffect = Fx.shockwave;
 //volcanobullet.despawnEffect = Fx.none;
 //volcanobullet.smokeEffect = Fx.none;
-//volcanobullet.shootEffect = Fx.none;
+volcanobullet.shootEffect = Fx.bigShockwave;
 volcanobullet.bullet = Bullets.artilleryExplosive;
 const volcano = extendContent(LaserTurret, "volcano", {
     update(tile){
