@@ -7,6 +7,7 @@ targetable: false
 rebuildable: false
 breakable: false
 shots: 5
+reload: 50
 shootType: artilleryExplosive
 requirements: [
   plastanium/50
