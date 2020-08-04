@@ -23,10 +23,12 @@ volcanobullet.damage = 0;
 volcanobullet.splashDamage = 12;
 volcanobullet.splashDamageRadius = 60;
 volcanobullet.lifetime = 60;
-volcanobullet.hitEffect = Fx.none;
-volcanobullet.despawnEffect = Fx.none;
-volcanobullet.smokeEffect = Fx.none;
-volcanobullet.shootEffect = Fx.none;
+volcanobullet.bulletWidth = 15;
+volcanobullet.bulletHeight = 15;
+//volcanobullet.hitEffect = Fx.none;
+//volcanobullet.despawnEffect = Fx.none;
+//volcanobullet.smokeEffect = Fx.none;
+//volcanobullet.shootEffect = Fx.none;
 volcanobullet.bullet = Bullets.artilleryExplosive;
 const volcano = extendContent(LaserTurret, "volcano", {
     update(tile){
