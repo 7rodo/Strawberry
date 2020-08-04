@@ -1,7 +1,7 @@
 const idleeffect = newEffect(200, e => {
     Draw.color(Color.valueOf("5c5c5c"));
     Draw.alpha(e.fout());
-    Fill.circle(e.x, e.y, e.fin()*5);
+    Fill.circle(e.x, e.y, e.fin()*15);
     Draw.reset();
 });
 const lavaeffect = newEffect(70, e => {
