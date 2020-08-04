@@ -1,12 +1,12 @@
 health: 4500
-size: 2
+size: 4
 name: Volcano
 description: Firey
 update: true
 targetable: false
 rebuildable: false
 breakable: false
-shots: 5
+shots: 1
 inaccuracy: 360
 shootType: artilleryExplosive
 requirements: [
