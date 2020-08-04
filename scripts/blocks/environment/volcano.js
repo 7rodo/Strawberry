@@ -26,6 +26,7 @@ volcanobullet.lifetime = 60;
 volcanobullet.hitEffect = Fx.none;
 volcanobullet.despawnEffect = Fx.none;
 volcanobullet.smokeEffect = Fx.none;
+volcanobullet.backColor = Color.valueOf('ff0000');
 volcanobullet.shootEffect = Fx.none;
 volcanobullet.bullet = Bullets.artilleryExplosive;
 const volcano = extendContent(LaserTurret, "volcano", {
@@ -53,8 +54,8 @@ const volcano = extendContent(LaserTurret, "volcano", {
     drawPlace(tile){},
     effects(tile){}
 });
-volcano.shots = 15;
-volcano.shotSpacing = 10;
+volcano.shots = 10;
+volcano.shotDelay = 10;
 volcano.spread = 3;
 volcano.inaccuracy = 360;
 volcano.reload = 550;
