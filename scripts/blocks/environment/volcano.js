@@ -54,6 +54,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
     effects(tile){}
 });
 volcano.shots = 15;
+volcano.shotSpacing = 10;
 volcano.spread = 3;
 volcano.inaccuracy = 360;
 volcano.reload = 550;
