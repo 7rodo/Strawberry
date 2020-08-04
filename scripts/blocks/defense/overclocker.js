@@ -1,4 +1,4 @@
-const overclock = extendContent(OverdriveProjector, 'purifier', {
+const overclock = extendContent(OverdriveProjector, 'overclocker', {
   load(){
     this.bottomRegion = Core.atlas.find(this.name + '-bottom');
     this.liquidRegion = Core.atlas.find(this.name + '-liquid');
