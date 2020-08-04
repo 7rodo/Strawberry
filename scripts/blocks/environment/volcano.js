@@ -29,7 +29,7 @@ volcanoBullet.despawnEffect = Fx.none;
 volcanoBullet.smokeEffect = Fx.none;
 volcanoBullet.shootEffect = Fx.none;
 volcanoBullet.bullet = Bullets.artilleryExplosive;
-const volcano = extendContent(ArtilleryTurret, "volcano", {
+const volcano = extendContent(LaserTurret, "volcano", {
 	update(tile){
 		this.super$update(tile);
 		if(tile.entity.timer.get(this.maintimer, 50)){
