@@ -4,6 +4,8 @@ name: Volcano
 description: Firey
 update: true
 reload: 550
+inaccuracy: 360
+shots: 5
 targetable: false
 rebuildable: false
 breakable: false
