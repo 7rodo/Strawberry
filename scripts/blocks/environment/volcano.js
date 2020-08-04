@@ -16,16 +16,18 @@ const lavashooteffect = newEffect(12, e => {
     Lines.circle(e.x, e.y, e.fin());
     Draw.reset();
 });
-const volcanobullet = extend(LiquidBulletType, {
+const volcanobullet = extend(ArtilleryBulletType, {
 });
 volcanobullet.speed = 3;
 volcanobullet.damage = 0;
+volcanobullet.splashDamage = 12;
+volcanobullet.splashDamageRadius = 60;
 volcanobullet.lifetime = 20;
 volcanobullet.hitEffect = Fx.none;
 volcanobullet.despawnEffect = Fx.none;
 volcanobullet.smokeEffect = Fx.none;
 volcanobullet.shootEffect = Fx.none;
-volcanobullet.liquid = Liquids.slag;
+volcanobullet.liquid = Bullets.artilleryExplosive;
 const volcano = extendContent(LaserTurret, "volcano", {
     update(tile){
         this.super$update(tile);
@@ -54,6 +56,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
 volcano.shots = 25;
 volcano.spread = 60;
 volcano.inaccuracy = 60;
+volcano.reload = 500;
 volcano.shootSound = Sounds.spray;
 volcano.maintimer = volcano.timers++;
 volcano.lavatimer = volcano.timers++;
