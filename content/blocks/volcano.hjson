@@ -8,6 +8,7 @@ rebuildable: false
 breakable: false
 reload: 450
 shots: 5
+shootType: artilleryExplosive
 requirements: [
   plastanium/50
   graphite/30
