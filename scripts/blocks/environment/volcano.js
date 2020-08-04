@@ -55,8 +55,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
     drawPlace(tile){},
     effects(tile){}
 });
-volcano.reload = 550;
 volcano.shootSound = Sounds.spray;
 volcano.maintimer = volcano.timers++;
 volcano.lavatimer = volcano.timers++;
-//volcano.shoottimer = volcano.timers++;
+volcano.shoottimer = volcano.timers++;
