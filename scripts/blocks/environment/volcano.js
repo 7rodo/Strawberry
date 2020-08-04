@@ -42,7 +42,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
     },
     updateShooting(tile){
         this.super$updateShooting(tile);
-        if(tile.entity.timer.get(this.shoottimer, 450)){
+        if(tile.entity.timer.get(this.shoottimer, 5)){
             Effects.effect(lavashooteffect, Mathf.random(tile.drawx()-5, tile.drawx()+5), Mathf.random(tile.drawy()-5, tile.drawy()+5));
         };
         this.shoot(tile, volcanobullet);
@@ -55,8 +55,8 @@ const volcano = extendContent(LaserTurret, "volcano", {
     drawPlace(tile){},
     effects(tile){}
 });
-
+volcano.reload = 550;
 volcano.shootSound = Sounds.spray;
 volcano.maintimer = volcano.timers++;
 volcano.lavatimer = volcano.timers++;
-volcano.shoottimer = volcano.timers++;
+//volcano.shoottimer = volcano.timers++;
