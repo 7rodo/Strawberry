@@ -27,7 +27,7 @@ volcanobullet.lifetime = 60;
 volcanobullet.bulletWidth = 15;
 volcanobullet.bulletHeight = 15;
 volcanobullet.hitEffect = Fx.shockwave;
-//volcanobullet.despawnEffect = Fx.none;
+volcanobullet.despawnEffect = Fx.none;
 //volcanobullet.smokeEffect = Fx.none;
 volcanobullet.shootEffect = Fx.bigShockwave;
 const volcano = extendContent(LaserTurret, "volcano", {
@@ -42,7 +42,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
     },
     updateShooting(tile){
         this.super$updateShooting(tile);
-        if(tile.entity.timer.get(this.shoottimer, 550)){
+        if(tile.entity.timer.get(this.shoottimer, 450)){
             Effects.effect(lavashooteffect, Mathf.random(tile.drawx()-5, tile.drawx()+5), Mathf.random(tile.drawy()-5, tile.drawy()+5));
         };
         this.shoot(tile, volcanobullet);
