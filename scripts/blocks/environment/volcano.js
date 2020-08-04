@@ -29,7 +29,7 @@ volcanobullet.bulletHeight = 15;
 volcanobullet.hitEffect = Fx.shockwave;
 volcanobullet.despawnEffect = Fx.none;
 //volcanobullet.smokeEffect = Fx.none;
-//volcanobullet.shootEffect = Fx.bigShockwave;
+volcanobullet.shootEffect = Fx.bigShockwave;
 const volcano = extendContent(LaserTurret, "volcano", {
     update(tile){
         this.super$update(tile);
