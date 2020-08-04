@@ -30,7 +30,7 @@ volcanobullet.hitEffect = Fx.shockwave;
 volcanobullet.despawnEffect = Fx.none;
 //volcanobullet.smokeEffect = Fx.none;
 volcanobullet.shootEffect = Fx.bigShockwave;
-const volcano = extendContent(LaserTurret, "volcano", {
+const volcano = extendContent(ArtilleryTurret, "volcano", {
     update(tile){
         this.super$update(tile);
         if(tile.entity.timer.get(this.maintimer, 50)){
@@ -55,6 +55,7 @@ const volcano = extendContent(LaserTurret, "volcano", {
     drawPlace(tile){},
     effects(tile){}
 });
+
 volcano.shootSound = Sounds.spray;
 volcano.maintimer = volcano.timers++;
 volcano.lavatimer = volcano.timers++;
