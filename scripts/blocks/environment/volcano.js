@@ -17,7 +17,7 @@ const lavaShootEffect = newEffect(12, e => {
     Draw.reset();
 });
 const volcanoBullet = extend(ArtilleryBulletType, {
-  
+  draw(b){}
 });
 volcanoBullet.speed = 1;
 volcanoBullet.damage = 0;
