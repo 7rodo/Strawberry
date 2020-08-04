@@ -1,3 +1,16 @@
-name: Volcano
-health: 35000
+health: 100
 size: 2
+name: Volcano
+description: Firey
+update: true
+targetable: false
+rebuildable: false
+breakable: false
+shootType: lancerLaser
+requirements: [
+  plastanium/50
+  graphite/30
+  thorium/50
+]
+category: turret
+research: swarmer
