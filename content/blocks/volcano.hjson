@@ -13,4 +13,4 @@ requirements: [
   thorium/50
 ]
 category: turret
-research: swarmer
+BuildVisibility: debugOnly
