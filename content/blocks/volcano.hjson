@@ -9,7 +9,7 @@ shots: 5
 targetable: false
 rebuildable: false
 breakable: false
-shootType: lancerLaser
+shootType: artilleryExplosive
 requirements: [
   plastanium/50
   graphite/30
