@@ -18,8 +18,12 @@ const overclock = extendContent(OverdriveProjector, 'overclocker', {
     entity = tile.ent();
     
     Draw.rect(this.bottomRegion, tile.drawx(), tile.drawy());
-    Draw.rect(this.liquidRegion, tile.drawx(), tile.drawy());
-    Draw.rect(this.region, tile.drawx(), tile.drawy());
+if(mod.total() > 0.001){
+			Draw.color(this.outputLiquid.liquid.color);
+			Draw.alpha(mod.get(this.outputLiquid.liquid) / this.liquidCapacity);
+			Draw.rect(this.liquidRegion, tile.drawx(), tile.drawy());
+			Draw.color();
+		};    Draw.rect(this.region, tile.drawx(), tile.drawy());
     Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
     },
   }
