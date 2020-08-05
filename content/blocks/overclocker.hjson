@@ -1,4 +1,3 @@
-type: OverdriveProjector
  name: Overclocker
  description: An upgraded Overdrive-Projector, much faster and much more efficient.
  health: 800
