@@ -1,5 +1,6 @@
 const overclock = extendContent(OverdriveProjector, 'overclocker', {
   load(){
+    this.super$load();
     this.bottomRegion = Core.atlas.find(this.name + '-bottom');
     this.liquidRegion = Core.atlas.find(this.name + '-liquid');
     this.region = Core.atlas.find(this.name);
