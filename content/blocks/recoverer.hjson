@@ -1,6 +1,5 @@
 name: Mending Schemer
 description: An upgraded Mend Projector. Mends more frequently and efficiently.
-type: MendProjector
 health: 800
 size: 3
 range: 125
