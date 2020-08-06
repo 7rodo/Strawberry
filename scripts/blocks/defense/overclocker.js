@@ -9,9 +9,7 @@ const overclock = extendContent(OverdriveProjector, 'overclocker', {
   generateIcons(){
     return [
       Core.atlas.find(this.name + '-bottom'),
-     // Core.atlas.find(this.name + '-liquid'),
       Core.atlas.find(this.name),
-     // Core.atlas.find(this.name + '-top')
     ];
   },
   draw(tile){
