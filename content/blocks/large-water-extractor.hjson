@@ -12,12 +12,13 @@ consumes: {
  }
  result: water
 requirements: [
-  copper/45
   lead/60
   graphite/60
   silicon/50
   titanium/45
-  thorium/20
+  plastanium/30
+  thorium/30
 ]
+attribute: water
 category: production
 research: water-extractor
