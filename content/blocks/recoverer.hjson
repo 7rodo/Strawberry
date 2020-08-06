@@ -1,4 +1,4 @@
-name: Mending Schemer
+name: Recoverer
 description: An upgraded Mend Projector. Mends more frequently and efficiently.
 health: 800
 size: 3
@@ -27,7 +27,7 @@ requirements: [
   titanium/75
   silicon/40
   thorium/25
-  surge-alloy/10
+  surge-alloy/15
   phase-fabric/10
 ]
 category: effect
