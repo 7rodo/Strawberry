@@ -1,4 +1,4 @@
-const overclock = extendContent(MendProjector, 'recoverer', {
+const reciver = extendContent(MendProjector, 'recoverer', {
   load(){
     this.super$load();
     this.bottomRegion = Core.atlas.find(this.name + '-bottom');
