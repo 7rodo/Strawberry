@@ -23,6 +23,7 @@ ammo: {
     bulletWidth: 8
     bulletHeight: 11
     incendAmount: 0.25
+    pierce: true
   }
   graphite: {
     speed: 8
@@ -33,6 +34,7 @@ ammo: {
     reloadMultiplier: 0.6
     frontColor: ffffff
     backColor: 56a7c4
+    pierce: true
   }
   pyratite: {
     speed: 7
@@ -43,6 +45,7 @@ ammo: {
     ammoMultiplier: 5
     frontColor: ffffff
     backColor: e8b52a
+    pierce: true
   }
 }
 requirements: [
