@@ -3,7 +3,7 @@ name: Large Water Extractor
 description: An upgraded Water Extractor.
 size: 3
 health: 360
-pumpAmount: 0.4
+pumpAmount: 0.3
 liquidCapacity: 120
 rotateSpeed: 1.2
 hasPower: true
