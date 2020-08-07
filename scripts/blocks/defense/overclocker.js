@@ -29,8 +29,8 @@ const overclock = extendContent(OverdriveProjector, 'overclocker', {
     Draw.alpha(1);
     Lines.stroke((2 * f + 0.2) * entity.power.status);
     Lines.square(tile.drawx(), tile.drawy(), ((1 - f) * 8) * this.size / 2);
-    Draw.reset();   
     }
+    Draw.reset();   
     //Draw.alpha(entity.power.status * Mathf.absin(Time.time(), 10, 1) * 0.5);
    
     },
