@@ -31,6 +31,8 @@ const reciver = extendContent(MendProjector, 'recoverer', {
     Lines.square(tile.drawx(), tile.drawy(), ((1 - f) * 8) * this.size / 2);
     }
     Draw.reset();   
+    //Draw.alpha(entity.power.status * Mathf.absin(Time.time(), 10, 1) * 0.5);
+   
     },
   }
 );
