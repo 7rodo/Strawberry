@@ -1,7 +1,7 @@
 const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
  load(){
    this.region = Core.atlas.find(this.name);
-   this.topRegion = Core.atlas.find(this.name + "-top");
+ //  this.topRegion = Core.atlas.find(this.name + "-top");
   },
     
   generateIcons(){
@@ -14,7 +14,7 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
       entity = tile.ent();
     
     Draw.rect(this.region, tile.drawx(), tile.drawy());
-    const f = 1 - (Time.time() / 100) % 1;
+ /*   const f = 1 - (Time.time() / 100) % 1;
     Draw.color(this.baseColor);    
     if (entity.productionEfficiency > 0.01) {
     Draw.alpha(entity.productionEfficiency * Mathf.absin(Time.time(), 10, 1) * 0.5);
@@ -22,5 +22,5 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
     Draw.alpha(1);
     Draw.blend(Blending.additive);
     }
-    Draw.reset();   
+    Draw.reset();  */ 
     });
