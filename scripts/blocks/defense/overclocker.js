@@ -25,7 +25,7 @@ const overclock = extendContent(OverdriveProjector, 'overclocker', {
     Draw.color(this.baseColor);    
     if (entity.power.status > 0.01 && entity.liquids.total() > 0.01) {
     Draw.alpha(entity.power.status * Mathf.absin(Time.time(), 10, 1) * 0.5);
-    Draw.rect(Core.atlas.find(this.name + "-top"), tile.drawx(), tile.drawy());
+    Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
     Draw.alpha(1);
     Lines.stroke((2 * f + 0.2) * entity.power.status);
     Lines.square(tile.drawx(), tile.drawy(), ((1 - f) * 8) * this.size / 2);
