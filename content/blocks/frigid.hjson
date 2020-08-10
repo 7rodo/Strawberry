@@ -1,0 +1,25 @@
+type: SolidPump
+name: Frigid
+description: Slowly condenses cryofluid with high amounts of power and stores high amounts.
+size: 3
+health: 420
+pumpAmount: 0.05
+liquidCapacity: 800
+rotateSpeed: 0
+hasPower: true
+consumes: {
+  power: 5
+ }
+result: cryofluid
+requirements: [
+  lead/40
+  graphite/35
+  metaglass/100
+  silicon/85
+  titanium/120
+  plastanium/60
+  thorium/80
+]
+attribute: water
+category: production
+research: large-water-extractor
