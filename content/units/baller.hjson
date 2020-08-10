@@ -11,7 +11,7 @@ weapon: {
   name: bleamer
   length: 2
   shots: 1
-  width: 10
+  width: -7
   inaccuracy: 5
   spread: 0
   reload: 40
@@ -20,7 +20,7 @@ weapon: {
   bullet: {
     type: BasicBulletType
     speed: 2
-    damage: 20
+    damage: 12
     lifetime: 120
     bulletWidth: 16
     bulletHeight: 8
