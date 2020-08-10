@@ -1,0 +1,30 @@
+type: GroundUnit
+name: Baller
+description: A medium sized unit that has incredibly fast speed and tough bullet damage.
+health: 400
+speed: 0.6
+maxVelocity: 1.1
+mass: 10
+range: 90
+targetAir: true
+weapon: {
+  name: bleamer
+  length: 2
+  shots: 1
+  width: 10
+  inaccuracy: 5
+  spread: 0
+  reload: 40
+  alternate: true
+  shootSound: pew
+  bullet: {
+    type: BasicBulletType
+    speed: 2
+    damage: 20
+    lifetime: 120
+    bulletWidth: 16
+    bulletHeight: 8
+    backColor: ba18db
+    frontColor: ffffff
+  }
+}
