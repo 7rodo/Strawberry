@@ -7,7 +7,7 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
   generateIcons(){
     return [
      Core.atlas.find(this.name + '-icon'),
-      ]
+      ];
     },
     
     draw(tile){
