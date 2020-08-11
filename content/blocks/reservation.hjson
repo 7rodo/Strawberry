@@ -140,6 +140,7 @@ ammo: {
     frontColor: ffffff
     reloadMultiplier: 0.5
     lifetime: 240
+    fragBullets: 3
     fragBullet: lightning
       }
 }
