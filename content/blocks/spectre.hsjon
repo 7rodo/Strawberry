@@ -1,0 +1,33 @@
+ammo: {
+  graphte: standardDenseBig
+  pyratite: standardIncendiaryBig
+  thorium: standardThoriumBig
+
+  blast-compound: {
+    damage: 40
+    reloadMultiplier: 0.7
+    bulletWidth: 16
+    bulletHeight: 21
+    ammoMultiplier: 15
+    backColor: e3566b
+    frontColor: ffffff
+    hitEffect: explosion
+    splashDamageRadius: 30
+    splashDamage: 22
+    ammoMultiplier: 4
+    speed: 6
+  }
+  surge-alloy: {
+    damage: 33
+    reloadMultiplier: 0.9
+    bulletWidth: 16
+    bulletHeight: 21
+    ammoMultiplier: 15
+    backColor: e3566b
+    frontColor: ffffff
+    lightning: 3
+    lightningLength: 6
+    splashDamage: 35
+    speed: 6
+  }
+}
