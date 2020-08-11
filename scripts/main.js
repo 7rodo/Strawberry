@@ -1,24 +1,24 @@
 // What ever the j this is
-require('ulib');
+require('strawberry/ulib');
 
 // Crafting
-require('blocks/crafting/purifier');
-require('blocks/crafting/sterilizer');
+require('strawberry/blocks/crafting/purifier');
+require('strawberry/blocks/crafting/sterilizer');
 
 // Defensive
-require('blocks/defense/overclocker');
-require('blocks/defense/recoverer');
+require('strawberry/blocks/defense/overclocker');
+require('strawberry/blocks/defense/recoverer');
 
 // Turrets
-require('blocks/turrets/buckshot');
+require('strawberry/blocks/turrets/buckshot');
 
 // Environment
-require('blocks/environment/volcano');
+require('strawberry/blocks/environment/volcano');
 
 // Power
-require('blocks/power/thermal-reactor');
+require('strawberry/blocks/power/thermal-reactor');
 
 // Units
-require('units/genesis');
-require('units/ravager');
-require('units/bull');
+require('strawberry/units/genesis');
+require('strawberry/units/ravager');
+require('strawberry/units/bull');
