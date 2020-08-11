@@ -2,7 +2,7 @@ type: HoverUnit
 name: Ripper
 flying: true
 description: A bomber based unit, extremely fast and tears down enemy structures with ease.
-speed: 0.9
+speed: 0.7
 maxVelocity: 5
 drag: 0.3
 mass: 14
