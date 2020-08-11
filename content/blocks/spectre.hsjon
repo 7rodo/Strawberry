@@ -30,4 +30,30 @@ ammo: {
     splashDamage: 35
     speed: 6
   }
+  rage: {
+    damage: 75
+    reloadMultiplier: 0.4
+    bulletWidth: 26
+    bulletHeight: 19
+    ammoMultiplier: 15
+    backColor: 00aeff
+    frontColor: ffffff
+    hitEffect: flakExplosion
+    incendAmount: 4
+    incendSpread: 1
+    incendChance: 10
+    homingPower: 0.04
+    homingRange: 90
+    splashDamage: 90
+    splashDamageRadius: 50
+    fragBullets: 1
+    fragBullet: {
+       speed: 4
+       damage: 40
+       type: MissileBulletType
+       bulletWidth: 18
+       bulletHeight: 20
+      }
+    speed: 6
+  }
 }
