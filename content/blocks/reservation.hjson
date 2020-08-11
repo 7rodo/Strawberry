@@ -128,7 +128,6 @@ ammo: {
      reloadMultiplier: 0.6
    }
    surge-alloy: {
-    bullet: flakSurge
     speed: 9
     damage: 28
     bulletWidth: 12
@@ -141,6 +140,7 @@ ammo: {
     frontColor: ffffff
     reloadMultiplier: 0.5
     lifetime: 240
+    fragBullet: lightning
       }
 }
 
