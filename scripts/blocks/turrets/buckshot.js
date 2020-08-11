@@ -1,9 +1,69 @@
-const buckshotBullet = extend(ArtilleryBulletType, {
+const buckshotStandard = extend(BasicBulletType, {
 });
-buckshotBullet.speed = 5;
-buckshotBullet.damage = 10;
-buckshotBullet.lifetime = 70;
-buckshotBullet.bulletHeight = 5 + Mathf.random(3,9);
-buckshotBullet.bulletWidth = buckshotBullet.bulletHeight * 2;
+buckshotStandard.speed = 5;
+buckshotStandard.damage = 10;
+buckshotStandard.lifetime = 70;
+buckshotStandard.bulletHeight = 5 + Mathf.random(3,9);
+buckshotStandard.bulletWidth = buckshotBullet.bulletHeight * 2;
 
-const buckshot = extendContent(DoubleTurret, "buckshot", {});
+const buckshotDense = extend(BasicBulletType, {
+});
+buckshotDense.speed = 4;
+buckshotDense.damage = 29;
+buckshotDense.lifetime = 90;
+buckshotDense.lifetime = 90;
+buckshotDense.reloadMultiplier = 0.5;
+buckshotDense.bulletHeight = 5 + Mathf.random(6,16);
+buckshotDense.bulletWidth = buckshotBullet.bulletHeight * 2;
+buckshotDense.backColor = Color.valueOf('64c1e3');
+
+const buckshotIncendiary = extend(BasicBulletType, {
+});
+buckshotIncendiary.speed = 5;
+buckshotIncendiary.damage = 11;
+buckshotIncendiary.lifetime = 60;
+buckshotIncendiary.incendAmount = 1;
+buckshotIncendiary.incendSpread = 4;
+buckshotExplosive.ammoMultiplier = 3;
+buckshotIncendiary.bulletHeight = 5 + Mathf.random(5,10);
+buckshotIncendiary.bulletWidth = buckshotBullet.bulletHeight * 2;
+buckshotIncendiary.frontColor = Color.valueOf('fffde0');
+buckshotIncendiary.backColor = Color.valueOf('ff8400');
+
+const buckshotHoming = extend(BasicBulletType, {
+});
+buckshotHoming.speed = 6;
+buckshotHoming.damage = 9;
+buckshotHoming.lifetime = 90;
+buckshotHoming.homingPower = 0.02;
+buckshotExplosive.ammoMultiplier = 2;
+buckshotHoming.bulletHeight = 5 + Mathf.random(6,16);
+buckshotHoming.bulletWidth = buckshotBullet.bulletHeight * 2;
+
+const buckshotExplosive = extend(BasicBulletType, {
+});
+buckshotExplosive.speed = 5;
+buckshotExplosive.damage = 16;
+buckshotExplosive.lifetime = 60;
+buckshotExplosive.homingPower = 0.02;
+buckshotExplosive.ammoMultiplier = 5;
+buckshotExplosive.reloadMultiplier = 0.7;
+buckshotExplosive.reloadMultiplier = 0.7;
+buckshotExplosive.bulletHeight = 5 + Mathf.random(6,12);
+buckshotExplosive.bulletWidth = buckshotBullet.bulletHeight * 2;
+buckshotExplosive.backColor = Color.valueOf('e37764');
+buckshotExplosive.explodeRange = 20;
+buckshotExplosive.splashDamage = 9;
+buckshotExplosive.splashDamageRadius = 20;
+
+const buckshot = extendContent(DoubleTurret, "buckshot", {
+init(){
+		buckshot.ammo(
+			Items.copper, buckshotStandard,
+			Items.pyratite, buckshotIncendiary,
+			Items.graphite, buckshotDense,
+			Items.blastcompound, buckshotExplosive,
+		);
+		this.super$init();
+	}});
+buckshot.shootSound = Sounds.shotgun;
