@@ -1,0 +1,36 @@
+type: HoverUnit
+name: Ripper
+flying: true
+description: A bomber based unit, extremely fast and tears down enemy structures with ease.
+speed: 0.9
+maxVelocity: 5
+drag: 0.3
+mass: 14
+flying: true
+health: 620
+engineColor: 30aefc
+weaponOffsetY: 0
+weaponOffsetX: 0
+weapon: {
+  name: generic-bomber-weapon
+  length: 0
+  shots: 10
+  shotDelay: 4
+  width: 2
+  inaccuracy: 40
+  reload: 100
+  alternate: true
+  shootSound: missile
+  ignoreRotation: true
+  velocityRnd: 6
+  bullet: {
+    type: BombBulletType
+    hitEffect: flakExplosion
+    lifetime: 60
+    bulletWidth: 10
+    bulletHeight: 14
+    splashDamageRadius: 20
+    splashDamage: 23
+  }
+}
+range: 16
