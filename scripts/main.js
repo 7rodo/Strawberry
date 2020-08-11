@@ -5,7 +5,7 @@ require('blocks/crafting/sterilizer');
 require('blocks/environment/volcano');
 require('blocks/defense/overclocker');
 require('blocks/defense/recoverer');
-//require('blocks/power/thermal-reactor');
+require('blocks/power/thermal-reactor');
 
 require('units/genesis');
 require('units/ravager');
