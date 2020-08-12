@@ -61,7 +61,7 @@ init(){
 			Items.copper, buckshotStandard,
 			Items.pyratite, buckshotIncendiary,
 			Items.graphite, buckshotDense,
-			Items.blastCompound, buckshotExplosive,
+			Items.blastCompound, buckshotExplosive
 		);
 	}});
 
