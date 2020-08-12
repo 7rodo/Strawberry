@@ -1,0 +1,17 @@
+name: Buckshot
+description: A very large turret that shoots multiple small bullets.
+health: 1980
+reload: 120
+inaccuracy: 75
+shots: 25
+size: 4
+range: 220
+rotateSpeed: 2
+requirements: [
+  bronze/80
+  graphite/85
+  titanium/100
+  thorium/65
+  ]
+research: stinger
+category: turret
