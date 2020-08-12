@@ -31,8 +31,8 @@ ammo: {
   rage: {
     damage: 75
     reloadMultiplier: 0.4
-    bulletWidth: 26
-    bulletHeight: 19
+    bulletWidth: 20
+    bulletHeight: 26
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: ffffff
