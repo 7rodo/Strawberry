@@ -56,13 +56,13 @@ buckshotExplosive.splashDamageRadius = 20;
 
 const buckshot = extendContent(DoubleTurret, "buckshot", {
 init(){
+	        this.super$init();
 		buckshot.ammo(
 			Items.copper, buckshotStandard,
 			Items.pyratite, buckshotIncendiary,
 			Items.graphite, buckshotDense,
 			Items.blastCompound, buckshotExplosive,
 		);
-		this.super$init();
 	}});
 buckshot.shootSound = Sounds.shotgun;
 buckshot.shots = 25;
