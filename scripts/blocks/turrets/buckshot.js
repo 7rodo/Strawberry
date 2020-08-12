@@ -66,3 +66,5 @@ init(){
 		this.super$init();
 	}});
 buckshot.shootSound = Sounds.shotgun;
+buckshot.shots = 25;
+buckshot.inaccuracy = 70;
