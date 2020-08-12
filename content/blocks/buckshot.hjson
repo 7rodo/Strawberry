@@ -5,6 +5,8 @@ reload: 45
 size: 4
 shootCone: 130
 spread: 11
+shots: 25
+inaccuracy: 70
 range: 220
 requirements: [
   bronze/80
