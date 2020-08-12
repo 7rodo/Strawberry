@@ -45,7 +45,6 @@ const buckshotExplosive = extend(BasicBulletType, {
 buckshotExplosive.speed = 1 + Mathf.random(2,5);
 buckshotExplosive.damage = 16;
 buckshotExplosive.lifetime = 60;
-buckshotExplosive.homingPower = 0.02;
 buckshotExplosive.ammoMultiplier = 5;
 buckshotExplosive.reloadMultiplier = 0.7;
 buckshotExplosive.bulletHeight = 5 + Mathf.random(6,12);
