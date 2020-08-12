@@ -64,6 +64,4 @@ init(){
 			Items.blastCompound, buckshotExplosive,
 		);
 	}});
-buckshot.shootSound = Sounds.shotgun;
-buckshot.shots = 25;
-buckshot.inaccuracy = 70;
+
