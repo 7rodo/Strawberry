@@ -3,7 +3,7 @@ description: A very large turret that shoots multiple small bullets.
 health: 2160
 reload: 45
 size: 4
-shots: 25
+shots: 30
 inaccuracy: 50
 range: 220
 requirements: [
