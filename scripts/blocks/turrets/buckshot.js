@@ -55,13 +55,13 @@ buckshotExplosive.splashDamage = 9;
 buckshotExplosive.splashDamageRadius = 20;
 
 const buckshot = extendContent(DoubleTurret, "buckshot", {
-init(){
-	        this.super$init();
-		this.ammo(
-			Items.copper, buckshotStandard,
-			Items.pyratite, buckshotIncendiary,
-			Items.graphite, buckshotDense,
-			Items.blastCompound, buckshotExplosive
-		);
+  init(){
+    this.ammo(
+      Items.copper, buckshotStandard,
+      Items.pyratite, buckshotIncendiary,
+      Items.graphite, buckshotDense,
+      Items.blastCompound, buckshotExplosive
+      );
+      this.super$init();
 	}});
 
