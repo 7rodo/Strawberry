@@ -58,8 +58,9 @@ const buckshot = extendContent(DoubleTurret, "buckshot", {
   init(){
     this.ammo(
       Items.copper, buckshotStandard,
-      Items.pyratite, buckshotIncendiary,
       Items.graphite, buckshotDense,
+      Items.silicon, buckshotHoming,
+      Items.pyratite, buckshotIncendiary,
       Items.blastCompound, buckshotExplosive
       );
       this.super$init();
