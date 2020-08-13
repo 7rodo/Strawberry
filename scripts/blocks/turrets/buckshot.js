@@ -4,7 +4,7 @@ buckshotStandard.speed = 3 + Mathf.random(1,5);
 buckshotStandard.damage = 10;
 buckshotStandard.lifetime = 70;
 buckshotStandard.bulletHeight = 5 + Mathf.random(1,4);
-buckshotStandard.bulletWidth = buckshotStandard.bulletHeight * 2;
+buckshotStandard.bulletWidth = buckshotStandard.bulletHeight * 1.5;
 
 const buckshotDense = extend(BasicBulletType, {
 });
@@ -42,7 +42,8 @@ buckshotHoming.bulletWidth = buckshotHoming.bulletHeight * 1.5;
 
 const buckshotExplosive = extend(BasicBulletType, {
 });
-buckshotExplosive.speed = 1 + Mathf.random(2,5);
+//buckshotExplosive.speed = 1 + Mathf.random(2,5);
+buckshotExplosive.speed = 5;
 buckshotExplosive.damage = 16;
 buckshotExplosive.lifetime = 60;
 buckshotExplosive.ammoMultiplier = 5;
