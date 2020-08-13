@@ -1,16 +1,21 @@
-name: Buckshot
-description: A very large turret that shoots multiple small bullets.
 health: 2160
-reload: 45
 size: 4
-shots: 30
+reload: 45
+shots: 3
+ammoUseEffect: shellEjectBig
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
 inaccuracy: 50
-range: 220
+rotatespeed: 4
+shotWidth: 2
+range: 240
+recoil: 3.5
 requirements: [
   bronze/80
   graphite/85
   titanium/100
   thorium/65
-  ]
+]
 research: stinger
 category: turret
+shootSound: shotgun
