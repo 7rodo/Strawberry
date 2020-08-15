@@ -2,7 +2,6 @@ health: 2160
 name: Buckshot
 size: 4
 reload: 45
-shots: 3
 ammoUseEffect: shellEjectBig
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
