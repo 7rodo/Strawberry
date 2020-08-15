@@ -7,7 +7,7 @@ shootEffect: shootBig
 smokeEffect: shootBigSmoke
 inaccuracy: 50
 rotatespeed: 4
-shotWidth: 2
+shotWidth: 20
 range: 240
 recoil: 3.5
 requirements: [
