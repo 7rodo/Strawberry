@@ -1,4 +1,5 @@
 health: 2160
+name: Buckshot
 size: 4
 reload: 45
 shots: 3
@@ -13,7 +14,6 @@ recoil: 3.5
 requirements: [
   bronze/80
   graphite/85
-  titanium/100
   thorium/65
 ]
 research: stinger
