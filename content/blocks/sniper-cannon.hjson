@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Sniper Cannon
-description: A far range cannon. Useful against single enemies.
+description: A far range cannon. Can penetrate enemies.
 health: 250
 size: 1
 reload: 180
@@ -16,13 +16,14 @@ ammo: {
     bulletWidth: 8
     bulletHeight: 11
     ammoMultiplier: 1
+    pierce: true
   }
   coal: {
     speed: 7
     damage: 40
     bulletWidth: 8
     bulletHeight: 11
-    incendAmount: 0.25
+    incendAmount: 0.05
     pierce: true
   }
   graphite: {
@@ -41,7 +42,7 @@ ammo: {
     damage: 60
     bulletWidth: 8
     bulletHeight: 11
-    incendAmount: 3
+    incendAmount: 0.25
     ammoMultiplier: 5
     frontColor: ffffff
     backColor: e8b52a
@@ -49,8 +50,8 @@ ammo: {
   }
 }
 requirements: [
-  tin/20
-  lead/25
+  tin/25
+  lead/45
 ]
 category: turret
 research: hail
