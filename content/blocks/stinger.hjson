@@ -63,12 +63,10 @@ pyratite: {
 }
 }
 requirements: [
-  copper/150
   bronze/55
-  silicon/35
   titanium/95
   thorium/35
-  radiode/45
+  radiode/25
 ]
 category: turret
 research: salvo
