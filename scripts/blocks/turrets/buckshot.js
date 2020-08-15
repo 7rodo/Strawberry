@@ -70,3 +70,4 @@ const buckshot = extendContent(DoubleTurret, "buckshot", {
 	}
 });
 
+buckshot.shots = 4
