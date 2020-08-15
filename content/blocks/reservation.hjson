@@ -6,7 +6,7 @@ health: 1100
 itemCapacity: 350
 maxAmmo: 350
 range: 350
-xRand: 12
+xRand: 2
 reload: 25
 recoil: 4
 innacuracy: 8
