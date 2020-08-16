@@ -14,11 +14,8 @@ result: cryofluid
 requirements: [
   lead/40
   graphite/35
-  metaglass/100
-  silicon/85
-  titanium/120
-  plastanium/60
-  thorium/80
+  metaglass/62
+  titanium/44
 ]
 attribute: water
 category: production
