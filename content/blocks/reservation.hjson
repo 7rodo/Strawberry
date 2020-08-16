@@ -103,7 +103,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 25
     backColor: c78500
     frontColor: f3ff52
     reloadMultiplier: 0.6
@@ -117,7 +117,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 50
+    ammoMultiplier: 35
     backColor: ff3333
     frontColor: ffaaaa
     lifetime: 240
@@ -135,8 +135,10 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 75
-    lightning: 1
+    ammoMultiplier: 50
+    lightning: 2
+    lightningLength: 12
+    splashDamage: 22
     backColor: ffff00
     frontColor: ffffff
     reloadMultiplier: 0.5
