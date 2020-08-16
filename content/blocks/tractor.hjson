@@ -1,25 +1,23 @@
 type: LiquidTurret
 name: Tractor
-description: Slows down enemies with a cold beam.
+description: A lancer that doesn't use power and can attack air.
 health: 680
 size: 2
-reload: 120
+reload: 150
 xRand: 6
 range: 140
 maxAmmo: 25
 shootSound: beam
+activeSound: thruster
 shootEffect: lancerLaserCharge
 ammo: {
   water: lancerLaser
 }
-consumes: {
- power: 2.75
- }
 requirements: [
-  lead/25
+  lead/45
   silicon/40
-  titanium/20
-  plastanium/15
+  titanium/35
+  plastanium/25
   ]
 category: turret
 research: lancer
