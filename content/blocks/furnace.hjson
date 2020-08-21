@@ -7,11 +7,11 @@ hasItems: true
 craftTime: 45
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.5
+  power: 0.75
   items: {
     items: [
-      tin/2
-      copper/1
+      tin/1
+      copper/3
     ]
   }
 }
@@ -21,7 +21,7 @@ requirements: [
   lead/45
 ]
 category: crafting
-research: graphite-press
+research: silicon-smelter
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: bronze/1
