@@ -1,0 +1,5 @@
+type: material
+name: Siliminium
+description: A dull alloy of Silicon and Aluminium.
+radioactivity: 0.1
+color: 454545
