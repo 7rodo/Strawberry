@@ -11,9 +11,10 @@ shotWidth: 20
 range: 240
 recoil: 3.5
 requirements: [
-  bronze/80
-  graphite/85
-  thorium/65
+  bronze/30
+  aluminium/55
+  cobalt/45
+  thorium/35
 ]
 research: stinger
 category: turret
