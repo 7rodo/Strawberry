@@ -11,7 +11,7 @@ consumes: {
   power: 5.5
   items: {
     items: [
-      oxi-radium/5
+      radium/5
       pyratite/1
       blast-compound/1
       silicon/2
