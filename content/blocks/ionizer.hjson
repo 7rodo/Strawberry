@@ -26,4 +26,4 @@ category: crafting
 research: silicon-smelter
 idleSound: respawning
 idleSoundVolume: 2
-outputItem: oxi-radium/3
+outputItem: radium/3
