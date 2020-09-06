@@ -16,8 +16,8 @@ recoil: 2
 shootType: lightning
 lightningLength: 25
 requirements: [
-  copper/45
   lead/30
+  cobalt/15
   radiode/25
 ]
 category: turret
