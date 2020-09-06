@@ -13,7 +13,7 @@ consumes: {
 result: cryofluid
 requirements: [
   lead/40
-  graphite/35
+  cobalt/35
   metaglass/62
   titanium/44
 ]
