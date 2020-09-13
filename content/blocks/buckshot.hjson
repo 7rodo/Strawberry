@@ -5,7 +5,7 @@ reload: 45
 ammoUseEffect: shellEjectBig
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
-inaccuracy: 50
+inaccuracy: 35
 rotatespeed: 4
 shotWidth: 5
 range: 240
