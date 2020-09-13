@@ -57,7 +57,7 @@ buckshotExplosive.explodeRange = 20;
 buckshotExplosive.splashDamage = 9;
 buckshotExplosive.splashDamageRadius = 20;
 
-const buckshot = extendContent(DoubleTurret, "buckshot", {
+const buckshot = extendContent(ItemTurret, "buckshot", {
   init(){
     buckshot.ammo(
       Items.copper, buckshotStandard,
