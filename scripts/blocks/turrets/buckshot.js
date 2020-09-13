@@ -70,4 +70,4 @@ const buckshot = extendContent(ItemTurret, "buckshot", {
 	}
 });
 
-buckshot.shots = 4
+buckshot.shots = 16
