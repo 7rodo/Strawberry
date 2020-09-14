@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Core Neutron
+description: A compact transportable core. Only 1 can be placed
+health: 850
+breakable: true
+destructible: true
+size: 2
+itemCapacity: 500
+unloadable: true
+requirements: [
+ aluminium/55
+ cobal/75
+ plastanium/80
+ phase-fabric/20
+ surge-alloy/30
+ ]
+research: vault
+category: effect
