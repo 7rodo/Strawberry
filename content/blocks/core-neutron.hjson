@@ -2,8 +2,8 @@ type: CoreBlock
 name: Core Neutron
 description: A compact transportable core. Only 1 can be placed
 health: 850
-rebuildable: false
-breakable: false
+rebuildable: true
+breakable: true
 destructible: true
 size: 2
 itemCapacity: 500
