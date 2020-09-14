@@ -2,7 +2,7 @@
 require('strawberry/ulib');
 
 // cores
-//require('strawberry/blocks/core/core-neutron');
+require('strawberry/blocks/core/core-neutron');
 
 // Crafting
 require('strawberry/blocks/crafting/purifier');
