@@ -9,7 +9,7 @@ itemCapacity: 500
 unloadable: true
 requirements: [
  aluminium/55
- cobal/75
+ cobalt/75
  plastanium/80
  phase-fabric/20
  surge-alloy/30
