@@ -11,7 +11,6 @@ const buckshotDense = extend(BasicBulletType, {
 buckshotDense.speed = 2 + Mathf.random(2,3);
 buckshotDense.damage = 29;
 buckshotDense.lifetime = 90;
-buckshotDense.lifetime = 90;
 buckshotDense.reloadMultiplier = 0.5;
 buckshotDense.bulletHeight = 5 + Mathf.random(2,5);
 buckshotDense.bulletWidth = buckshotDense.bulletHeight * 1.5;
@@ -42,16 +41,13 @@ buckshotHoming.bulletWidth = buckshotHoming.bulletHeight * 1.5;
 
 const buckshotExplosive = extend(BasicBulletType, {
 });
-//buckshotExplosive.speed = 1 + Mathf.random(2,5);
-buckshotExplosive.speed = 5;
+buckshotExplosive.speed = 1 + Mathf.random(2,5);
 buckshotExplosive.damage = 16;
 buckshotExplosive.lifetime = 60;
 buckshotExplosive.ammoMultiplier = 5;
 buckshotExplosive.reloadMultiplier = 0.7;
-//buckshotExplosive.bulletHeight = 5 + Mathf.random(2,6);
-//buckshotExplosive.bulletWidth = buckshotExplosive.bulletHeight * 1.5;
-buckshotExplosive.bulletHeight = 14;
-buckshotExplosive.bulletWidth = 9;
+buckshotExplosive.bulletHeight = 5 + Mathf.random(2,6);
+buckshotExplosive.bulletWidth = buckshotExplosive.bulletHeight * 1.5;
 buckshotExplosive.backColor = Color.valueOf('e37764');
 buckshotExplosive.explodeRange = 20;
 buckshotExplosive.splashDamage = 9;
@@ -69,5 +65,3 @@ const buckshot = extendContent(ItemTurret, "buckshot", {
     this.super$init();
 	}
 });
-
-buckshot.shots = 16
