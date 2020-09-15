@@ -6,6 +6,7 @@ ammoUseEffect: shellEjectBig
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
 inaccuracy: 35
+spread: 0
 rotatespeed: 4
 shotWidth: 5
 range: 240
@@ -16,6 +17,6 @@ requirements: [
   cobalt/45
   thorium/35
 ]
-research: stinger
+research: basalt
 category: turret
 shootSound: shotgun
