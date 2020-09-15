@@ -18,7 +18,7 @@ buckshotDense.backColor = Color.valueOf('64c1e3');
 
 const buckshotIncendiary = extend(BasicBulletType, {
 });
-buckshotIncendiary.speed = 4 + Mathf.random(1,6);
+buckshotIncendiary.speed = 4 + Mathf.random(1,45);
 buckshotIncendiary.damage = 11;
 buckshotIncendiary.lifetime = 60;
 buckshotIncendiary.incendAmount = 1;
