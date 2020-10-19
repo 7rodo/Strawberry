@@ -28,7 +28,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
             Draw.rect(this.topRegion, tile.drawx(), tile.drawy(), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0));
             Draw.blend();
         }
-        Draw.color();
+      //  Draw.color();
   }
 });
 
