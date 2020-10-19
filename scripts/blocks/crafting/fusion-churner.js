@@ -15,7 +15,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
     
     Draw.rect(this.region, tile.drawx(), tile.drawy());
     
-    if(entity.warmup > 0 && this.flameColor.a > 0.001){
+    if(entity.warmup > 0  > 0.001){
             const g = 0.4;
             const r = 0.07;
             const cr = Mathf.random(0.1);
