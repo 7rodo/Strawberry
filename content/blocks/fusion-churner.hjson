@@ -12,10 +12,10 @@ consumes: {
       phase-fabric/2
     ]
   }
-    liquid: {
-      liquid: oil
-      amount: 0.1
-      }
+//    liquid: {
+  //    liquid: oil
+    //  amount: 0.1
+      //}
 }
 requirements: [
   cobalt/90
