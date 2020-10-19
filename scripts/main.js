@@ -7,6 +7,7 @@ require('strawberry/blocks/core/core-neutron');
 // Crafting
 require('strawberry/blocks/crafting/purifier');
 require('strawberry/blocks/crafting/sterilizer');
+require('strawberry/blocks/crafting/fusion-churner');
 
 // Defensive
 require('strawberry/blocks/defense/overclocker');
