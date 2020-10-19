@@ -12,10 +12,6 @@ consumes: {
       phase-fabric/2
     ]
   }
-//    liquid: {
-  //    liquid: oil
-    //  amount: 0.1
-      //}
 }
 requirements: [
   cobalt/90
@@ -27,4 +23,4 @@ category: crafting
 research: phase-weaver
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: copper/100
+outputItem: copper/1
