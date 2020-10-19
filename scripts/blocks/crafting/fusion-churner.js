@@ -1,4 +1,4 @@
-const churner = extendContent(GenericCrafter, "fusion-churner", {
+const churner = extendContent(GenericSmelter, "fusion-churner", {
   load(){
     this.region = Core.atlas.find(this.name);
     this.topRegion = Core.atlas.find(this.name + "-top");
