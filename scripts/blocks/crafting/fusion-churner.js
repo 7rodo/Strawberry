@@ -32,7 +32,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
   }
 });
 
-/*const sss = newEffect(30, e => {
+const sss = newEffect(30, e => {
   Draw.color(Color.valueOf("ffb382"), Color.valueOf("ff8282"), e.fin());
   const h = new Floatc2({get: function(x, y){
     Draw.color(Color.valueOf("ffb382"), Color.valueOf("ff8282"), e.fin());
@@ -41,4 +41,4 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
   Angles.randLenVectors(e.id, 17, 7 + e.fin() * 3, e.rotation,  (e.x, e.y), h);
 });
 
-churner.updateEffect = sss;*/
+churner.updateEffect = sss;
