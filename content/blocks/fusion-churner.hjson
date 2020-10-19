@@ -4,6 +4,7 @@ size: 2
 hasPower: true
 hasItems: true
 craftTime: 180
+flameColor: dddddd
 consumes: {
   power: 15
   items: {
