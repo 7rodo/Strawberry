@@ -24,7 +24,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
 
            // Draw.tint(this.flameColor);
             Draw.blend(Blending.additive);
-            Draw.color(Color.valueOf("f2613e"), entity.warmup);
+         //   Draw.color(Color.valueOf("f2613e"), entity.warmup);
             Draw.rect(this.topRegion, tile.drawx(), tile.drawy(), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0), 20.0 + Mathf.absin(Time.time(), 6.0, 5.0));
             Draw.blend();
         }
@@ -34,7 +34,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
 
 const j = newEffect(120, e => {
   Draw.color(Pal.lancerLaser);
-  Lines.square(e.x, e.y, e.fout() *10, 45);
+  Lines.square(e.x, e.y, e.fout() *5, 45);
 })
 
 churner.updateEffect = j;
