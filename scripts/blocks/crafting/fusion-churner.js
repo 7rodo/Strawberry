@@ -34,7 +34,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
 
 const j = newEffect(120, e => {
   Draw.color(Pal.lancerLaser);
-  Lines.square(e.x, e.y, e.fout(), 45);
+  Lines.square(e.x, e.y, e.fout() *10, 45);
 })
 
 churner.updateEffect = j;
