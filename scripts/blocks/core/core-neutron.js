@@ -5,7 +5,7 @@
         placingabi = false;
       this.super$update(tile);
     },
-  onDestroyed(tile){},
+  destroyed(tile){},
    removed(tile){
       placingabi = true;
      },
