@@ -66,7 +66,7 @@ ravager.create(prov(() => extend(GroundUnit, {
 
     },
 
-    onDeath(){
+    death(){
       Effects.effect(deadEffect, this);
       Effects.shake(2, 2, this);
 
