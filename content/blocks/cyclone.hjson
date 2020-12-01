@@ -1,4 +1,4 @@
-ammo: {
+ammoTypes: {
   metaglass: flakGlass
   blast-compound: flakExplosive
   plastanium: flakPlastic
