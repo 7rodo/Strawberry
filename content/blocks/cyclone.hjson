@@ -1,8 +1,8 @@
 ammoTypes: {
-  metaglass: flakGlass
-  blast-compound: flakExplosive
-  plastanium: flakPlastic
-  surge-alloy: flakSurge
+  metaglass: fragGlass
+  blast-compound: fragExplosive
+  plastanium: fragPlastic
+  surge-alloy: fragSurge
   
   rage: {
     damage: 12
