@@ -15,7 +15,7 @@ ammoTypes: {
   scrap: flakScrap
   lead: flakLead
   metaglass: flakGlass
-  plastanium: flakPlastic
+  plastanium: fragPlastic
   blast-compound: flakExplosive
   
   rage: {
