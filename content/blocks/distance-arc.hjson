@@ -13,7 +13,7 @@ range: 240
 shootEffect: lightningShoot
 shootSound: spark
 recoil: 2
-shootType: lightning
+shootType: lightningShoot
 lightningLength: 25
 requirements: [
   lead/30
