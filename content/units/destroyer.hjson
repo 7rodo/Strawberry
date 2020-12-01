@@ -1,4 +1,4 @@
-type: GroundUnit
+type: mech
 name: Destroyer
 description: A heavy unit that shoots deadly fast bullets. Shoots over many things, to attack production
 health: 1250
