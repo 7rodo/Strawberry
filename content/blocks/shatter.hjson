@@ -11,7 +11,7 @@ rotateSpeed: 10
 inaccuracy: 12
 shootcone: 17
 shootSound: shootSnap
-ammo: {
+ammoTypes: {
   scrap: flakScrap
   lead: flakLead
   metaglass: flakGlass
