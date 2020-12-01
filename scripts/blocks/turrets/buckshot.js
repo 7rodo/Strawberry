@@ -55,7 +55,7 @@ buckshotExplosive.splashDamageRadius = 20;
 
 const buckshot = extendContent(ItemTurret, "buckshot", {
   init(){
-    buckshot.ammo(
+    buckshot.ammoTypes(
       Items.copper, buckshotStandard,
       Items.graphite, buckshotDense,
       Items.silicon, buckshotHoming,
