@@ -10,7 +10,7 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
   },
     
   draw(tile){
-    entity = tile.ent();
+    entity = tile.bc();
     
     Draw.rect(this.region, tile.drawx(), tile.drawy()); 
   }
