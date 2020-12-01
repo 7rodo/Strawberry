@@ -1,4 +1,4 @@
-type: FlyingUnit
+type: flying
 name: Ripper
 flying: true
 description: A bomber based unit, extremely fast and tears down enemy structures with ease.
