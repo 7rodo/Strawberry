@@ -9,7 +9,7 @@ range: 350
 xRand: 2
 reload: 25
 recoil: 4
-innacuracy: 8
+inaccuracy: 8
 size: 3
 ammoTypes: {
   tin: {
