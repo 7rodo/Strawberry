@@ -9,7 +9,7 @@ shots: 3
 inaccuracy: 10
 rotatespeed: 12
 spread: 12
-ammo: {
+ammoTypes: {
   titanium: {
     speed: 6
     damage: 16
