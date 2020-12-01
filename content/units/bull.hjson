@@ -1,4 +1,4 @@
-type: flyingUnit
+type: flying
 name: Bull
 description: A mediumly armoured flying unit, high in mobility.
 speed: 1.5
