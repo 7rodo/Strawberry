@@ -16,7 +16,7 @@ ammoTypes: {
   lead: flakLead
   metaglass: flakGlass
   plastanium: fragPlastic
-  blast-compound: flakExplosive
+  blast-compound: fragExplosive
   
   rage: {
     damage: 16
