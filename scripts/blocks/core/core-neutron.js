@@ -1,7 +1,7 @@
  var placingabi = true;
  const neutron = extendContent(CoreBlock, "core-neutron", {
      update(tile){
-        entity = tile.ent();
+        entity = tile.bc();
         placingabi = false;
       this.super$update(tile);
     },
