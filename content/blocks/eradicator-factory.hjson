@@ -1,6 +1,6 @@
 name: Chaos Array Factory
 description: Makes Chaos Array units.
-type: UnitFactory
+type: LegacyUnitFactory
 unitType: chaos-array
 size: 5
 produceTime: 14400
