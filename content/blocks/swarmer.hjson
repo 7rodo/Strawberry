@@ -1,4 +1,4 @@
-ammo: {
+ammoTypes: {
   blast-compound: missileExplosive
   pyratite: missileIncendiary
   surge-alloy: missileSurge
