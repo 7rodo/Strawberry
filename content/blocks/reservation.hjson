@@ -1,7 +1,7 @@
 type: DoubleTurret
 shootSound: pew
 name: Reservation
-description: A far ranged turret that stores 350 ammo, can use various types of bullets. Useful on times of deficit.
+description: A far ranged turret that stores 350 ammo, can use various types of bullets. Useful in times of deficit.
 health: 1100
 itemCapacity: 350
 maxAmmo: 350
@@ -11,7 +11,7 @@ reload: 25
 recoil: 4
 innacuracy: 8
 size: 3
-ammo: {
+ammoTypes: {
   tin: {
     speed: 7
     damage: 7
