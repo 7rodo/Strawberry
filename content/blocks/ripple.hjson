@@ -1,4 +1,4 @@
-ammo: {
+ammoTypes: {
   graphite: artilleryDense
   silicon: artilleryHoming
   pyratite: artilleryIncendiary
