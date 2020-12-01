@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: ItenTurret
 shootSound: pew
 name: Reservation
 description: A far ranged turret that stores 350 ammo, can use various types of bullets. Useful in times of deficit.
