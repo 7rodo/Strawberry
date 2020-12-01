@@ -9,7 +9,6 @@ smokeEffect: shootBigSmoke
 inaccuracy: 35
 spread: 0
 rotatespeed: 4
-shotWidth: 5
 range: 240
 recoil: 3.5
 requirements: [
