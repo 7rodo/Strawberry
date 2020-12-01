@@ -7,7 +7,7 @@ range: 92
 inaccuracy: 14
 shots: 2
 shotDelay: 4
-ammo: {
+ammoTypes: {
   copper: {
     speed: 7
     damage: 5
