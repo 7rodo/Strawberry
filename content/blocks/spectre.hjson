@@ -1,4 +1,4 @@
-ammo: {
+ammoTypes: {
   graphite: standardDenseBig
   pyratite: standardIncendiaryBig
   thorium: standardThoriumBig
