@@ -10,8 +10,8 @@ maxAmmo: 25
 shootSound: beam
 activeSound: thruster
 shootEffect: lancerLaserCharge
-ammo: {
-  water: lancerLaser
+ammoTypes: {
+  water: lancerLaserShoot
 }
 requirements: [
   lead/45
