@@ -13,7 +13,7 @@ const ster = extendContent(GenericCrafter, "sterilizer", {
   ];},
    
   draw(tile){
-    entity = tile.ent();
+    entity = tile.bc();
     
     Draw.rect(this.region, tile.drawx(), tile.drawy());
     Draw.rect(this.rotateRegion, tile.drawx(), tile.drawy(), entity.totalProgress * 3.4);
