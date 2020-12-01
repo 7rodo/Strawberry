@@ -11,7 +11,7 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
   },
   
   draw: function(tile){
-    entity = tile.ent();
+    entity = tile.bc();
     
     Draw.rect(this.region, tile.drawx(), tile.drawy());
     
