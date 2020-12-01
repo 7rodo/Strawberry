@@ -1,5 +1,5 @@
 type: LiquidTurret
-name: Basalt
+name: Scoria
 description: A larged-sized liquid turret.Throws hot slag on the enemies. Transferes water to oil to punish the enemy.
 size: 3
 health: 840
