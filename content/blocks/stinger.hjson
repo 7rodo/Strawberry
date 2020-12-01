@@ -1,4 +1,4 @@
-type: ArtilleryTurret
+type: ItemTurret
 name: Stinger
 description: A medium-sized 3 way turret.
 health: 800
@@ -9,6 +9,7 @@ shots: 3
 inaccuracy: 10
 rotatespeed: 12
 spread: 12
+targetAir: false
 ammoTypes: {
   titanium: {
     speed: 6
