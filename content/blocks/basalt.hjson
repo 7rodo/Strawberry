@@ -25,6 +25,7 @@ ammoTypes: {
 		ammoMultiplier: 1
 		status: tarred
 		statusDuration: 120
+		puddleSize: 15
 	}
 	slag: {
 		type: LiquidBulletType
@@ -35,6 +36,7 @@ ammoTypes: {
 		ammoMultiplier: 1
 		status: melting
 		statusDuration: 120
+		puddleSize: 8
 	}
 	oil: {
 		type: LiquidBulletType
@@ -45,6 +47,7 @@ ammoTypes: {
 		ammoMultiplier: 1
 		status: tarred
 		statusDuration: 120
+		puddleSize: 10
         }
 	
 }
