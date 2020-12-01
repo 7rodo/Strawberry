@@ -1,4 +1,4 @@
-type: GroundUnit
+type: mech
 name: Baller
 description: A medium sized unit that has incredibly fast speed and tough bullet damage.
 health: 400
