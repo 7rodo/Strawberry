@@ -16,7 +16,7 @@ consumes: {
   }
 }
 category: units
-research: fortress-factory
+research: ground-factory
 requirements: [
   surge-alloy/800
   silicon/80
