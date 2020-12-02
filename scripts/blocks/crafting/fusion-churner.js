@@ -4,9 +4,9 @@ const churner = extendContent(GenericSmelter, "fusion-churner", {
     this.topRegion = Core.atlas.find(this.name + "-top");
   },
   
-  generateIcons: function(){
+  icons: function(){
     return [
-      Core.atlas.find("strawberry-fusion-churner")
+      this.region
     ];
   },
   
