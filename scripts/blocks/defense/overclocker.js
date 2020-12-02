@@ -8,8 +8,8 @@ const overclock = extendContent(OverdriveProjector, 'overclocker', {
   },
   icons(){
     return [
-      Core.atlas.find(this.name + '-bottom'),
-      Core.atlas.find(this.name),
+      this.bottomRegion,
+      this.region
     ];
   },
   draw(tile){
