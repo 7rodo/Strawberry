@@ -5,11 +5,11 @@ const ster = extendContent(GenericCrafter, "sterilizer", {
     this.topRegion = Core.atlas.find(this.name + "-top");
   },
   
-  generateIcons(){
+  icons(){
   return [
-    Core.atlas.find(this.name),
-    Core.atlas.find(this.name + "-rotator"),
-    Core.atlas.find(this.name + "-top")
+    this.region,
+    this.rotateRegion,
+    this.topRegion
   ];},
    
   draw(tile){
