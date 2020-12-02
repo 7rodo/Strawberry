@@ -7,9 +7,9 @@ const pure = extendContent(GenericCrafter, "purifier", {
   
   generateIcons(){
   return [
-    Core.atlas.find(this.name),
-    Core.atlas.find(this.name + "-rotator"),
-    Core.atlas.find(this.name + "-top")
+    this.region,
+    this.rotateRegion,
+    this.topRegion
   ];},
    
   draw(tile){
