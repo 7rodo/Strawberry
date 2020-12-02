@@ -5,7 +5,7 @@ const pure = extendContent(GenericCrafter, "purifier", {
     this.topRegion = Core.atlas.find(this.name + "-top");
   },
   
-  generateIcons(){
+  icons(){
   return [
     this.region,
     this.rotateRegion,
