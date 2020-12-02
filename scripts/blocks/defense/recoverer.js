@@ -6,10 +6,10 @@ const reciver = extendContent(MendProjector, 'recoverer', {
     this.region = Core.atlas.find(this.name);
     this.topRegion = Core.atlas.find(this.name + '-top');
   },
-  generateIcons(){
+  icons(){
     return [
-      Core.atlas.find(this.name + '-bottom'),
-      Core.atlas.find(this.name),
+      this.bottomRegion,
+      this.region
     ];
   },
   draw(tile){
