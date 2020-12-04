@@ -3,12 +3,10 @@ name: Buckshot
 size: 4
 reload: 45
 shots: 25
-ammoUseEffect: shellEjectBig
-shootEffect: shootBig
-smokeEffect: shootBigSmoke
+ammoUseEffect: casing3double
 inaccuracy: 35
 spread: 0
-rotatespeed: 4
+rotateSpeed: 4
 range: 240
 recoil: 3.5
 requirements: [
