@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Machine Gun
 description: Shoots spread bullets in a medium rate.
-health: 240
+health: 150
 reload: 12
 range: 92
 inaccuracy: 14
@@ -9,25 +9,25 @@ shots: 2
 shotDelay: 4
 ammoTypes: {
   copper: {
-    speed: 7
-    damage: 5
+    speed: 4
+    damage: 2.5
     ammoMultiplier: 1.5
   }
   graphite: {
-    speed: 7
-    damage: 13
+    speed: 4
+    damage: 8
     ammoMultiplier: 1.5
     reloadMultiplier: 0.6
   }
   tin: {
-    speed: 7
-    damage: 3
+    speed: 6
+    damage: 1
     ammoMultiplier: 1.5
     reloadMultiplier: 2.08
   }
   pyratite: {
-    speed: 7
-    damage: 6
+    speed: 2
+    damage: 9
     ammoMultiplier: 2
     incendAmount: 1
     incendSpread: 2
