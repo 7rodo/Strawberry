@@ -3,7 +3,7 @@ name: Sniper Cannon
 description: A long range cannon. Can penetrate enemies.
 health: 250
 size: 1
-reload: 180
+reload: 80
 range: 250
 inaccuracy: 0
 rotatespeed: 40
