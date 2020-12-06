@@ -3,7 +3,7 @@ description: An upgraded Overdrive Dome, can reach insane distances with a simil
 health: 800
 size: 5
 hasBoost: false
-range: 390
+range: 650
 consumes: {
   power: 5.5
     items: {
