@@ -2,14 +2,10 @@ type: flying
 name: Bull
 description: A mediumly armoured flying unit, high in mobility.
 speed: 1.5
-maxVelocity: 1.75
-mass: 5
 flying: true
 health: 125
-engineColor: feed69
 range: 150
 engineOffset: 5.3
-cellTrnsY: 1
 weapons: [{
   name: clear
   type: standardHoming
