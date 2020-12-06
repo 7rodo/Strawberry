@@ -8,7 +8,7 @@ targetAir: false
 research: fortress
 weapons: [{
   name: destroyer-weapon
-  x: 1`
+  x: 11
   y: 0
   shots: 1
   inaccuracy: 3
