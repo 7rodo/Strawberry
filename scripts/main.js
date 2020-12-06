@@ -2,9 +2,9 @@
 //require('strawberry/ulib');
 
 // Crafting
-require('strawberry/blocks/crafting/purifier');
-require('strawberry/blocks/crafting/sterilizer');
-require('strawberry/blocks/crafting/fusion-churner');
+//require('strawberry/blocks/crafting/purifier');
+//require('strawberry/blocks/crafting/sterilizer');
+//require('strawberry/blocks/crafting/fusion-churner');
 
 // Defensive
 require('strawberry/blocks/defense/overclocker');
@@ -17,7 +17,7 @@ require('strawberry/blocks/defense/overclocker');
 //require('strawberry/blocks/environment/volcano');
 
 // Power
-require('strawberry/blocks/power/thermal-reactor');
+//require('strawberry/blocks/power/thermal-reactor');
 
 // Units
 //require('strawberry/units/genesis');
