@@ -3,7 +3,7 @@ name: Tin Gun
 description: A weak turret that shoots bursts of 3 projectiles. Useful in the earlygame.
 health: 125
 size: 1
-reload: 65
+reloadTime: 65
 range: 100
 inaccuracy: 10
 rotatespeed: 40
