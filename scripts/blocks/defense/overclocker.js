@@ -26,7 +26,7 @@ overcock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overcock, {
     Draw.alpha(this.liquids.total() / cock.liquidCapacity);
     Draw.color();
 
-    Draw.rect(Core.atlas.find(cock.name), this.x, this.y);
+    Draw.rect(this.region, this.x, this.y);
 
     let f = 1 - (Time.time / 100) % 1;
     Draw.color(cock.baseColor);    
