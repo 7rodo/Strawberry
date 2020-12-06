@@ -5,6 +5,7 @@ health: 1000
 speed: 0.1
 range: 130
 targetAir: false
+research: fortress
 weapons: [{
   name: destroyer-weapon
   x: 2
@@ -21,7 +22,7 @@ weapons: [{
     damage: 1
     lifetime: 60
     width: 14
-    height: 14
+    length: 14
     explodeRange: 60
     splashDamage: 20
     splashDamageRadius: 75
