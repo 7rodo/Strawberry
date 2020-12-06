@@ -7,6 +7,7 @@ range: 235
 burstSpacing: 2
 targetGround: false
 recoil: 4
+reloadTime: 22
 rotateSpeed: 10
 inaccuracy: 12
 shootcone: 17
