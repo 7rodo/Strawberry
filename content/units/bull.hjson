@@ -10,10 +10,10 @@ engineColor: feed69
 range: 150
 engineOffset: 5.3
 cellTrnsY: 1
-weapon: {
-  name: lancer
+weapons: [{
+  name: clear
+  type: standardHoming
   reload: 160
-  bullet: missileJavelin
   size: 0.2
-  alternate: true
-}
+  alternate: false
+}]
