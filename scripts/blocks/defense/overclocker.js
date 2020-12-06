@@ -20,10 +20,10 @@ overcock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overcock, {
     let cock = overcock;
 
     Draw.rect(cock.bottomRegion, this.x, this,y);
-
+    
+    Draw.rect(cock.liquidRegion, this.x, this.y);
     Draw.color(this.liquids.current().color);
     Draw.alpha(this.liquids.total() / cock.liquidCapacity);
-    Draw.rect(cock.liquidRegion, this.x, this.y);
     Draw.color();
 
     Draw.rect(Core.atlas.find(cock.name), this.x, this.y);
