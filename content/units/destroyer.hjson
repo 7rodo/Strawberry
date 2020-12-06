@@ -1,17 +1,15 @@
 type: mech
 name: Destroyer
-description: A heavy unit that shoots deadly fast bullets. Shoots over many things, to attack production
-health: 1250
-speed: 0.2
-maxVelocity: 0.3
-mass: 50
+description: An artillery based unit, can destroy the insides of bases with its high-flying bullets.
+health: 1000
+speed: 0.1
 range: 130
 targetAir: false
-weapon: {
+weapons: [{
   name: destroyer-weapon
-  length: 2
+  x: 2
+  y: -14
   shots: 1
-  width: -14
   inaccuracy: 3
   spread: 0
   reload: 120
@@ -22,13 +20,13 @@ weapon: {
     speed: 4
     damage: 1
     lifetime: 60
-    bulletWidth: 14
-    bulletHeight: 14
-    explodeRange: 75
-    splashDamage: 10
+    width: 14
+    height: 14
+    explodeRange: 60
+    splashDamage: 20
     splashDamageRadius: 75
     hitEffect: shockwave
     backColor: 18abdb
     frontColor: ffffff
   }
-}
+}]
