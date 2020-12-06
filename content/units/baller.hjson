@@ -3,7 +3,7 @@ name: Baller
 description: A medium sized unit that has incredibly fast speed and tough bullet damage.
 health: 400
 speed: 2.5
-accel: 1
+accel: 0.05
 range: 90
 research: mace
 targetAir: true
