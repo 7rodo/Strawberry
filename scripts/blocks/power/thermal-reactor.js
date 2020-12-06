@@ -3,9 +3,9 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
     this.region = Core.atlas.find(this.name);
   },
     
-  generateIcons(){
+  icons(){
     return [
-      Core.atlas.find(this.name + '-icon'),
+      this.region,
     ];
   },
     
