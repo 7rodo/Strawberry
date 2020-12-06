@@ -8,12 +8,12 @@ targetAir: false
 research: fortress
 weapons: [{
   name: destroyer-weapon
-  x: 10
+  x: 1`
   y: 0
   shots: 1
   inaccuracy: 3
   spread: 0
-  reload: 120
+  reload: 60
   alternate: true
   shootSound: artillery
   bullet: {
