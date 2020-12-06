@@ -2,15 +2,13 @@ type: flying
 name: Ripper
 flying: true
 description: A bomber based unit, extremely fast and tears down enemy structures with ease.
-speed: 0.7
-maxVelocity: 5
+speed: 3.5
 drag: 0.3
-mass: 14
 flying: true
 health: 620
-engineColor: 30aefc
 weaponOffsetY: 0
 weaponOffsetX: 0
+research: horizon
 weapon: {
   name: generic-bomber-weapon
   length: 0
@@ -27,10 +25,10 @@ weapon: {
     type: BombBulletType
     hitEffect: flakExplosion
     lifetime: 60
-    bulletWidth: 10
-    bulletHeight: 14
+    width: 10
+    length: 14
     splashDamageRadius: 20
-    splashDamage: 23
+    splashDamage: 20
   }
 }
-range: 16
+range: 25
