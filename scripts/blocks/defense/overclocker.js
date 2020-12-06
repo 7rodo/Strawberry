@@ -1,4 +1,4 @@
-const overclock = extend(OverdriveProjector, "overclock-projector", {
+const overclock = extend(OverdriveProjector, "overtower", {
   baseColor: Color.valueOf("f4f4f4"),
   load(){
     this.super$load();
