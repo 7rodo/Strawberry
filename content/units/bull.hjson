@@ -1,14 +1,15 @@
 type: flying
 name: Bull
-description: A mediumly armoured flying unit, high in mobility.
+description: A middleweight armoured flying unit, high in mobility.
 speed: 1.5
 flying: true
 health: 125
 range: 150
 engineOffset: 5.3
+research: flare
 weapons: [{
   name: clear
-  type: standardHoming
+  bullet: standardHoming
   reload: 160
   size: 0.2
   alternate: false
