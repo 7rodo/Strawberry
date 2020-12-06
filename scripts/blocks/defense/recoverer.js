@@ -16,7 +16,7 @@ const recover = extend(MendProjector, "recoverer", {
     ];
   }
 });
-recover.buildType = () => extend(MendProjector.OverdriveBuild, recover, {
+recover.buildType = () => extend(MendProjector.MendBuild, recover, {
   draw(){
     let reco = recover;
 
