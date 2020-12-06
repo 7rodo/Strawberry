@@ -5,6 +5,7 @@ health: 400
 speed: 1
 accel: 0.1
 range: 90
+research: mace
 targetAir: true
 weapons: [{
   name: bleamer
