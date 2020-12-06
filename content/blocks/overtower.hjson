@@ -1,0 +1,36 @@
+name: Overtower
+description: An upgraded Overdrive Dome, can reach insane distances with a similar speedboost.
+health: 800
+size: 5
+range: 390
+consumes: {
+  power: 5.5
+    items: {
+      items:[
+        silicon/3
+        phase-fabric/2
+        copper/1
+      ]
+    booster: true
+    optional: true
+  }
+    liquid: {
+    liquid: cryofluid
+    amount: 0.24
+  }
+}
+  useTime: 600
+  speedBoost: 2.4
+  speedBoostPhase: 1.75
+  phaseRangeBoost: 200
+  liquidCapacity: 120
+  requirements: [
+    lead/300
+    titanium/250
+    silicon/250
+    plastanium/150
+    phase-fabric/175
+    surge-alloy/200
+  ]
+  category: effect
+  research: recoverer
