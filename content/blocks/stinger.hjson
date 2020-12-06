@@ -3,7 +3,7 @@ name: Stinger
 description: A medium-sized 3 way turret.
 health: 800
 size: 2
-reload: 75
+reloadTime: 75
 range: 125
 shots: 3
 inaccuracy: 10
