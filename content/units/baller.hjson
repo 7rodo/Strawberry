@@ -9,8 +9,8 @@ research: mace
 targetAir: true
 weapons: [{
   name: bleamer
-  x: 2
-  y: -7
+  x: 14
+  y: 0
   shots: 1
   inaccuracy: 5
   spread: 0
