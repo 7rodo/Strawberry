@@ -1,9 +1,6 @@
 // What ever the j this is
 require('strawberry/ulib');
 
-// cores
-require('strawberry/blocks/core/core-neutron');
-
 // Crafting
 require('strawberry/blocks/crafting/purifier');
 require('strawberry/blocks/crafting/sterilizer');
