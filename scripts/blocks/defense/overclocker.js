@@ -23,8 +23,8 @@ overcock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overcock, {
     
     Draw.color(this.liquids.current().color);
     Draw.alpha(this.liquids.total() / cock.liquidCapacity);
-    Draw.color();
     Draw.rect(cock.liquidRegion, this.x, this.y);
+    Draw.color();
 
     Draw.rect(this.region, this.x, this.y);
 
