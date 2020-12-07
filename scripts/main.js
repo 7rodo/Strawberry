@@ -8,7 +8,7 @@
 
 // Defensive
 require('strawberry/blocks/defense/overclocker');
-require('strawberry/blocks/defense/recoverer');
+//require('strawberry/blocks/defense/recoverer');
 
 // Turrets
 //require('strawberry/blocks/turrets/buckshot');
