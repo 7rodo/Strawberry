@@ -10,13 +10,15 @@ const ster = extendContent(GenericCrafter, "sterilizer", {
     this.region,
     this.rotateRegion,
     this.topRegion
-  ];},
-   
-  draw(tile){
-    entity = tile.bc();
-    
-    Draw.rect(this.region, tile.drawx(), tile.drawy());
-    Draw.rect(this.rotateRegion, tile.drawx(), tile.drawy(), entity.totalProgress * 3.4);
-    Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
+    ];
+  },
+});
+ster.buildType = () => extend(GenericCrafter.GenericCrafterBuild, ster, {
+  draw(){
+    let str = ster;
+
+    Draw.rect(this.region, this.x, this.y);
+    Draw.rect(this.rotateRegion, this.x, this.y, str.totalProgress * 3.4);
+    Draw.rect(this.topRegion, this.x, this.y);
   }
 });
