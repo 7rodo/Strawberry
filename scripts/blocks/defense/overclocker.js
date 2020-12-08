@@ -19,11 +19,11 @@ overcock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overcock, {
   draw(){
     let cock = overcock;
 
-    Draw.rect(cock.bottomRegion, this.x, this,y);
+    Draw.rect(this.bottomRegion, this.x, this,y);
     
     Draw.color(this.liquids.current().color);
     Draw.alpha(this.liquids.total() / cock.liquidCapacity);
-    Draw.rect(cock.liquidRegion, this.x, this.y);
+    Draw.rect(this.liquidRegion, this.x, this.y);
     Draw.color();
 
     Draw.rect(this.region, this.x, this.y);
@@ -32,7 +32,7 @@ overcock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overcock, {
     Draw.color(cock.baseColor);    
     if(this.power.status > 0.01 && this.liquids.total() > 0.01) {
       Draw.alpha(this.power.status * Mathf.absin(Time.time, 10, 1) * 0.5);
-      Draw.rect(cock.topRegion, this.x, this.y);
+      Draw.rect(this.topRegion, this.x, this.y);
       Draw.alpha(1);
 
       Lines.stroke((2 * f + 0.2) * this.power.status);
