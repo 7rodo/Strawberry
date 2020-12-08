@@ -17,8 +17,8 @@ ster.buildType = () => extend(GenericCrafter.GenericCrafterBuild, ster, {
   draw(){
     let str = ster;
 
-    Draw.rect(this.region, this.x, this.y);
-    Draw.rect(this.rotateRegion, this.x, this.y, str.totalProgress * 3.4);
-    Draw.rect(this.topRegion, this.x, this.y);
+    Draw.rect(str.region, this.x, this.y);
+    Draw.rect(str.rotateRegion, this.x, this.y, entity.totalProgress * 3.4);
+    Draw.rect(str.topRegion, this.x, this.y);
   }
 });
