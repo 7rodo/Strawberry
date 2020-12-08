@@ -6,20 +6,17 @@ const pure = extendContent(GenericCrafter, "purifier", {
   },
   
   icons(){
-  return [
-    this.region,
-    this.rotateRegion,
-    this.topRegion
+    return [
+      this.region,
+      this.rotateRegion,
+      this.topRegion
     ];
-  },
+  }
 });
 pure.buildType = () => extend(GenericCrafter.GenericCrafterBuild, pure, {
   draw(){
-    let prf = pure;
-
-    Draw.rect(this.region, this.x, this.y);
-    Draw.rect(this.rotateRegion, this.x, this.y, prf.totalProgress * 1.7);
-    Draw.rect(this.topRegion, this.x, this.y);
+    Draw.rect(pure.region, this.x, this.y);
+    Draw.rect(pure.rotateRegion, this.x, this.y, this.totalProgress * 3.4);
+    Draw.rect(pure.topRegion, this.x, this.y);
   }
 });
-
