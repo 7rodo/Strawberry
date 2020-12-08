@@ -10,15 +10,16 @@ const pure = extendContent(GenericCrafter, "purifier", {
     this.region,
     this.rotateRegion,
     this.topRegion
-  ];},
-   
-  draw(tile){
-    entity = tile.bc();
-    
-    Draw.rect(this.region, tile.drawx(), tile.drawy());
-    Draw.rect(this.rotateRegion, tile.drawx(), tile.drawy(), entity.totalProgress * 1.7);
-    Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
+    ];
+  },
+});
+pure.buildType = () => extend(GenericCrafter.GenericCrafterBuild, pure, {
+  draw(){
+    let prf = pure;
+
+    Draw.rect(this.region, this.x, this.y);
+    Draw.rect(this.rotateRegion, this.x, this.y, prf.totalProgress * 1.7);
+    Draw.rect(this.topRegion, this.x, this.y);
   }
 });
- 
- 
+
