@@ -1,4 +1,4 @@
-const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
+const thermal = extendContent(ThermalGenerator, "thermal-reactor", {
   load(){
     this.region = Core.atlas.find(this.name);
   },
@@ -8,10 +8,11 @@ const thermalReactor = extendContent(ThermalGenerator, "thermal-reactor", {
       this.region,
     ];
   },
-    
-  draw(tile){
-    entity = tile.bc();
-    
-    Draw.rect(this.region, tile.drawx(), tile.drawy()); 
-  }
+ 
+});
+thermal.buildType = () => extend(ThermalReactor.ThermalReactorBuild, thermal, {
+  draw(){
+    let therm = thermal;
+        Draw.rect(this.region, this.y, this.x); 
+  },
 });
