@@ -12,8 +12,6 @@ consumes: {
         phase-fabric/2
         copper/1
       ]
-    booster: true
-    optional: true
   }
     liquid: {
     liquid: cryofluid
@@ -22,7 +20,7 @@ consumes: {
 }
   useTime: 600
   liquidCapacity: 120
-  boostSpeed: 2.85
+  boostSpeed: 2.8
   requirements: [
     lead/300
     titanium/250
