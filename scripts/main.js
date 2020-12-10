@@ -7,7 +7,7 @@ require('strawberry/blocks/crafting/sterilizer');
 //require('strawberry/blocks/crafting/fusion-churner');
 
 // Defensive
-require('strawberry/blocks/defense/overclocker');
+require('strawberry/blocks/defense/overtower');
 //require('strawberry/blocks/defense/recoverer');
 
 // Turrets
