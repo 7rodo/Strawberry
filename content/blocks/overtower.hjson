@@ -10,7 +10,7 @@ consumes: {
       items:[
         silicon/3
         phase-fabric/2
-        copper/1
+        fusion/1
       ]
   }
     liquid: {
