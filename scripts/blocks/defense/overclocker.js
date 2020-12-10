@@ -21,7 +21,9 @@ overclock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overclock,
 
     Draw.rect(clock.bottomRegion, this.x, this,y);
     
-    Drawf.liquid(clock.liquidRegion, this.x, this.y, this.liquids.get(liquid) / clock.liquidCapacity, Liquids.water.color);
+    Draw.color(this.liquids.current().color);
+    Draw.alpha(this.liquids.total() / clock.liquidCapacity);
+    Draw.rect(clock.liquidRegion, this.x, this.y);
     Draw.color();
 
     Draw.rect(clock.region, this.x, this.y);
