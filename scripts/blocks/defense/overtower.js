@@ -19,7 +19,7 @@ overclock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overclock,
   draw(){
     let clock = overclock;
 
-    Draw.rect(clock.bottomRegion, this.x, this,y);
+    Draw.rect(clock.bottomRegion, this.x, this.y);
     
     Draw.color(this.liquids.current().color);
     Draw.alpha(this.liquids.total() / clock.liquidCapacity);
