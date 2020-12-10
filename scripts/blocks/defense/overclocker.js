@@ -1,5 +1,5 @@
 const overclock = extend(OverdriveProjector, "overtower", {
-  baseColor: Color.valueOf("f4f4f4"),
+  baseColor: Color.valueOf("ffd59e"),
   load(){
     this.super$load();
     this.bottomRegion = Core.atlas.find(this.name + '-bottom');
@@ -15,26 +15,26 @@ const overclock = extend(OverdriveProjector, "overtower", {
     ];
   }
 });
-overcock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overcock, {
+overclock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overclock, {
   draw(){
-    let cock = overcock;
+    let clock = overclock;
 
-    Draw.rect(cock.bottomRegion, this.x, this,y);
+    Draw.rect(clock.bottomRegion, this.x, this,y);
     
-    Drawf.liquid(aerial.liquidRegion, this.x, this.y, this.liquids.get(liquid) / aerial.liquidCapacity, Liquids.water.color);
+    Drawf.liquid(clock.liquidRegion, this.x, this.y, this.liquids.get(liquid) / clock.liquidCapacity, Liquids.water.color);
     Draw.color();
 
-    Draw.rect(cock.region, this.x, this.y);
+    Draw.rect(clock.region, this.x, this.y);
 
     let f = 1 - (Time.time / 100) % 1;
-    Draw.color(cock.baseColor);    
-    if(this.power.status > 0.01 && this.liquids.total() > 0.01) {
+    Draw.color(clock.baseColor);    
+    if(this.power.status >= 0.01 && this.liquids.total() >= 0.01) {
       Draw.alpha(this.power.status * Mathf.absin(Time.time, 10, 1) * 0.5);
-      Draw.rect(cock.topRegion, this.x, this.y);
+      Draw.rect(clock.topRegion, this.x, this.y);
       Draw.alpha(1);
 
       Lines.stroke((2 * f + 0.2) * this.power.status);
-      Lines.square(this.x, this.y, ((1 - f) * 8) * cock.size / 2);
+      Lines.square(this.x, this.y, ((1 - f) * 8) * clock.size / 2);
     };
 
     Draw.reset();   
