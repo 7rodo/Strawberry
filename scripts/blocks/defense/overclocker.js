@@ -30,7 +30,7 @@ overclock.buildType = () => extend(OverdriveProjector.OverdriveBuild, overclock,
 
     let f = 1 - (Time.time / 100) % 1;
     Draw.color(clock.baseColor);    
-    if(this.power.status >= 0.01 && this.liquids.total() >= 0.01) {
+    if(this.power.status > 0.01 && this.liquids.total() > 0.01) {
       Draw.alpha(this.power.status * Mathf.absin(Time.time, 10, 1) * 0.5);
       Draw.rect(clock.topRegion, this.x, this.y);
       Draw.alpha(1);
