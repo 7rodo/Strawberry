@@ -11,6 +11,7 @@ consumes: {
     items: [
       cobalt/3
       phase-fabric/2
+      copper/4
     ]
   }
   liquid: {
