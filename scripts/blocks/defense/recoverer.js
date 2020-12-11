@@ -1,6 +1,5 @@
-///////
 const recover = extend(MendProjector, "recoverer", {
-  baseColor: Color.valueOf("f4f4f4"),
+  baseColor: Color.valueOf("84f491"),
   load(){
     this.super$load();
     this.bottomRegion = Core.atlas.find(this.name + '-bottom');
@@ -20,7 +19,7 @@ recover.buildType = () => extend(MendProjector.MendBuild, recover, {
   draw(){
     let reco = recover;
 
-    Draw.rect(reco.bottomRegion, this.x, this,y);
+    Draw.rect(reco.bottomRegion, this.x, this.y);
 
     Draw.color(this.liquids.current().color);
     Draw.alpha(this.liquids.total() / reco.liquidCapacity);
