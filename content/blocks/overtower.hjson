@@ -20,7 +20,7 @@ consumes: {
 }
   useTime: 600
   liquidCapacity: 120
-  boostSpeed: 2.8
+  speedBoost: 2.8
   requirements: [
     lead/300
     titanium/250
