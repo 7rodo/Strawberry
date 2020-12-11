@@ -26,7 +26,7 @@ recover.buildType = () => extend(MendProjector.MendBuild, recover, {
     Draw.rect(reco.liquidRegion, this.x, this.y);
     Draw.color();
 
-    Draw.rect(this.region, this.x, this.y);
+    Draw.rect(reco.region, this.x, this.y);
 
     let f = 1 - (Time.time / 100) % 1;
     Draw.color(reco.baseColor);    
