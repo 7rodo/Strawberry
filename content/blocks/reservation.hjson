@@ -15,8 +15,8 @@ ammoTypes: {
   tin: {
     speed: 7
     damage: 7
-    bulletWidth: 5
-    bulletHeight: 6
+    width: 5
+    length: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 10
@@ -27,8 +27,8 @@ ammoTypes: {
   copper: {
     speed: 6
     damage: 9
-    bulletWidth: 9
-    bulletHeight: 6
+    width: 9
+    length: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 10
@@ -39,8 +39,8 @@ ammoTypes: {
   sand: {
     speed: 4
     damage: 4
-    bulletWidth: 5
-    bulletHeight: 3
+    width: 5
+    length: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
@@ -53,8 +53,8 @@ ammoTypes: {
   silicon: {
     speed: 7
     damage: 18
-    bulletWidth: 4
-    bulletHeight: 6
+    width: 4
+    length: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 25
@@ -69,8 +69,8 @@ ammoTypes: {
   metaglass: {
     speed: 5
     damage: 16
-    bulletWidth: 8
-    bulletHeight: 6
+    width: 8
+    length: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 25
@@ -83,8 +83,8 @@ ammoTypes: {
   plastanium: {
     speed: 8
     damage: 25
-    bulletWidth: 8
-    bulletHeight: 6
+    width: 8
+    length: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 50
@@ -99,8 +99,8 @@ ammoTypes: {
   pyratite: {
     speed: 4
     damage: 20
-    bulletWidth: 12
-    bulletHeight: 9
+    width: 12
+    length: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 25
@@ -113,8 +113,8 @@ ammoTypes: {
   blast-compound: {
     speed: 4
     damage: 31
-    bulletWidth: 12
-    bulletHeight: 9
+    width: 12
+    length: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 35
@@ -131,8 +131,8 @@ ammoTypes: {
    surge-alloy: {
     speed: 9
     damage: 28
-    bulletWidth: 12
-    bulletHeight: 9
+    width: 12
+    length: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 50
