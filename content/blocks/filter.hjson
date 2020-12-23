@@ -3,7 +3,7 @@ name: Filter
 description: Filters tin from sand.
 size: 1
 health: 200
-craftTime: 60
+craftTime: 6
 itemCapacity: 10
 consumes: {
   items: {
