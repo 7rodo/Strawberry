@@ -6,7 +6,8 @@ health: 840
 range: 190
 maxAmmo: 30
 recoil: 3
-shots: 15
+shots: 30
+shotSpacing: 1
 reloadTime: 60
 inaccuracy: 5
 shootCone: 100
@@ -19,7 +20,7 @@ ammoTypes: {
         water: {
 		type: LiquidBulletType
 		liquid: oil
-		damage: 7
+		damage: 4
 		speed: 4
 		knockback: 1
 		ammoMultiplier: 1
@@ -30,7 +31,7 @@ ammoTypes: {
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
-		damage: 21
+		damage: 11.5
 		speed: 5
 		knockback: 1.25
 		ammoMultiplier: 1
@@ -41,7 +42,7 @@ ammoTypes: {
 	oil: {
 		type: LiquidBulletType
 		liquid: oil
-		damage: 15
+		damage: 8
 		speed: 6
 		knockback: 1.5
 		ammoMultiplier: 1
