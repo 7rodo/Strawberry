@@ -20,5 +20,5 @@ require('strawberry/blocks/defense/recoverer');
 require('strawberry/blocks/power/thermal-reactor');
 
 // Units
-//require('strawberry/units/genesis');
+require('strawberry/units/genesis');
 //require('strawberry/units/ravager');
