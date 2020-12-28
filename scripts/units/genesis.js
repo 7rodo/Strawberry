@@ -28,7 +28,7 @@ genesisWeapon.shots = 3;
 genesisWeapon.shootSound = Sounds.pew;
 genesisWeapon.bullet = genesisBullet;
 
-const genesis = extendContent(air, "genesis-ship", {
+const genesis = extendContent(flying, "genesis-ship", {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
