@@ -10,7 +10,7 @@ const thermal = extendContent(ThermalGenerator, "thermal-reactor", {
   },
  
 });
-thermal.buildType = () => extend(ThermalReactor.ThermalReactorBuild, thermal, {
+thermal.buildType = () => extend(ThermalGenerator.ThermalGeneratorBuild, thermal, {
   draw(){
     let therm = thermal;
         Draw.rect(therm.region, this.y, this.x); 
