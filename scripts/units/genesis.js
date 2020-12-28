@@ -28,25 +28,24 @@ genesisWeapon.shots = 3;
 genesisWeapon.shootSound = Sounds.pew;
 genesisWeapon.bullet = genesisBullet;
 
-const genesis = extendContent(flying, "genesis-ship", {
-  load(){
-    this.weapon.load();
-    this.region = Core.atlas.find(this.name);
-  },
+const GenesisT1 = extendContent(UnitType, "genesis-ship", {});
+GenesisT1.constructor = () => extend(UnitEntity, {});
+Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(GenesisT1, 60 * 35, ItemStack.with(Items.silicon, 40, Items.metaglass, 35, Items.titanium, 20)));
 
-  updateAlt(player){
-    if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*/, player.rotation);
-  }
-});
 
-genesis.weapon = genesisWeapon;
-genesis.localizedName = "Genesis"
-genesis.description = "freeeeeeeeeeeeeeeeeeze"
-genesis.speed = 0.8
-genesis.flying = true
-genesis.health = 225
-genesis.range = 100
-genesis.engineOffset = 5.3
-genesis.mineTier = 2
-genesis.mineSpeed = 4
-genesis.itemCapacity = 25
+//  updateAlt(player){
+ //   if (!Vars.state.isPaused()) Effects.effect(ghostTrail, player.x, player.y /*- 5*/, player.rotation);
+ // }
+//});
+
+GenesisT1.weapons.add(genesisWeapon);
+GenesisT1.localizedName = "Genesis"
+GenesisT1.description = "freeeeeeeeeeeeeeeeeeze"
+GenesisT1.speed = 0.8
+GenesisT1.flying = true
+GenesisT1.health = 225
+GenesisT1.range = 100
+GenesisT1.engineOffset = 5.3
+GenesisT1.mineTier = 2
+GenesisT1.mineSpeed = 4
+GenesisT1.itemCapacity = 25
