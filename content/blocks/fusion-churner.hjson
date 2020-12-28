@@ -15,7 +15,7 @@ consumes: {
     ]
   }
   liquid: {
-    liquid: cryofluid
+    liquid: oil
     amount: 0.5
   }
 }
