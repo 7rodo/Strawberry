@@ -10,24 +10,16 @@ const deadEffect = newEffect(15, e => {
   Lines.circle(e.x, e.y, 30 * e.fin());
 });
 
-const bull = extend(BasicBulletType, {
-  draw(b){
-  },
-
-  init(b){
-    if(!b) return;
-
-    ulib.spawnUnit(UnitTypes.ghoul, b.getTeam(), b.x, b.y)
-  }
+const doom = extend(ArtilleryBulletType, {
 });
-
-bull.damage = 70;
-bull.hitEffect = Fx.none;
-bull.shootEffect = Fx.none;
-bull.despawnEffect = Fx.none;
-bull.shootEffect = summonEffect;
-bull.smokeEffect = Fx.none;
-
+doom.speed = 3;
+doom.damage = 10;
+doom.splashDamage = 25;
+doom.lifetime = 180;
+doom.length = 14;
+doom.width = doom.length;
+doom.frontColor = Color.valueOf('ffffff')
+doom.backColor = Color.valueOf('ac11ee')
 
 const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
   load(){
@@ -38,13 +30,12 @@ const ravagerWeapon = extendContent(Weapon, "ravager-equip", {
 
 ravagerWeapon.reload = 75;
 ravagerWeapon.alternate = true;
-ravagerWeapon.length = 12;
-ravagerWeapon.width = 15;
-ravagerWeapon.shots = 5;
+ravagerWeapon.y = 12;
+ravagerWeapon.x = 15;
+ravagerWeapon.shots = 3;
 ravagerWeapon.recoil = 9;
 ravagerWeapon.shootSound = Sounds.shotgun;
-ravagerWeapon.minPlayerDist = 120;
-ravagerWeapon.bullet = bull;
+ravagerWeapon.bullet = doom;
 
 const ravager = extendContent(UnitType, "ravager", {
   load(){
@@ -76,14 +67,11 @@ ravager.create(prov(() => extend(GroundUnit, {
       Events.fire(EventType.UnitDestroyEvent(this));
     }
 })));
-ravager.speed = 0.1;
-ravager.maxVelocity = 0.15;
-ravager.mass = 50;
-ravager.range = 50;
+ravager.speed = 0.2;
+ravager.range = 120;
 ravager.attackLength = 460;
 ravager.shootCone = 250;
-ravager.weaponOffsetY = 2;
-ravager.hitSize = 10;
+ravager.hitSize = 12;
 ravager.description = "j";
-ravager.health = 25000;
+ravager.health = 35000;
 ravager.weapon = ravagerWeapon;
