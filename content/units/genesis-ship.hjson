@@ -15,13 +15,25 @@ weapons: [{
   top: false
   y: 1
   x: 2
-  reload: 30
+  shootSound: pew
+  shots: 3
+  spread: 15
+  inaccuracy: 5
+  reload: 60
   alternate: true
   shootSound: pew
   bullet: {
-    speed: 5
+    speed: 3
     damage: 2
     ammoMultiplier: 1
-    lifetime: 30
+    lifetime: 100
+    width: 10
+    length: 5
+    pierce: true
+    status: freezing
+    statusDuration: 120
   }
 }]
+mineTier: 2
+mineSpeed: 3
+itemCapacity: 50
