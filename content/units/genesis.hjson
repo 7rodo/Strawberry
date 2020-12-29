@@ -1,0 +1,27 @@
+type: flying
+name: Genesis
+description: freeze
+speed: 3
+flying: true
+health: 340
+engineOffset: 5
+drag: 0.02
+accel: 0.1
+range: 100
+rotatespeed: 5.0
+research: zenith
+weapons: [{
+  name: frost-mount
+  top: false
+  y: 1
+  x: 2
+  reload: 30
+  alternate: true
+  shootSound: pew
+  bullet: {
+    speed: 5
+    damage: 2
+    ammoMultiplier: 1
+    lifetime: 30
+  }
+}]
