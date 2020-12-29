@@ -19,15 +19,16 @@ weapons: [{
   shots: 3
   spread: 15
   inaccuracy: 5
-  reload: 60
+  reload: 25
   alternate: true
   shootSound: pew
   bullet: {
+    type: MissileBulletType
     speed: 3
     damage: 4
     ammoMultiplier: 1
     lifetime: 100
-    width: 6
+    width: 4
     length: 3
     pierce: true
     status: freezing
