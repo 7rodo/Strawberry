@@ -38,5 +38,5 @@ weapons: [{
 }]
 mineTier: 2
 mineSpeed: 3
-buildspeed: 0.9
+buildSpeed: 0.9
 itemCapacity: 50
