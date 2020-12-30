@@ -8,8 +8,9 @@ maxAmmo: 30
 recoil: 3
 shots: 30
 burstSpacing: 1
+alternate: true
 reloadTime: 60
-inaccuracy: 90
+inaccuracy: 45
 shootCone: 100
 shootSound: splash
 shootEffect: shootLiquid
