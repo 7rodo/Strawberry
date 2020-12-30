@@ -9,7 +9,7 @@ recoil: 3
 shots: 30
 burstSpacing: 1
 reloadTime: 60
-inaccuracy: 5
+inaccuracy: 90
 shootCone: 100
 shootSound: splash
 shootEffect: shootLiquid
