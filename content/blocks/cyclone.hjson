@@ -6,9 +6,9 @@ ammoTypes: {
   
   rage: {
     damage: 12
-    reloadMultiplier: 0.6
-    bulletWidth: 8
-    bulletHeight: 8
+    reloadMultiplier: 0.7
+    width: 8
+    length: 8
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: ffffff
