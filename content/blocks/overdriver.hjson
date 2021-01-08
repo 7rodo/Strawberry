@@ -13,7 +13,7 @@ optional: true
 }
 }
   speedBoost: 1.15
-  speedBoostPhase: 1.05
+  speedBoostPhase: 0.40
   useTime: 375
   phaseRangeBoost: 10
   range: 32
