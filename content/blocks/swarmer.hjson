@@ -6,6 +6,8 @@ ammoTypes: {
   rage: {
     type: MissileBulletType
     damage: 35
+    width: 9
+    length: 9
     reloadMultiplier: 0.5
     ammoMultiplier: 10
     backColor: 00aeff
