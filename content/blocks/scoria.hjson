@@ -30,7 +30,7 @@ ammoTypes: {
 		statusDuration: 120
 		puddleSize: 8
 	}
-
+}
 requirements: [
 	lead/85
 	bronze/55
