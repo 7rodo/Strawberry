@@ -6,8 +6,8 @@ ammoTypes: {
   blast-compound: {
     damage: 40
     reloadMultiplier: 0.7
-    bulletWidth: 16
-    bulletHeight: 21
+    width: 16
+    length: 21
     ammoMultiplier: 15
     backColor: e3566b
     frontColor: ffffff
@@ -20,8 +20,8 @@ ammoTypes: {
   surge-alloy: {
     damage: 33
     reloadMultiplier: 0.9
-    bulletWidth: 16
-    bulletHeight: 21
+    width: 16
+    length: 21
     ammoMultiplier: 15
     backColor: e3566b
     frontColor: ffffff
@@ -31,8 +31,8 @@ ammoTypes: {
   rage: {
     damage: 75
     reloadMultiplier: 0.4
-    bulletWidth: 20
-    bulletHeight: 26
+    width: 20
+    length: 26
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: ffffff
