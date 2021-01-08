@@ -19,21 +19,10 @@ liquidCapacity: 120
 activeSound: splash
 
 ammoTypes: {
-        water: {
-		type: LiquidBulletType
-		liquid: oil
-		damage: 4
-		speed: 4
-		knockback: 1
-		ammoMultiplier: 1
-		status: tarred
-		statusDuration: 120
-		puddleSize: 15
-	}
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
-		damage: 11.5
+		damage: 7
 		speed: 5
 		knockback: 1.25
 		ammoMultiplier: 1
@@ -41,19 +30,6 @@ ammoTypes: {
 		statusDuration: 120
 		puddleSize: 8
 	}
-	oil: {
-		type: LiquidBulletType
-		liquid: oil
-		damage: 8
-		speed: 6
-		knockback: 1.5
-		ammoMultiplier: 1
-		status: tarred
-		statusDuration: 120
-		puddleSize: 10
-        }
-	
-}
 
 requirements: [
 	lead/85
