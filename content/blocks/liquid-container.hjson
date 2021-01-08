@@ -5,9 +5,8 @@ health: 330
 size: 2
 liquidCapacity: 400
 requirements: [
-  lead/20
+  copper/20
   metaglass/15
-  graphite/20
 ]
 category: liquid
 research: liquid-router
