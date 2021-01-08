@@ -8,8 +8,8 @@ ammoTypes: {
 rage: {
     type: ArtilleryBulletType
     reloadMultiplier: 0.6
-    bulletWidth: 14
-    bulletHeight: 14
+    width: 14
+    length: 14
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: d1f0ff
