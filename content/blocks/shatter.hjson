@@ -4,7 +4,7 @@ size: 3
 health: 1480
 shots: 5
 range: 235
-burstSpacing: 2
+burstSpacing: 3 
 targetGround: false
 recoil: 4
 reloadTime: 22
