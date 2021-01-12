@@ -1,7 +1,7 @@
 type: resource
 name: Radium
 description: A highly explosive radioactive resource. Useful for projectiles and can be purified.
-hardness: 3
+hardness: 4
 radioactivity: 1.05
 cost: 2
 flammability: 0
