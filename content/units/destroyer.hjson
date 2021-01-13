@@ -1,9 +1,10 @@
 type: mech
 name: Destroyer
 description: An artillery based unit, can destroy the insides of bases with its high-flying bullets.
-health: 1000
+health: 900
+armor: 10
 speed: 0.35
-range: 130
+range: 160
 targetAir: false
 research: fortress
 weapons: [{
@@ -19,11 +20,10 @@ weapons: [{
   bullet: {
     type: ArtilleryBulletType
     speed: 4
-    damage: 1
+    damage: 5
     lifetime: 60
     width: 14
     length: 14
-    explodeRange: 60
     splashDamage: 20
     splashDamageRadius: 75
     hitEffect: shockwave
