@@ -15,10 +15,3 @@ require('strawberry/blocks/defense/recoverer');
 
 // Environment
 //require('strawberry/blocks/environment/volcano');
-
-// Power
-require('strawberry/blocks/power/thermal-reactor');
-
-// Units
-require('strawberry/units/genesis');
-//require('strawberry/units/ravager');
