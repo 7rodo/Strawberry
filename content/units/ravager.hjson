@@ -1,2 +1,36 @@
-type: mech
-research: scepter
+name: Ravager
+flying: false
+description: j.
+speed: 0.2
+health: 25000
+armor: 15
+hitSize: 20
+research: reign
+weapons: [{
+  name: ravager-equip
+  y: 12
+  x: 15
+  shots: 5
+  recoil: 10
+  inaccuracy: 3
+  reload: 120
+  alternate: true
+  shootSound: shotgun
+  mirror: true
+  bullet: {	
+    type: MissileBulletType	
+    speed: 6
+    damage: 12
+    splashDamage: 25
+    speed: 3
+    lifetime: 180
+    length: 14
+    width: 14
+    frontColor: ffffff
+    backColor: ac11ee
+    trailColor: d3d3d3
+  }	
+}]
+range: 260
+itemCapacity: 450
+targetAir: true
