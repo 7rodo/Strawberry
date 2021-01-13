@@ -15,3 +15,7 @@ require('strawberry/blocks/defense/recoverer');
 
 // Environment
 //require('strawberry/blocks/environment/volcano');
+
+// Units
+require('strawberry/units/genesis');
+//require('strawberry/units/ravager');
