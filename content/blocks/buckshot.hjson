@@ -9,6 +9,7 @@ spread: 0
 rotateSpeed: 4
 range: 240
 recoil: 3.5
+velocityInaccuracy: 0.6
 requirements: [
   bronze/30
   aluminium/55
