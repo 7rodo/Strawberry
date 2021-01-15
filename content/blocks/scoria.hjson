@@ -4,17 +4,17 @@ description: A larged-sized liquid turret.Throws hot slag on the enemies. Transf
 size: 3
 health: 840
 range: 190
-maxAmmo: 30
+maxAmmo: 45
 recoil: 3
 shots: 30
 velocityInaccuracy: 0.9
-spread:3
+spread: 3
 reloadTime: 60
-inaccuracy: 45
-shootCone: 100
+inaccuracy: 20
+shootCone: 60
 shootSound: splash
 shootEffect: shootLiquid
-liquidCapacity: 120
+liquidCapacity: 45
 activeSound: splash
 
 ammoTypes: {
