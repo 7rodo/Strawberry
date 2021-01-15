@@ -7,10 +7,10 @@ range: 190
 maxAmmo: 45
 recoil: 3
 shots: 30
-velocityInaccuracy: 0.9
+velocityInaccuracy: 0.5
 spread: 3
 reloadTime: 60
-inaccuracy: 20
+inaccuracy: 10
 shootCone: 60
 shootSound: splash
 shootEffect: shootLiquid
@@ -21,9 +21,9 @@ ammoTypes: {
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
-		damage: 7
-		speed: 5
-		knockback: 1.25
+		damage: 8
+		speed: 6
+		knockback: 1.5
 		ammoMultiplier: 1
 		status: melting
 		statusDuration: 120
