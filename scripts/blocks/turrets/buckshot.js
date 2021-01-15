@@ -1,53 +1,53 @@
 const buckshotStandard = extend(BasicBulletType, {
 });
-buckshotStandard.speed = 5 + Mathf.random(6);
+buckshotStandard.speed = 5;
 buckshotStandard.damage = 10;
 buckshotStandard.lifetime = 70;
-buckshotStandard.bulletHeight = 5 + Mathf.random(4);
-buckshotStandard.bulletWidth = buckshotStandard.bulletHeight * 1.5;
+buckshotStandard.bulletHeight = 5;
+buckshotStandard.bulletWidth = 3;
 
 const buckshotDense = extend(BasicBulletType, {
 });
-buckshotDense.speed = 5 + Mathf.random(6);
-buckshotDense.damage = 29;
+buckshotDense.speed = 5;
+buckshotDense.damage = 20;
 buckshotDense.lifetime = 90;
-buckshotDense.reloadMultiplier = 0.5;
-buckshotDense.bulletHeight = 5 + Mathf.random(5);
-buckshotDense.bulletWidth = buckshotDense.bulletHeight * 1.5;
+buckshotDense.reloadMultiplier = 0.6;
+buckshotDense.bulletHeight = 7.5;
+buckshotDense.bulletWidth = 4.5;
 buckshotDense.backColor = Color.valueOf('64c1e3');
 
 const buckshotIncendiary = extend(BasicBulletType, {
 });
-buckshotIncendiary.speed = 6 + Mathf.random(12);
+buckshotIncendiary.speed = 6;
 buckshotIncendiary.damage = 11;
 buckshotIncendiary.lifetime = 60;
 buckshotIncendiary.incendAmount = 1;
 buckshotIncendiary.incendSpread = 4;
 buckshotIncendiary.ammoMultiplier = 3;
-buckshotIncendiary.bulletHeight = 5 + Mathf.random(7);
-buckshotIncendiary.bulletWidth = buckshotIncendiary.bulletHeight * 1.5;
+buckshotIncendiary.bulletHeight = 5;
+buckshotIncendiary.bulletWidth = 3;
 buckshotIncendiary.frontColor = Color.valueOf('fffde0');
 buckshotIncendiary.backColor = Color.valueOf('ff8400');
 
 const buckshotHoming = extend(BasicBulletType, {
 });
-buckshotHoming.speed = 5 + Mathf.random(6);
+buckshotHoming.speed = 5;
 buckshotHoming.damage = 9;
 buckshotHoming.lifetime = 90;
 buckshotHoming.homingPower = 0.02;
 buckshotHoming.ammoMultiplier = 2;
-buckshotHoming.bulletHeight = 5 + Mathf.random(5);
-buckshotHoming.bulletWidth = buckshotHoming.bulletHeight * 1.5;
+buckshotHoming.bulletHeight = 5;
+buckshotHoming.bulletWidth = 3;
 
 const buckshotExplosive = extend(BasicBulletType, {
 });
-buckshotExplosive.speed = 5 + Mathf.random(6);
+buckshotExplosive.speed = 5;
 buckshotExplosive.damage = 16;
 buckshotExplosive.lifetime = 60;
 buckshotExplosive.ammoMultiplier = 5;
 buckshotExplosive.reloadMultiplier = 0.7;
-buckshotExplosive.bulletHeight = 5 + Mathf.random(6);
-buckshotExplosive.bulletWidth = buckshotExplosive.bulletHeight * 1.5;
+buckshotExplosive.bulletHeight = 5;
+buckshotExplosive.bulletWidth = 3;
 buckshotExplosive.backColor = Color.valueOf('e37764');
 buckshotExplosive.explodeRange = 20;
 buckshotExplosive.splashDamage = 9;
