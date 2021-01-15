@@ -3,7 +3,7 @@ name: Buckshot
 size: 4
 reloadTime: 90
 shots: 25
-ammoUseEffect: casing3double
+ejectEffect: casing3Double
 inaccuracy: 35
 spread: 0
 rotateSpeed: 4
