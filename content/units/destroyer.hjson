@@ -8,13 +8,13 @@ range: 160
 targetAir: false
 research: fortress
 weapons: [{
-  name: destroyer-weapon
-  x: 11
-  y: 0
-  shots: 1
+  name: destruction
+  x: 10
+  y: -1
+  shots: 2
   inaccuracy: 3
   spread: 0
-  reload: 60
+  reload: 20
   alternate: true
   shootSound: artillery
   bullet: {
@@ -24,7 +24,7 @@ weapons: [{
     lifetime: 60
     width: 14
     length: 14
-    splashDamage: 20
+    splashDamage: 12
     splashDamageRadius: 75
     hitEffect: shockwave
     backColor: 18abdb
