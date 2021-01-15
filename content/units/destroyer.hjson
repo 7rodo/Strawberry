@@ -15,7 +15,7 @@ weapons: [{
   y: -1
   shots: 2
   inaccuracy: 3
-  spread: 0
+  spread: 4
   reload: 20
   alternate: true
   shootSound: artillery
