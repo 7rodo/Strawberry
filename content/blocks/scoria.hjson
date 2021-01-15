@@ -8,7 +8,7 @@ maxAmmo: 30
 recoil: 3
 shots: 30
 velocityInaccuracy: 0.9
-alternate: true
+spread:3
 reloadTime: 60
 inaccuracy: 45
 shootCone: 100
