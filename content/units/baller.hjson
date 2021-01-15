@@ -20,7 +20,7 @@ weapons: [{
   bullet: {
     type: BasicBulletType
     speed: 2.5
-    damage: 12
+    damage: 23
     lifetime: 120
     backColor: ba18db
     frontColor: ffffff
