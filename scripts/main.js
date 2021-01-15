@@ -11,7 +11,7 @@ require('strawberry/blocks/defense/overtower');
 require('strawberry/blocks/defense/recoverer');
 
 // Turrets
-//require('strawberry/blocks/turrets/buckshot');
+require('strawberry/blocks/turrets/buckshot');
 
 // Environment
 //require('strawberry/blocks/environment/volcano');
