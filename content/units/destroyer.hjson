@@ -4,14 +4,14 @@ description: An artillery based unit, can destroy the insides of bases with its 
 health: 900
 armor: 10
 speed: 0.45
-velocityInaccuracy:0.4
+velocityInaccuracy: 0.4
 range: 160
 targetAir: false
 research: fortress
 weapons: [{
   name: destruction
   top: false
-  x: 11.5
+  x: 12.5
   y: -1
   shots: 2
   inaccuracy: 3
