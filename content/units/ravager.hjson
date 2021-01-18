@@ -24,7 +24,7 @@ weapons: [{
     splashDamage: 25
     speed: 3
     lifetime: 180
-    length: 14
+    height: 14
     width: 14
     frontColor: ffffff
     backColor: ac11ee
