@@ -7,7 +7,7 @@ ammoTypes: {
     damage: 40
     reloadMultiplier: 0.7
     width: 16
-    length: 21
+    height: 21
     ammoMultiplier: 15
     backColor: e3566b
     frontColor: ffffff
@@ -21,7 +21,7 @@ ammoTypes: {
     damage: 33
     reloadMultiplier: 0.9
     width: 16
-    length: 21
+    height: 21
     ammoMultiplier: 15
     backColor: e3566b
     frontColor: ffffff
@@ -32,7 +32,7 @@ ammoTypes: {
     damage: 75
     reloadMultiplier: 0.4
     width: 20
-    length: 26
+    height: 26
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: ffffff
