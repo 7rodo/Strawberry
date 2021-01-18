@@ -5,10 +5,10 @@ ammoTypes: {
   surge-alloy: fragSurge
   
   rage: {
-    damage: 12
+    damage: 20
     reloadMultiplier: 0.7
     width: 8
-    length: 8
+    height: 8
     ammoMultiplier: 15
     backColor: 00aeff
     frontColor: ffffff
