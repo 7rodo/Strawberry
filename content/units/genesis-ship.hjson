@@ -29,7 +29,7 @@ weapons: [{
     ammoMultiplier: 1
     lifetime: 100
     width: 4
-    length: 3
+    height: 3
     pierce: true
     status: freezing
     statusDuration: 120
