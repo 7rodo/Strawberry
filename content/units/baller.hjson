@@ -24,7 +24,7 @@ weapons: [{
     lifetime: 120
     backColor: ba18db
     frontColor: ffffff
-    length: 8
+    height: 8
     width: 16
     knockback: 0.13
   }
