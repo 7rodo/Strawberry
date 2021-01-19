@@ -3,8 +3,8 @@ const buckshotStandard = extend(BasicBulletType, {
 buckshotStandard.speed = 5;
 buckshotStandard.damage = 10;
 buckshotStandard.lifetime = 45;
-buckshotStandard.bulletHeight = 5;
-buckshotStandard.bulletWidth = 3;
+buckshotStandard.height = 5;
+buckshotStandard.width = 3;
 
 const buckshotDense = extend(BasicBulletType, {
 });
@@ -12,8 +12,8 @@ buckshotDense.speed = 5;
 buckshotDense.damage = 20;
 buckshotDense.lifetime = 45;
 buckshotDense.reloadMultiplier = 0.6;
-buckshotDense.bulletHeight = 7.5;
-buckshotDense.bulletWidth = 4.5;
+buckshotDense.height = 7.5;
+buckshotDense.width = 4.5;
 buckshotDense.backColor = Color.valueOf('64c1e3');
 
 const buckshotIncendiary = extend(BasicBulletType, {
@@ -24,8 +24,8 @@ buckshotIncendiary.lifetime = 40;
 buckshotIncendiary.incendAmount = 1;
 buckshotIncendiary.incendSpread = 4;
 buckshotIncendiary.ammoMultiplier = 3;
-buckshotIncendiary.bulletHeight = 5;
-buckshotIncendiary.bulletWidth = 3;
+buckshotIncendiary.height = 5;
+buckshotIncendiary.width = 3;
 buckshotIncendiary.frontColor = Color.valueOf('fffde0');
 buckshotIncendiary.backColor = Color.valueOf('ff8400');
 
@@ -36,8 +36,8 @@ buckshotHoming.damage = 13;
 buckshotHoming.lifetime = 45;
 buckshotHoming.homingPower = 0.1;
 buckshotHoming.ammoMultiplier = 2;
-buckshotHoming.bulletHeight = 5;
-buckshotHoming.bulletWidth = 3;
+buckshotHoming.height = 5;
+buckshotHoming.width = 3;
 buckshotHoming.reloadMultiplier = 1.5;
 
 const buckshotExplosive = extend(BasicBulletType, {
@@ -47,14 +47,14 @@ buckshotExplosive.damage = 16;
 buckshotExplosive.lifetime = 60;
 buckshotExplosive.ammoMultiplier = 5;
 buckshotExplosive.reloadMultiplier = 0.7;
-buckshotExplosive.bulletHeight = 5;
-buckshotExplosive.bulletWidth = 3;
+buckshotExplosive.height = 5;
+buckshotExplosive.width = 3;
 buckshotExplosive.backColor = Color.valueOf('e37764');
 buckshotExplosive.explodeRange = 20;
 buckshotExplosive.splashDamage = 9;
 buckshotExplosive.splashDamageRadius = 20;
 
-const buckshot = extendContent(ItemTurret, "duo", {
+const buckshot = extendContent(ItemTurret, "buckshot", {
   init(){
     buckshot.ammo(
       Items.copper, buckshotStandard,
