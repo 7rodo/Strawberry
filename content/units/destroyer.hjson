@@ -22,11 +22,11 @@ weapons: [{
   bullet: {
     type: ArtilleryBulletType
     speed: 4
-    damage: 5
+    damage: 12
     lifetime: 60
     width: 14
     height: 14
-    splashDamage: 15
+    splashDamage: 30
     splashDamageRadius: 75
     hitEffect: shockwave
   }
