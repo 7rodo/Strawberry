@@ -25,7 +25,7 @@ ammoTypes: {
   }
 plastanium: {
     speed: 6
-    damage: 26
+    damage: 25
     bulletWidth: 5
     bulletHeight: 16
     shootEffect: shootSmall
@@ -34,8 +34,9 @@ plastanium: {
     reloadMultiplier: 3
     frontColor: ffffff
     backColor: 2cff00
-    type: FlakBulletType
-  }
+    splashDamage: 12
+    splashDamageRadius: 16
+    }
 silicon: {
     speed: 7
     damage: 28
@@ -47,7 +48,7 @@ silicon: {
     reloadMultiplier: 2
     frontColor: ffffff
     backColor: 222222
-    type: MissileBulletType
+    homingPower: 0.1
 }
 pyratite: {
     speed: 4
