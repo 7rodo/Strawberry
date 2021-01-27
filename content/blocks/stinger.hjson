@@ -3,7 +3,7 @@ name: Stinger
 description: A medium-sized 3 way turret.
 health: 800
 size: 2
-reloadTime: 75
+reloadTime: 30
 range: 125
 shots: 3
 inaccuracy: 10
@@ -13,7 +13,7 @@ targetAir: false
 ammoTypes: {
   titanium: {
     speed: 6
-    damage: 16
+    damage: 35
     bulletWidth: 10
     bulletHeight: 20
     shootEffect: shootSmall
@@ -25,7 +25,7 @@ ammoTypes: {
   }
 plastanium: {
     speed: 6
-    damage: 8
+    damage: 26
     bulletWidth: 5
     bulletHeight: 16
     shootEffect: shootSmall
@@ -38,7 +38,7 @@ plastanium: {
   }
 silicon: {
     speed: 7
-    damage: 11
+    damage: 28
     bulletWidth: 10
     bulletHeight: 10
     shootEffect: shootSmall
@@ -51,7 +51,7 @@ silicon: {
 }
 pyratite: {
     speed: 4
-    damage: 20
+    damage: 66
     bulletWidth: 20
     bulletHeight: 14
     shootEffect: shootSmall
