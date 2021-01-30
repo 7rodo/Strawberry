@@ -1,6 +1,5 @@
 type: material
 name: Aluminium
 description: A natural resource, can be mined.
-cost: 1
 hardness: 3
 color: bdffdf
