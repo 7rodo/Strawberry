@@ -3,7 +3,6 @@ name: Radium
 description: A highly explosive radioactive resource. Useful for projectiles and can be purified.
 hardness: 4
 radioactivity: 1.05
-cost: 2
 flammability: 0
 explosiveness: 1
 color: ad2424
