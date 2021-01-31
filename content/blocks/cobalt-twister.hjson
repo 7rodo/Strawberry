@@ -4,7 +4,7 @@ health: 250
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 30
+craftTime: 45
 updateEffect: pulverizeMedium
 consumes: {
   power: 2
@@ -18,8 +18,9 @@ consumes: {
 requirements: [
   bronze/45
   aluminium/50
+  titanium/50
 ]
 category: crafting
-research: cryofluid-mixer
+research: tin-refurbish
 idleSound: respawning
 outputItem: cobalt/1
