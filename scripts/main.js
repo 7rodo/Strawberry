@@ -4,6 +4,7 @@ require('strawberry/ulib');
 // Crafting
 require('strawberry/blocks/crafting/purifier');
 require('strawberry/blocks/crafting/sterilizer');
+require('strawberry/blocks/crafting/cobalt-twister');
 //require('strawberry/blocks/crafting/fusion-churner');
 
 // Defensive
