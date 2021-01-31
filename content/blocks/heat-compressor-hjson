@@ -5,7 +5,7 @@ health: 350
 size: 3
 hasPower: true
 hasItems: true
-craftTime: 45
+craftTime: 60
 updateEffect: pulverizeMedium
 consumes: {
   power: 1
@@ -22,6 +22,6 @@ requirements: [
   cobalt/25
 ]
 category: crafting
-research: silicon-smelter
+research: cobalt-fuse
 idleSound: explosion
 outputItem: siliminium/1
