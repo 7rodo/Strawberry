@@ -18,9 +18,8 @@ consumes: {
 requirements: [
   bronze/45
   aluminium/50
-  cobalt/25
 ]
 category: crafting
 research: cryofluid-mixer
 idleSound: respawning
-outputItem: cobalt/2
+outputItem: cobalt/1
