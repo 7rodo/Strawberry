@@ -1,6 +1,7 @@
+type: ThermalGenerator
 name: Thermal Reactor
 description: An upgraded Thermal Generator, produces mighty amounts of power.
-health: 1680
+health: 850
 size: 3
 hasPower: true
 powerProduction: 3.5
