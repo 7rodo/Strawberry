@@ -22,5 +22,5 @@ requirements: [
 ]
 category: crafting
 research: cryofluid-mixer
-idleSound: explosion
+idleSound: respawning
 outputItem: cobalt/2
