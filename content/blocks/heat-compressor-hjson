@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Heat Compressor
+description: Compresses aluminium and silicon to produce siliminum.
+health: 350
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 45
+updateEffect: pulverizeMedium
+consumes: {
+  power: 1
+  items: {
+    items: [
+      aluminium/2
+      silicon/1
+    ]
+  }
+}
+requirements: [
+  bronze/45
+  aluminium/50
+  cobalt/25
+]
+category: crafting
+research: silicon-smelter
+idleSound: explosion
+outputItem: siliminium/1
