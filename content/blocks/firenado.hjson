@@ -1,0 +1,44 @@
+type: LiquidTurret
+name: Firenado
+description: A massive liquid turret. Floods thick lava on the enemies.
+size: 4
+health: 2400
+range: 260
+maxAmmo: 90
+recoil: 5
+shots: 60
+burstSpacing: 1
+velocityInaccuracy: 0.9
+spread: 0
+reloadTime: 80
+inaccuracy: 25
+shootCone: 45
+shootSound: splash
+shootEffect: shootLiquid
+liquidCapacity: 90
+ammoTypes: {
+	slag: {
+		type: LiquidBulletType
+		liquid: slag
+		damage: 8
+    pierce: true
+    pierceCap: 4
+		speed: 7
+		knockback: 2
+		ammoMultiplier: 1
+		status: melting
+		statusDuration: 300
+		puddleSize: 3
+	}
+}
+requirements: [
+  cobalt/120
+	bronze/150
+	radiode/175
+	thorium/150
+  surge-alloy/140
+  
+]
+
+category: turret
+research: wave
