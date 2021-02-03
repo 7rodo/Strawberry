@@ -19,7 +19,7 @@ ammoTypes: {
 	slag: {
 		type: LiquidBulletType
 		liquid: slag
-		damage: 8
+		damage: 12
     pierce: true
     pierceCap: 4
 		speed: 7
