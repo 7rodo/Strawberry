@@ -6,8 +6,7 @@ health: 2400
 range: 260
 maxAmmo: 90
 recoil: 5
-shots: 60
-burstSpacing: 1
+shots: 180
 velocityInaccuracy: 0.9
 spread: 0
 reloadTime: 80
