@@ -15,6 +15,7 @@ shootCone: 60
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 45
+ammoPerShot: 9
 activeSound: splash
 
 ammoTypes: {
