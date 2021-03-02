@@ -15,6 +15,7 @@ shootCone: 45
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 90
+ammoPerShot: 15
 ammoTypes: {
  slag: {
   type: LiquidBulletType
@@ -28,7 +29,6 @@ ammoTypes: {
   status: melting
   statusDuration: 300
   puddleSize: 3
-  ammoPerShot: 15
   }
 }
 requirements: [
