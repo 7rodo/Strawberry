@@ -11,7 +11,7 @@ consumes: {
   items: {
     items: [
       copper/2
-      aluminium/2
+      aluminium/1
     ]
   }
 }
