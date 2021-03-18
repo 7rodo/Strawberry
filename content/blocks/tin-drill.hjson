@@ -4,8 +4,15 @@ type: Drill
 size: 1
 tier: 1
 drillTime: 650
+liquid: {
+  liquid: water
+	  amount: 0.0333
+    optional: true
+	  booster: true
+  }
+}
 requirements: [
   tin/8
 ]
 category: production
-research: mechanical-drill
+research: core-shard
