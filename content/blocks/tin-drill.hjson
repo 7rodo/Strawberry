@@ -7,11 +7,12 @@ drillTime: 650
 consumes: {
 liquid: {
   liquid: water
-	  amount: 0.0333
-    optional: true
-	  booster: true
+      amount: 0.0333
+      optional: true
+      booster: true
   }
 }
+drawMineItem: false
 requirements: [
   tin/8
 ]
