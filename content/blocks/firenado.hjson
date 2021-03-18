@@ -9,7 +9,7 @@ recoil: 5
 shots: 180
 velocityInaccuracy: 0.9
 spread: 0
-reloadTime: 80
+reloadTime: 100
 inaccuracy: 25
 shootCone: 45
 shootSound: splash
