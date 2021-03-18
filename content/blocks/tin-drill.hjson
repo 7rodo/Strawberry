@@ -4,6 +4,7 @@ type: Drill
 size: 1
 tier: 1
 drillTime: 650
+consumes: {
 liquid: {
   liquid: water
 	  amount: 0.0333
