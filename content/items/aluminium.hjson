@@ -1,5 +1,5 @@
 type: material
 name: Aluminium
-description: A natural resource, can be mined.
-hardness: 3
+description: A common resource, can be mined or made by refurbishing tin.
+hardness: 1
 color: bdffdf
