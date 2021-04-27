@@ -1,7 +1,7 @@
 type: CoreBlock
 localizedName: "Core: Prototype"
 description: Core of the base. Exceptionally poorly armored. Stores medium amounts of resources, but can withstand unit count. LOOKS SO UGLHY RN GONNA RESPRITE
-details: The fourth and final iteration.
+details: The fourth and branched iteration.
 size: 5
 unitType: micro
 health: 5400
