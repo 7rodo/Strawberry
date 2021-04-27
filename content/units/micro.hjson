@@ -1,0 +1,42 @@
+localizedName: Micro
+description: Bombs the enemies. Mines ores.
+isCounted: false
+flying: true
+mineSpeed: 15
+mineTier: 5
+buildSpeed: 0.5
+drag: 0.1
+speed: 5
+rotateSpeed: 10
+accel: 0.03
+itemCapacity: 30
+health: 150
+engineOffset: 7
+hitSize: 12
+commandLimit: 13
+rotateShooting: false
+range: 20
+weapons: [{
+  name: generic-bomber-weapon
+  minShootVelocity: 0.75
+  x: 2
+  shootY: 0
+  reload: 3
+  shots: 2
+  shotDelay: 2
+  velocityRnd: 1
+  shootCone: 180
+  inaccuracy: 25
+  shootSound: none
+  bullet: {
+    type: BombBulletType
+    hitEffect: flakExplosion
+    shootEffect: none
+    smokeEffect: none
+    width: 5
+    height: 7
+    splashDamageRadius: 20
+    splashDamage: 15
+    status: blasted
+  }
+}]
