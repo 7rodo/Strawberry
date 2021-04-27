@@ -1,0 +1,21 @@
+type: CoreBlock
+localizedName: "Core: Prototype"
+description: Core of the base. Exceptionally poorly armored. Stores medium amounts of resources, but can withstand unit count.
+details: The fourth and final iteration.
+size: 5
+unitType: micro
+health: 5400
+itemCapacity: 5000
+unitCapModifier: 48
+researchCostMultiplier: 0.11
+requirements: [
+  copper/10000
+  lead/14000
+  silicon/12000
+  titanium/15000
+  bronze/8000
+  surge-alloy/8000
+  radiode/5500
+]
+category: effect
+research: core-nucleus
