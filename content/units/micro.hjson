@@ -26,11 +26,11 @@ weapons: [{
   reload: 30
   shadow: 12
   shots: 1
-  shootCone: 5
+  shootCone: 300
   inaccuracy: 0
   shootSound: none
   bullet: {
-    type: BasicBulletType
+    type: ShrapnelBulletType
     length: 200
     width: 15
     serrationLenScl: 10
