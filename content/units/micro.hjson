@@ -35,7 +35,7 @@ weapons: [{
     serrartionWidth: 4
     fromColor: ffffff
     toColour: feed69
-    shootEffect: smokeEffect
+    shootEffect: sparkShoot
     damage: 80
     buildingDamageMultiplier: 0.01
     splashDamageRadius: 0
