@@ -1,5 +1,5 @@
 localizedName: Micro
-description: Bombs the enemies. Mines ores.
+description: Strikes the enemies. Mines ores.
 isCounted: false
 flying: true
 mineSpeed: 15
@@ -20,13 +20,17 @@ weapons: [{
   name: nanogun
   y: -1
   shootY: 4
-  reload: 40
+  rotateSpeed: 4
+  mirror: false
+  reload: 30
+  shadow: 12
   shots: 1
   shootCone: 0
   inaccuracy: 0
   shootSound: none
   bullet: {
     type: ShrapnelBulletType
+    length: 200
     width: 15
     serrationLenScl: 10
     serrationSpaceOffset: 60
