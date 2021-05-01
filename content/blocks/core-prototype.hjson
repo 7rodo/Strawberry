@@ -1,21 +1,19 @@
 type: CoreBlock
 localizedName: "Core: Prototype"
-description: Core of the base. Exceptionally poorly armored. Stores medium amounts of resources, but can withstand unit count. LOOKS SO UGLHY RN GONNA RESPRITE
-details: The fourth and branched iteration.
+description: Core of the base. Exceptionally poorly armored. Stores medium amounts of resources, but can withstand unit count.
+details: The third and branched iteration.
 size: 5
 unitType: micro
 health: 5400
-itemCapacity: 5000
-unitCapModifier: 48
+itemCapacity: 6000
+unitCapModifier: 36
 researchCostMultiplier: 0.11
 requirements: [
-  copper/10000
-  lead/14000
-  silicon/12000
-  titanium/15000
-  bronze/8000
-  surge-alloy/8000
-  radiode/5500
+  copper/6600
+  silicon/8000
+  titanium/7000
+  bronze/4000
+  radiode/6000
 ]
 category: effect
-research: core-nucleus
+research: core-foundation
