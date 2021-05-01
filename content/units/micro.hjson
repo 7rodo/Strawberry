@@ -22,9 +22,9 @@ weapons: [{
   y: -3
   x: 0
   shootY: 4
-  rotateSpeed: 4
+  rotateSpeed: 8
   mirror: false
-  reload: 45
+  reload: 30
   shadow: 12
   shots: 1
   shootCone: 300
