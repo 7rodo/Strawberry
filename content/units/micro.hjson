@@ -30,7 +30,7 @@ weapons: [{
   inaccuracy: 0
   shootSound: none
   bullet: {
-    type: ShrapnelBulletType
+    type: BasicBulletType
     length: 200
     width: 15
     serrationLenScl: 10
