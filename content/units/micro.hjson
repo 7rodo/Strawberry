@@ -18,14 +18,15 @@ rotateShooting: false
 range: 80
 weapons: [{
   name: nanogun
-  y: -1
+  y: -3
+  x: 0
   shootY: 4
   rotateSpeed: 4
   mirror: false
   reload: 30
   shadow: 12
   shots: 1
-  shootCone: 0
+  shootCone: 5
   inaccuracy: 0
   shootSound: none
   bullet: {
@@ -42,8 +43,5 @@ weapons: [{
     shootEffect: sparkShoot
     damage: 80
     buildingDamageMultiplier: 0.01
-    splashDamageRadius: 0
-    splashDamage: 0
-    status: blasted
   }
 }]
