@@ -5,15 +5,15 @@ flying: true
 mineSpeed: 15
 mineTier: 5
 buildSpeed: 0.5
-drag: 0.1
+drag: 0.03
 speed: 5
 rotateSpeed: 10
-accel: 0.03
+accel: 0.09
 itemCapacity: 30
-health: 150
+health: 225
 engineOffset: 7
 hitSize: 12
-commandLimit: 13
+commandLimit: 10
 rotateShooting: false
 range: 20
 weapons: [{
@@ -21,7 +21,7 @@ weapons: [{
   minShootVelocity: 0.75
   x: 2
   shootY: 0
-  reload: 3
+  reload: 10
   shots: 2
   shotDelay: 2
   velocityRnd: 1
@@ -33,10 +33,12 @@ weapons: [{
     hitEffect: flakExplosion
     shootEffect: none
     smokeEffect: none
-    width: 5
-    height: 7
-    splashDamageRadius: 20
-    splashDamage: 15
+    width: 10
+    height: 12
+    damage: 22
+    buildingDamageMultiplier: 0.01
+    splashDamageRadius: 0
+    splashDamage: 0
     status: blasted
   }
 }]
