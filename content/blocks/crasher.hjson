@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Crasher
+size: 5
+health: 4860
+description: The ultimate air turret.
+shots: 1
+range: 260
+targetGround: false
+recoil: 8
+reloadTime: 240
+rotateSpeed: 2
+inaccuracy: 5
+shootSound: artillery
+ammoTypes: {
+  rage: {
+    damage: 150
+    splashDamage: 350
+    speed: 2
+    reloadMultiplier: 1
+    bulletWidth: 25
+    bulletHeight: 25
+    splashDamageRadius: 100
+    ammoMultiplier: 30
+    backColor: fe69fe
+    frontColor: ffffff
+    homingRange: 32
+    homingPower: 0.2
+    fragBullets: 35
+    fragBullet: {
+       type: LaserBoltBulletType
+       speed: 11
+       damage: 65
+      }
+  }
+}
+requirements: [
+  metaglass/400
+  silicon/225
+  plastanium/325
+  thorium/320
+  radiode/275
+  surge-alloy/350
+  ]
+research: firenado
+category: turret
