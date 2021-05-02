@@ -17,8 +17,8 @@ ammoTypes: {
     splashDamage: 350
     speed: 2
     reloadMultiplier: 1
-    bulletWidth: 25
-    bulletHeight: 25
+    width: 25
+    height: 25
     splashDamageRadius: 100
     ammoMultiplier: 30
     backColor: fe69fe
