@@ -41,7 +41,7 @@ ammoTypes: {
          type: MissileBulletType
          speed: 7
          damage: 23
-         splashDamage: 44
+         splashDamage: 20
          splashDamageRadius: 20
          trailColor: fe69fe
          width: 10
