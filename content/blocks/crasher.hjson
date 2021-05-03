@@ -14,10 +14,10 @@ shootSound: artillery
 coolantMultiplier: 0.85
 ammoTypes: {
   rage: {
-    damage: 120
-    splashDamage: 400
+    damage: 90
+    splashDamage: 480
     speed: 3
-    lifetime: 240
+    lifetime: 130
     reloadMultiplier: 1
     width: 30
     height: 30
@@ -31,7 +31,7 @@ ammoTypes: {
     fragBullet: {
        type: BasicBulletType
        speed: 11
-       damage: 55
+       damage: 35
        fragBullets: 12
        backColor: fe69fe
        frontColor: ffffff
@@ -39,9 +39,9 @@ ammoTypes: {
        height: 10
        fragBullet: {
          type: MissileBulletType
-         speed: 7
-         damage: 15
-         splashDamage: 20
+         speed: 12
+         damage: 25
+         splashDamage: 33
          splashDamageRadius: 20
          trailColor: fe69fe
          frontColor: d1befe
