@@ -21,7 +21,8 @@ ammoTypes: {
     width: 30
     height: 30
     splashDamageRadius: 155
-    hitEffect: massiveExplosion
+    hitEffect: flakExplosion
+    despawnEffect: greenBomb
     ammoMultiplier: 1
     backColor: fe69fe
     frontColor: ffffff
