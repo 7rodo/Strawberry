@@ -4,6 +4,7 @@ isCounted: false
 flying: true
 mineSpeed: 15
 mineTier: 5
+lowAltitude: true
 buildSpeed: 0.5
 drag: 0.01
 speed: 5
@@ -29,7 +30,7 @@ weapons: [{
   shots: 1
   shootCone: 300
   inaccuracy: 0
-  shootSound: none
+  shootSound: shotgun
   bullet: {
     type: ShrapnelBulletType
     length: 180
