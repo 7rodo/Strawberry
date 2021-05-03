@@ -7,7 +7,7 @@ shots: 1
 range: 260
 targetGround: false
 recoil: 8
-reloadTime: 240
+reloadTime: 420
 rotateSpeed: 2
 inaccuracy: 5
 shootSound: artillery
@@ -15,21 +15,37 @@ ammoTypes: {
   rage: {
     damage: 150
     splashDamage: 350
-    speed: 2
+    speed: 3
+    lifetime: 240
     reloadMultiplier: 1
-    width: 25
-    height: 25
+    width: 30
+    height: 30
     splashDamageRadius: 100
     ammoMultiplier: 30
     backColor: fe69fe
     frontColor: ffffff
     homingRange: 32
     homingPower: 0.2
-    fragBullets: 35
+    fragBullets: 90
     fragBullet: {
-       type: LaserBoltBulletType
-       speed: 11
-       damage: 65
+       type: BasicBulletType
+       speed: 5
+       damage: 50
+       fragBullets: 12
+       backColor: fe69fe
+       frontColor: ffffff
+       trailColor: fe69fe
+       width: 18
+       height: 10
+       fragBullet: {
+         type: MissileBulletType
+         speed: 7
+         damage: 23
+         splashDamage: 25
+         splashDamageRadius: 20
+         width: 10
+         height: 10
+        }
       }
   }
 }
