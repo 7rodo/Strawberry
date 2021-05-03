@@ -15,7 +15,7 @@ coolantMultiplier: 0.85
 ammoTypes: {
   rage: {
     damage: 240
-    splashDamage: 480
+    splashDamage: 240
     speed: 3
     lifetime: 240
     reloadMultiplier: 1
@@ -30,7 +30,7 @@ ammoTypes: {
     fragBullets: 66
     fragBullet: {
        type: BasicBulletType
-       speed: 8
+       speed: 11
        damage: 70
        fragBullets: 12
        backColor: fe69fe
