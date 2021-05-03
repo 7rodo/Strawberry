@@ -21,7 +21,8 @@ ammoTypes: {
     reloadMultiplier: 1
     width: 30
     height: 30
-    splashDamageRadius: 120
+    splashDamageRadius: 155
+    hitEffect: massiveExplosion
     ammoMultiplier: 30
     backColor: fe69fe
     frontColor: ffffff
