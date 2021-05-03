@@ -27,11 +27,11 @@ ammoTypes: {
     frontColor: ffffff
     homingRange: 32
     homingPower: 0.2
-    fragBullets: 90
+    fragBullets: 66
     fragBullet: {
        type: BasicBulletType
-       speed: 5
-       damage: 85
+       speed: 8
+       damage: 70
        fragBullets: 12
        backColor: fe69fe
        frontColor: ffffff
