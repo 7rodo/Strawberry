@@ -5,10 +5,10 @@ flying: true
 mineSpeed: 15
 mineTier: 5
 buildSpeed: 0.5
-drag: 0.03
+drag: 0.01
 speed: 5
 rotateSpeed: 10
-accel: 0.09
+accel: 0.07
 itemCapacity: 30
 health: 225
 engineOffset: 7
@@ -24,7 +24,7 @@ weapons: [{
   shootY: 4
   rotateSpeed: 8
   mirror: false
-  reload: 30
+  reload: 60
   shadow: 12
   shots: 1
   shootCone: 300
