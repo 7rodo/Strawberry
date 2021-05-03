@@ -18,12 +18,11 @@ ammoTypes: {
     splashDamage: 480
     speed: 3
     lifetime: 130
-    reloadMultiplier: 1
     width: 30
     height: 30
     splashDamageRadius: 155
     hitEffect: massiveExplosion
-    ammoMultiplier: 30
+    ammoMultiplier: 1
     backColor: fe69fe
     frontColor: ffffff
     homingRange: 60
