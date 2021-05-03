@@ -9,6 +9,8 @@ targetGround: false
 recoil: 8
 reloadTime: 420
 rotateSpeed: 2
+maxAmmo: 6
+ammoPerShot: 3
 inaccuracy: 5
 shootSound: artillery
 coolantMultiplier: 0.85
