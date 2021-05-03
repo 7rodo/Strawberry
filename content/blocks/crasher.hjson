@@ -31,7 +31,7 @@ ammoTypes: {
     fragBullet: {
        type: BasicBulletType
        speed: 11
-       damage: 70
+       damage: 55
        fragBullets: 12
        backColor: fe69fe
        frontColor: ffffff
@@ -40,10 +40,12 @@ ammoTypes: {
        fragBullet: {
          type: MissileBulletType
          speed: 7
-         damage: 23
+         damage: 15
          splashDamage: 20
          splashDamageRadius: 20
          trailColor: fe69fe
+         frontColor: d1befe
+         backColor: fe69fe
          width: 10
          height: 10
         }
