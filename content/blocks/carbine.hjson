@@ -11,7 +11,7 @@ rotateSpeed: 4
 maxAmmo: 50
 inaccuracy: 0
 shootSound: snap
-coolantMultiplier: 3
+coolantMultiplier: 6
 ammoTypes: {
   tin: {
     type: LaserBoltBulletType
