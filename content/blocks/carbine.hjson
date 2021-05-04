@@ -11,14 +11,14 @@ rotateSpeed: 4
 maxAmmo: 50
 inaccuracy: 0
 shootSound: snap
-coolantMultiplier: 1.25
+coolantMultiplier: 3
 ammoTypes: {
   tin: {
     type: LaserBoltBulletType
     damage: 30
     speed: 6
     lifetime: 180
-    width: 10
+    width: 3
     height: 13
     ammoMultiplier: 2
     backColor: 333333
@@ -29,7 +29,7 @@ ammoTypes: {
     damage: 60
     speed: 9
     lifetime: 120
-    width: 15
+    width: 5
     height: 14
     ammoMultiplier: 5
     backColor: 68deca
