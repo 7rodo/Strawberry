@@ -4,7 +4,7 @@ size: 5
 health: 4860
 description: The ultimate air turret.
 shots: 1
-range: 260
+range: 400
 targetGround: false
 recoil: 8
 reloadTime: 420
@@ -43,8 +43,8 @@ ammoTypes: {
        fragBullet: {
          type: MissileBulletType
          speed: 12
-         damage: 25
-         splashDamage: 33
+         damage: 12
+         splashDamage: 25
          splashDamageRadius: 20
          trailColor: fe69fe
          frontColor: d1befe
