@@ -41,6 +41,8 @@ ammoTypes: {
     backColor: ff8400
   }
 }
-requirements: [ tin/45 ]
+requirements: [ 
+tin/45
+lead/85
 category: turret
-research: tin-gun
+research: scatter
