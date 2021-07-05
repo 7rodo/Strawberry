@@ -4,17 +4,16 @@ description: An upgraded Thermal Generator, produces mighty amounts of power.
 health: 850
 size: 3
 hasPower: true
-powerProduction: 5
+powerProduction: 7
 generateEffect: flakExplosion
 requirements: [
   lead/200
   bronze/100
-  metaglass/120
-  graphite/65
-  silicon/100
-  thorium/120
-  plastanium/110
-  surge-alloy/90
+  metaglass/100
+  graphite/100
+  silicon/150
+  thorium/100
+  surge-alloy/10
 ]
 category: power
 research: thermal-generator
