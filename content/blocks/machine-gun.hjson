@@ -44,5 +44,6 @@ ammoTypes: {
 requirements: [ 
 tin/45
 lead/85
+]
 category: turret
 research: scatter
