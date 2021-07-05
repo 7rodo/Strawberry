@@ -13,24 +13,24 @@ ammoTypes: {
   copper: {
     speed: 7
     damage: 50
-    bulletWidth: 8
-    bulletHeight: 11
+    width: 8
+    bulletHeight: 20
     ammoMultiplier: 1
     pierce: true
   }
   coal: {
-    speed: 7
+    speed: 6
     damage: 40
-    bulletWidth: 8
-    bulletHeight: 11
+    width: 8
+    height: 18
     incendAmount: 0.05
     pierce: true
   }
   graphite: {
-    speed: 8
+    speed: 9
     damage: 98
-    bulletWidth: 8
-    bulletHeight: 11
+    width: 8
+    height: 30
     ammoMultiplier: 3
     reloadMultiplier: 0.6
     frontColor: ffffff
@@ -38,10 +38,10 @@ ammoTypes: {
     pierce: true
   }
   pyratite: {
-    speed: 7
+    speed: 6
     damage: 60
-    bulletWidth: 8
-    bulletHeight: 11
+    width: 8
+    height: 22
     incendAmount: 0.25
     ammoMultiplier: 5
     frontColor: ffffff
