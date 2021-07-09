@@ -1,18 +1,15 @@
-type: GenericSmelter
 name: Ionizer
-description: Ionizes coal and lead to make radium.
+description: Ionizes graphite and lead to make radium.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 30 
-effect: fuelburn
+craftTime: 30
 itemCapacity: 30
-updateEffect: fuelburn
 consumes: {
   power: 1
   items: {
     items: [
-      coal/5
+      graphite/5
       lead/3
     ]
   }
