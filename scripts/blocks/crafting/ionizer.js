@@ -22,7 +22,7 @@ ionizer.buildType = () => extend(GenericCrafter.GenericCrafterBuild, ionizer, {
     Draw.rect(ionizer.graphiteRegion, this.x, this.y);
 
     Draw.alpha(0);
-    if (this.items.get(Items.graphite) >= 5 && this.items.get(Items.lead) >= 3 && this.power.status === 1) Draw.alpha(1);
+    if (this.items.get(Items.graphite) >= 1 && this.items.get(Items.lead) >= 3 && this.power.status === 1) Draw.alpha(1);
     Draw.rect(ionizer.beamRegion, this.x, this.y);
 
     Draw.alpha(this.items.get(Items.lead) / ionizer.itemCapacity);
