@@ -1,4 +1,4 @@
-type: Cultivator
+type: AttributeCrafter
 name: Farmer
 description: An upgraded cultivator.
 health: 600
@@ -7,6 +7,8 @@ craftTime: 80
 size: 3
 itemCapacity: 30
 liquidCapacity: 150
+drawer: DrawCultivator
+attribute: spores
 consumes: {
   power: 1.55
   liquid: {

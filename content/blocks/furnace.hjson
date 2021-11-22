@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Furnace
 description: Combines tin and copper to produce bronze.
 size: 2
@@ -6,6 +6,7 @@ hasPower: true
 hasItems: true
 craftTime: 45
 updateEffect: smeltsmoke
+drawer: DrawSmelter
 consumes: {
   power: 0.75
   items: {
