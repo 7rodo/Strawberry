@@ -15,17 +15,17 @@ shootCone: 45
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 90
-ammoPerShot: 700
+ammoPerShot: 15
 ammoTypes: {
  slag: {
   type: LiquidBulletType
   liquid: slag
-  damage: 20
+  damage: 18
   pierce: true
   pierceCap: 4
   speed: 7
   knockback: 2
-  ammoMultiplier: 1
+  ammoMultiplier: 15
   status: melting
   statusDuration: 300
   puddleSize: 3
