@@ -15,12 +15,12 @@ shootCone: 45
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 90
-ammoPerShot: 15
+ammoPerShot: 70
 ammoTypes: {
  slag: {
   type: LiquidBulletType
   liquid: slag
-  damage: 18
+  damage: 20
   pierce: true
   pierceCap: 4
   speed: 7
@@ -41,4 +41,4 @@ requirements: [
 ]
 
 category: turret
-research: wave
+research: scoria
