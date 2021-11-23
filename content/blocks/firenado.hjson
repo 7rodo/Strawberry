@@ -20,12 +20,12 @@ ammoTypes: {
  slag: {
   type: LiquidBulletType
   liquid: slag
-  damage: 18
+  damage: 20
   pierce: true
   pierceCap: 4
   speed: 7
   knockback: 2
-  ammoMultiplier: 0.0333
+  ammoMultiplier: 0.0125
   status: melting
   statusDuration: 300
   puddleSize: 3
