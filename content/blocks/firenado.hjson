@@ -15,7 +15,7 @@ shootCone: 45
 shootSound: splash
 shootEffect: shootLiquid
 liquidCapacity: 90
-ammoPerShot: 70
+ammoPerShot: 700
 ammoTypes: {
  slag: {
   type: LiquidBulletType
