@@ -2,7 +2,7 @@ type: ItemTurret
 name: Crasher
 size: 5
 health: 4860
-description: The ultimate air turret.
+description: A very powerful air turret. Fires slow but powerful bullets that explode into alot of weaker bullets that explode further into hundreds of missiles. Can destroy entire swarms of air units in one shot.
 shots: 1
 range: 400
 targetGround: false
@@ -14,15 +14,16 @@ ammoPerShot: 3
 inaccuracy: 5
 shootSound: artillery
 coolantMultiplier: 0.85
+shootCone: 270
 ammoTypes: {
   rage: {
-    damage: 90
-    splashDamage: 480
+    damage: 180
+    splashDamage: 280
     speed: 3
     lifetime: 130
     width: 30
     height: 30
-    splashDamageRadius: 155
+    splashDamageRadius: 230
     hitEffect: flakExplosion
     despawnEffect: greenBomb
     ammoMultiplier: 1
@@ -31,26 +32,32 @@ ammoTypes: {
     homingRange: 60
     homingPower: 0.2
     fragBullets: 66
+    collidesGround: false
+    collidesTiles: false
     fragBullet: {
        type: BasicBulletType
        speed: 11
-       damage: 35
+       damage: 40
        fragBullets: 12
        backColor: fe69fe
        frontColor: ffffff
        width: 18
        height: 10
+       collidesGround: false
+       collidesTiles: false
        fragBullet: {
          type: MissileBulletType
          speed: 12
-         damage: 12
-         splashDamage: 25
-         splashDamageRadius: 20
+         damage: 10
+         splashDamage: 10
+         splashDamageRadius: 40
          trailColor: fe69fe
          frontColor: d1befe
          backColor: fe69fe
          width: 10
          height: 10
+         collidesGround: false
+         collidesTiles: false
         }
       }
   }
